@@ -95,8 +95,12 @@
         '<span class="chevron">\u25BE</span>' +
       '</div>' +
       '<div class="cast-body"><div class="cast-body-inner">' +
-        (m.photo
-  ? '<img class="cast-dropdown-photo" src="assets/images/cast/' + esc(m.photo) + '" alt="' + esc(m.name) + '">'
+        (m.photobig
+  ? '<div class="cast-photo-row">' +
+      (Array.isArray(m.photobig) ? m.photobig : [m.photobig]).map(function(p) {
+        return '<img class="cast-dropdown-photo" src="assets/images/cast/' + esc(p) + '" alt="' + esc(m.name) + '">';
+      }).join('') +
+    '</div>'
   : '') +
 '<p class="cast-bio-above">' + esc(m.bio || '') + '</p>' +
 '<hr class="cast-inner-divider">' +
