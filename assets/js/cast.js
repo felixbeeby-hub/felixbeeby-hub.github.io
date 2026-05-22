@@ -78,7 +78,7 @@
     '<article class="cast-card" data-id="' + esc(id) + '">' +
       '<div class="cast-head" role="button" tabindex="0" aria-expanded="false">' +
         (m.photo
-  ? '<img class="cast-avatar cast-avatar-photo" src="assests/images/cast/' + esc(m.photo) + '" alt="' + esc(m.name) + '">'
+  ? '<img class="cast-avatar cast-avatar-photo" src="assets/images/cast/' + esc(m.photo) + '" alt="' + esc(m.name) + '">'
   : '<span class="cast-avatar">' + esc(initials(m.name)) + '</span>') +
         '<div class="cast-id-info">' +
           '<h3 class="cast-name">' + esc(m.name) + '</h3>' +
@@ -96,7 +96,7 @@
       '</div>' +
       '<div class="cast-body"><div class="cast-body-inner">' +
         (m.photo
-  ? '<img class="cast-dropdown-photo" src="assests/images/cast/' + esc(m.photo) + '" alt="' + esc(m.name) + '">'
+  ? '<img class="cast-dropdown-photo" src="assets/images/cast/' + esc(m.photo) + '" alt="' + esc(m.name) + '">'
   : '') +
 '<p class="cast-bio-above">' + esc(m.bio || '') + '</p>' +
 '<hr class="cast-inner-divider">' +
