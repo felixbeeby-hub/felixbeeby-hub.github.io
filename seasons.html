@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Seasons · SNL Tracker</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <!-- Restore the saved US/UK mode before paint to avoid a colour flash -->
+  <script>document.documentElement.dataset.mode = localStorage.getItem('snl-mode') || 'us';</script>
+</head>
+<body>
+
+  <!-- Header is built by site.js -->
+  <header id="site-header"></header>
+
+  <main>
+    <div class="page-head">
+      <h1 class="page-title" id="season-title">Seasons</h1>
+      <p class="page-subtitle" id="season-subtitle"></p>
+    </div>
+
+    <!-- Season switcher (built from data by seasons.js) -->
+    <div class="season-pills" id="season-pills"></div>
+
+    <!-- Expandable episode boxes (built from data by seasons.js) -->
+    <div class="episode-list" id="episode-list"></div>
+  </main>
+
+  <!-- Footer is built by site.js -->
+  <footer id="site-footer"></footer>
+
+  <script src="data/snl-data.js" defer></script>
+  <script src="assets/js/site.js" defer></script>
+  <script src="assets/js/seasons.js" defer></script>
+</body>
+</html>
