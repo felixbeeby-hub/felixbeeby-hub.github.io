@@ -202,6 +202,21 @@
   }
 
   /* ---- Mode toggle ---- */
+  function updateFavicon(m) {
+    var link32 = document.querySelector('link[sizes="32x32"]');
+    var link16 = document.querySelector('link[sizes="16x16"]');
+    var linkIco = document.querySelector('link[type="image/x-icon"]');
+    if (m === 'uk') {
+      if (link32) link32.href = 'favicon-uk-32x32.png';
+      if (link16) link16.href = 'favicon-uk-16x16.png';
+      if (linkIco) linkIco.href = 'favicon-uk.ico';
+    } else {
+      if (link32) link32.href = 'favicon-32x32.png';
+      if (link16) link16.href = 'favicon-16x16.png';
+      if (linkIco) linkIco.href = 'favicon.ico';
+    }
+  }
+
   function toggleMode() {
     setMode(mode() === 'us' ? 'uk' : 'us');
 
@@ -210,9 +225,9 @@
 
     buildHeader();
     buildFooter();
+    updateFavicon(mode());
     document.dispatchEvent(new CustomEvent('snl:modechange', { detail: { mode: mode() } }));
   }
-
   /* ---- Global listeners ---- */
   document.addEventListener('click', function (e) {
     /* stop disabled links from jumping the page */
@@ -284,4 +299,5 @@
   /* ---- Init (deferred script => DOM + data are ready) ---- */
   buildHeader();
   buildFooter();
+   updateFavicon(mode());
 })();
