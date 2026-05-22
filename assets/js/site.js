@@ -207,13 +207,13 @@
     var link16 = document.querySelector('link[sizes="16x16"]');
     var linkIco = document.querySelector('link[type="image/x-icon"]');
     if (m === 'uk') {
-      if (link32) link32.href = 'favicon-uk-32x32.png';
-      if (link16) link16.href = 'favicon-uk-16x16.png';
-      if (linkIco) linkIco.href = 'favicon-uk.ico';
+      if (link32) link32.href = 'assets/images/favicons/favicon-uk-32x32.png';
+      if (link16) link16.href = 'assets/images/favicons/favicon-uk-16x16.png';
+      if (linkIco) linkIco.href = 'assets/images/favicons/favicon-uk.ico';
     } else {
-      if (link32) link32.href = 'favicon-32x32.png';
-      if (link16) link16.href = 'favicon-16x16.png';
-      if (linkIco) linkIco.href = 'favicon.ico';
+      if (link32) link32.href = 'assets/images/favicons/favicon-32x32.png';
+      if (link16) link16.href = 'assets/images/favicons/favicon-16x16.png';
+      if (linkIco) linkIco.href = 'assets/images/favicons/favicon.ico';
     }
   }
 
