@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en" data-mode="us">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SNL Fan Site</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ─── CSS Variables ─────────────────────────────────────── */
+    :root {
+      --transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    [data-mode="us"] {
+      --bg:        #ffffff;
+      --fg:        #cc0000;
+      --nav-bg:    #cc0000;
+      --nav-fg:    #ffffff;
+      --nav-hover: #ff2222;
+      --accent:    #cc0000;
+      --card-bg:   #fff5f5;
+      --border:    #f0b0b0;
+      --toggle-on: #cc0000;
+    }
+
+    [data-mode="uk"] {
+      --bg:        #ffffff;
+      --fg:        #003087;
+      --nav-bg:    #003087;
+      --nav-fg:    #ffffff;
+      --nav-hover: #0046c8;
+      --accent:    #003087;
+      --card-bg:   #f0f4ff;
+      --border:    #99b0e0;
+      --toggle-on: #003087;
+    }
+
+    /* ─── Reset & Base ──────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--bg);
+      color: #111;
+      transition: background var(--transition), color var(--transition);
+    }
+
+    /* ─── Header / Banner ───────────────────────────────────── */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--nav-bg);
+      color: var(--nav-fg);
+      transition: background var(--transition);
+      box-shadow: 0 2px 12px rgba(0,0,0,0.18);
+    }
+
+    .header-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      padding: 0 1.5rem;
+      height: 68px;
+    }
+
+    /* Logo */
+    .logo {
+      font-family: 'Anton', sans-serif;
+      font-size: 2.2rem;
+      letter-spacing: 0.04em;
+      color: var(--nav-fg);
+      text-decoration: none;
+      flex-shrink: 0;
+      transition: color var(--transition);
+    }
+
+    /* ─── Toggle Switch ─────────────────────────────────────── */
+    .toggle-wrap {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-shrink: 0;
+    }
+
+    .toggle-label {
+      font-family: 'Anton', sans-serif;
+      font-size: 0.85rem;
+      letter-spacing: 0.08em;
+      color: var(--nav-fg);
+      opacity: 0.7;
+      transition: opacity 0.2s, color var(--transition);
+      user-select: none;
+    }
+
+    .toggle-label.active { opacity: 1; }
+
+    /* The pill toggle itself */
+    .toggle-btn {
+      position: relative;
+      width: 88px;
+      height: 38px;
+      background: rgba(255,255,255,0.18);
+      border: 2.5px solid rgba(255,255,255,0.6);
+      border-radius: 999px;
+      cursor: pointer;
+      transition: background 0.3s;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      padding: 0 5px;
+      outline: none;
+    }
+
+    .toggle-btn:focus-visible {
+      box-shadow: 0 0 0 3px rgba(255,255,255,0.5);
+    }
+
+    /* Label inside toggle */
+    .toggle-inner-label {
+      font-family: 'Anton', sans-serif;
+      font-size: 0.78rem;
+      letter-spacing: 0.06em;
+      color: #fff;
+      position: absolute;
+      transition: opacity 0.25s;
+      pointer-events: none;
+    }
+
+    [data-mode="us"] .label-us  { left: 10px; opacity: 1; }
+    [data-mode="us"] .label-uk  { right: 8px; opacity: 0; }
+    [data-mode="uk"] .label-us  { left: 10px; opacity: 0; }
+    [data-mode="uk"] .label-uk  { right: 8px; opacity: 1; }
+
+    /* The circle knob */
+    .toggle-knob {
+      width: 26px;
+      height: 26px;
+      background: #fff;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 5px;
+      transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      box-shadow: 0 1px 6px rgba(0,0,0,0.25);
+    }
+
+    [data-mode="uk"] .toggle-knob {
+      left: calc(100% - 31px);
+    }
+
+    /* ─── Navigation ────────────────────────────────────────── */
+    nav {
+      margin-left: auto;
+      display: flex;
+      align-items: stretch;
+      height: 100%;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      align-items: stretch;
+      height: 100%;
+      gap: 0;
+    }
+
+    nav li {
+      position: relative;
+      display: flex;
+      align-items: stretch;
+    }
+
+    nav li > a, nav li > button.nav-btn {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+      padding: 0 1.1rem;
+      height: 100%;
+      color: var(--nav-fg);
+      text-decoration: none;
+      font-size: 0.88rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      background: none;
+      border: none;
+      cursor: pointer;
+      transition: background 0.2s;
+      white-space: nowrap;
+    }
+
+    nav li > a:hover,
+    nav li > button.nav-btn:hover,
+    nav li:hover > button.nav-btn {
+      background: rgba(255,255,255,0.15);
+    }
+
+    .nav-arrow {
+      font-size: 0.6rem;
+      opacity: 0.7;
+      transition: transform 0.2s;
+    }
+
+    nav li:hover .nav-arrow { transform: rotate(180deg); }
+
+    /* Dropdown */
+    .dropdown {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      min-width: 190px;
+      background: var(--nav-bg);
+      border-top: 3px solid rgba(255,255,255,0.3);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.22);
+      flex-direction: column;
+      z-index: 200;
+      transition: background var(--transition);
+    }
+
+    nav li:hover .dropdown { display: flex; }
+
+    .dropdown a {
+      padding: 0.7rem 1.2rem;
+      color: var(--nav-fg);
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 500;
+      letter-spacing: 0.03em;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      transition: background 0.15s;
+    }
+
+    .dropdown a:last-child { border-bottom: none; }
+    .dropdown a:hover { background: rgba(255,255,255,0.18); }
+
+    /* ─── Hero / Main Content ───────────────────────────────── */
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
+    }
+
+    .page { display: none; }
+    .page.active { display: block; }
+
+    /* Hero */
+    .hero {
+      text-align: center;
+      padding: 5rem 1rem 4rem;
+    }
+
+    .hero-eyebrow {
+      font-family: 'Anton', sans-serif;
+      letter-spacing: 0.2em;
+      font-size: 0.85rem;
+      color: var(--accent);
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+      transition: color var(--transition);
+    }
+
+    .hero h1 {
+      font-family: 'Anton', sans-serif;
+      font-size: clamp(3.5rem, 10vw, 7rem);
+      line-height: 0.95;
+      letter-spacing: 0.02em;
+      color: var(--fg);
+      text-transform: uppercase;
+      transition: color var(--transition);
+    }
+
+    .hero-sub {
+      margin-top: 1.5rem;
+      font-size: 1.1rem;
+      opacity: 0.6;
+      max-width: 480px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Placeholder cards */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 1.5rem;
+      margin-top: 3rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1.5px solid var(--border);
+      border-radius: 12px;
+      padding: 1.8rem 1.4rem;
+      transition: background var(--transition), border-color var(--transition), transform 0.2s, box-shadow 0.2s;
+      cursor: default;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    }
+
+    .card-tag {
+      font-family: 'Anton', sans-serif;
+      letter-spacing: 0.12em;
+      font-size: 0.7rem;
+      color: var(--accent);
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+      transition: color var(--transition);
+    }
+
+    .card h3 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin-bottom: 0.4rem;
+    }
+
+    .card p {
+      font-size: 0.88rem;
+      opacity: 0.55;
+      line-height: 1.5;
+    }
+
+    /* Divider */
+    .divider {
+      border: none;
+      border-top: 1.5px solid var(--border);
+      margin: 3rem 0;
+      transition: border-color var(--transition);
+    }
+
+    /* Page title */
+    .page-title {
+      font-family: 'Anton', sans-serif;
+      font-size: clamp(2rem, 6vw, 3.8rem);
+      color: var(--fg);
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      margin-bottom: 0.5rem;
+      transition: color var(--transition);
+    }
+
+    .page-subtitle {
+      opacity: 0.55;
+      font-size: 1rem;
+      margin-bottom: 2.5rem;
+    }
+
+    /* ─── Footer ────────────────────────────────────────────── */
+    footer {
+      background: var(--nav-bg);
+      color: var(--nav-fg);
+      text-align: center;
+      padding: 1.8rem;
+      font-size: 0.82rem;
+      opacity: 0.9;
+      margin-top: 4rem;
+      transition: background var(--transition);
+    }
+
+    /* ─── Mode transition flash ─────────────────────────────── */
+    body.switching::after {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background: white;
+      opacity: 0;
+      pointer-events: none;
+      animation: flash 0.4s ease forwards;
+      z-index: 9999;
+    }
+
+    @keyframes flash {
+      0%   { opacity: 0.4; }
+      100% { opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════════════
+     HEADER
+════════════════════════════════════════════════════════════ -->
+<header>
+  <div class="header-inner">
+
+    <!-- Logo (clickable → home) -->
+    <a class="logo" href="#" onclick="showPage('home', event)">SNL</a>
+
+    <!-- US / UK Toggle -->
+    <div class="toggle-wrap">
+      <span class="toggle-label" id="lbl-us">US</span>
+
+      <button class="toggle-btn" id="modeToggle" aria-label="Switch between US and UK" onclick="toggleMode()">
+        <span class="toggle-inner-label label-us">US</span>
+        <span class="toggle-inner-label label-uk">UK</span>
+        <span class="toggle-knob"></span>
+      </button>
+
+      <span class="toggle-label" id="lbl-uk">UK</span>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+      <ul>
+
+        <!-- Cast Members -->
+        <li>
+          <button class="nav-btn" onclick="showPage('cast', event)">
+            Cast Members ▾
+          </button>
+          <div class="dropdown">
+            <a href="#" onclick="showPage('cast', event)">Current Cast</a>
+            <a href="#" onclick="showPage('cast-alumni', event)">Alumni</a>
+          </div>
+        </li>
+
+        <!-- Hosts & Guests -->
+        <li>
+          <button class="nav-btn" onclick="showPage('hosts', event)">
+            Hosts &amp; Guests <span class="nav-arrow">▾</span>
+          </button>
+          <div class="dropdown">
+            <a href="#" onclick="showPage('hosts', event)">All Hosts</a>
+            <a href="#" onclick="showPage('musical-guests', event)">Musical Guests</a>
+          </div>
+        </li>
+
+        <!-- Seasons -->
+        <li>
+          <button class="nav-btn">
+            Seasons <span class="nav-arrow">▾</span>
+          </button>
+          <div class="dropdown" id="seasons-dropdown">
+            <!-- populated by JS based on mode -->
+          </div>
+        </li>
+
+        <!-- Favourites -->
+        <li>
+          <button class="nav-btn" onclick="showPage('gallery', event)">
+            Favourites <span class="nav-arrow">▾</span>
+          </button>
+          <div class="dropdown">
+            <a href="#" onclick="showPage('gallery', event)">Gallery</a>
+            <a href="#" onclick="showPage('sketches', event)">Favourite Sketches</a>
+            <a href="#" onclick="showPage('segments', event)">Favourite Segments</a>
+          </div>
+        </li>
+
+      </ul>
+    </nav>
+
+  </div>
+</header>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     MAIN CONTENT — Pages
+════════════════════════════════════════════════════════════ -->
+<main>
+
+  <!-- HOME -->
+  <div id="page-home" class="page active">
+    <section class="hero">
+      <p class="hero-eyebrow" id="hero-eyebrow">Saturday Night Live · United States</p>
+      <h1 id="hero-title">Live from<br>New York</h1>
+      <p class="hero-sub">Your personal fan hub for all things SNL — facts, ratings, sketches &amp; more.</p>
+    </section>
+    <hr class="divider" />
+    <div class="card-grid">
+      <div class="card">
+        <p class="card-tag">Section</p>
+        <h3>Cast Members</h3>
+        <p>Browse current and former cast — Weekend Update anchors, featured players &amp; more.</p>
+      </div>
+      <div class="card">
+        <p class="card-tag">Section</p>
+        <h3>Hosts &amp; Guests</h3>
+        <p>Every host, five-timer or first-timer, and every musical guest that graced the stage.</p>
+      </div>
+      <div class="card">
+        <p class="card-tag">Section</p>
+        <h3>Seasons</h3>
+        <p>Dive into individual seasons — episodes, ratings, and your personal notes.</p>
+      </div>
+      <div class="card">
+        <p class="card-tag">Section</p>
+        <h3>Favourites</h3>
+        <p>Your personal gallery of iconic sketches, recurring bits, and memorable segments.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- CAST -->
+  <div id="page-cast" class="page">
+    <h1 class="page-title">Current Cast</h1>
+    <p class="page-subtitle" id="cast-subtitle">SNL US — Season 51</p>
+    <div class="card-grid">
+      <div class="card"><p class="card-tag">Placeholder</p><h3>Cast Member Name</h3><p>Role · Seasons active</p></div>
+      <div class="card"><p class="card-tag">Placeholder</p><h3>Cast Member Name</h3><p>Role · Seasons active</p></div>
+      <div class="card"><p class="card-tag">Placeholder</p><h3>Cast Member Name</h3><p>Role · Seasons active</p></div>
+    </div>
+  </div>
+
+  <!-- CAST ALUMNI -->
+  <div id="page-cast-alumni" class="page">
+    <h1 class="page-title">Alumni</h1>
+    <p class="page-subtitle">Former cast members across all seasons.</p>
+    <div class="card-grid">
+      <div class="card"><p class="card-tag">Placeholder</p><h3>Alumni Name</h3><p>Seasons · Notable sketches</p></div>
+      <div class="card"><p class="card-tag">Placeholder</p><h3>Alumni Name</h3><p>Seasons · Notable sketches</p></div>
+    </div>
+  </div>
+
+  <!-- HOSTS -->
+  <div id="page-hosts" class="page">
+    <h1 class="page-title">Hosts</h1>
+    <p class="page-subtitle">Every host — with your personal ratings.</p>
+    <div class="card-grid">
+      <div class="card"><p class="card-tag">Placeholder</p><h3>Host Name</h3><p>Episode · Your rating: ⭐⭐⭐⭐</p></div>
+      <div class="card"><p class="card-tag">Placeholder</p><h3>Host Name</h3><p>Episode · Your rating: ⭐⭐⭐</p></div>
+    </div>
+  </div>
+
+  <!-- MUSICAL GUESTS -->
+  <div id="page-musical-guests" class="page">
+    <h1 class="page-title">Musical Guests</h1>
+    <p class="page-subtitle">Every musical performance, catalogued.</p>
+    <div class="card-grid">
+      <div class="card"><p class="card-tag">Placeholder</p><h3>Artist Name</h3><p>Episode · Songs performed</p></div>
+    </div>
+  </div>
+
+  <!-- SEASONS (generic, updated by JS) -->
+  <div id="page-season" class="page">
+    <h1 class="page-title" id="season-title">Season —</h1>
+    <p class="page-subtitle" id="season-subtitle">Episodes &amp; highlights coming soon.</p>
+    <div class="card-grid">
+      <div class="card"><p class="card-tag">Placeholder</p><h3>Episode 1</h3><p>Host TBD · Aired TBD</p></div>
+      <div class="card"><p class="card-tag">Placeholder</p><h3>Episode 2</h3><p>Host TBD · Aired TBD</p></div>
+    </div>
+  </div>
+
+  <!-- GALLERY -->
+  <div id="page-gallery" class="page">
+    <h1 class="page-title">Gallery</h1>
+    <p class="page-subtitle">Your favourite moments, saved here.</p>
+    <div class="card-grid">
+      <div class="card"><p class="card-tag">Placeholder</p><h3>Image / Clip Title</h3><p>Season · Description</p></div>
+    </div>
+  </div>
+
+  <!-- SKETCHES -->
+  <div id="page-sketches" class="page">
+    <h1 class="page-title">Favourite Sketches</h1>
+    <p class="page-subtitle">Your personal hall of fame.</p>
+    <div class="card-grid">
+      <div class="card"><p class="card-tag">Placeholder</p><h3>Sketch Title</h3><p>Season · Cast · Your rating</p></div>
+      <div class="card"><p class="card-tag">Placeholder</p><h3>Sketch Title</h3><p>Season · Cast · Your rating</p></div>
+    </div>
+  </div>
+
+  <!-- SEGMENTS -->
+  <div id="page-segments" class="page">
+    <h1 class="page-title">Favourite Segments</h1>
+    <p class="page-subtitle">Weekend Update, cold opens, and more.</p>
+    <div class="card-grid">
+      <div class="card"><p class="card-tag">Placeholder</p><h3>Segment Title</h3><p>Type · Season · Your notes</p></div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <span id="footer-text">SNL US Fan Site · Personal use only · Not affiliated with NBC or the BBC</span>
+</footer>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+     JAVASCRIPT
+════════════════════════════════════════════════════════════ -->
+<script>
+  /* ── State ─────────────────────────────────────────────── */
+  let currentMode = 'us';
+  let currentPage = 'home';
+
+  const US_SEASONS = [51, 50, 49];
+  const UK_SEASONS = [1];
+
+  /* ── Seasons dropdown ─────────────────────────────────── */
+  function buildSeasonsDropdown() {
+    const dd = document.getElementById('seasons-dropdown');
+    const seasons = currentMode === 'us' ? US_SEASONS : UK_SEASONS;
+    dd.innerHTML = seasons.map(s =>
+      `<a href="#" onclick="showSeason(${s}, event)">Season ${s}</a>`
+    ).join('');
+  }
+
+  /* ── Page routing ─────────────────────────────────────── */
+  function showPage(pageId, event) {
+    if (event) event.preventDefault();
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    const el = document.getElementById('page-' + pageId);
+    if (el) {
+      el.classList.add('active');
+      currentPage = pageId;
+    }
+    // update cast subtitle dynamically
+    if (pageId === 'cast') {
+      document.getElementById('cast-subtitle').textContent =
+        currentMode === 'us' ? 'SNL US — Season 51' : 'SNL UK — Series 1';
+    }
+  }
+
+  function showSeason(num, event) {
+    if (event) event.preventDefault();
+    document.getElementById('season-title').textContent =
+      (currentMode === 'us' ? 'SNL US · Season ' : 'SNL UK · Series ') + num;
+    document.getElementById('season-subtitle').textContent =
+      'Episodes & highlights — coming soon.';
+    showPage('season');
+  }
+
+  /* ── Mode toggle ──────────────────────────────────────── */
+  function toggleMode() {
+    currentMode = currentMode === 'us' ? 'uk' : 'us';
+    applyMode();
+  }
+
+  function applyMode() {
+    const html = document.documentElement;
+    html.dataset.mode = currentMode;
+
+    // flash transition
+    document.body.classList.add('switching');
+    setTimeout(() => document.body.classList.remove('switching'), 400);
+
+    // hero text
+    if (currentMode === 'us') {
+      document.getElementById('hero-eyebrow').textContent = 'Saturday Night Live · United States';
+      document.getElementById('hero-title').innerHTML  = 'Live from<br>New York';
+    } else {
+      document.getElementById('hero-eyebrow').textContent = 'Saturday Night Live · United Kingdom';
+      document.getElementById('hero-title').innerHTML  = 'Live from<br>London';
+    }
+
+    // label highlight
+    document.getElementById('lbl-us').classList.toggle('active', currentMode === 'us');
+    document.getElementById('lbl-uk').classList.toggle('active', currentMode === 'uk');
+
+    // footer
+    document.getElementById('footer-text').textContent =
+      currentMode === 'us'
+        ? 'SNL US Fan Site · Personal use only · Not affiliated with NBC'
+        : 'SNL UK Fan Site · Personal use only · Not affiliated with the BBC';
+
+    // rebuild seasons dropdown
+    buildSeasonsDropdown();
+
+    // stay on same page, refresh any mode-specific content
+    showPage(currentPage);
+  }
+
+  /* ── Init ─────────────────────────────────────────────── */
+  buildSeasonsDropdown();
+  document.getElementById('lbl-us').classList.add('active');
+</script>
+</body>
+</html>
