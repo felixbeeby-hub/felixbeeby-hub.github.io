@@ -95,8 +95,11 @@
         '<span class="chevron">\u25BE</span>' +
       '</div>' +
       '<div class="cast-body"><div class="cast-body-inner">' +
-        '<p class="cast-bio">' + esc(m.bio || '') + '</p>' +
-        '<h4 class="cast-subhead">Sketch appearances</h4>' +
+        (m.photo
+  ? '<img class="cast-dropdown-photo" src="images/cast/' + esc(m.photo) + '" alt="' + esc(m.name) + '">'
+  : '') +
+'<p class="cast-bio">' + esc(m.bio || '') + '</p>' +
+'<h4 class="cast-subhead">Sketch appearances</h4>' +
         '<ul class="cast-sketch-list">' + sketches + '</ul>' +
       '</div></div>' +
     '</article>';
