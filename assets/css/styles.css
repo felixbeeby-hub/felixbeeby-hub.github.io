@@ -703,17 +703,22 @@ body.switching::after {
   object-position: center top;
   border: 2px solid var(--border);
 }
+.cast-photo-row {
+  display: flex;
+  gap: 0.6rem;
+  margin: 0.9rem 0 1rem;
+  align-items: stretch;
+}
+
 .cast-dropdown-photo {
-  display: block;
-  width: 160px;
-  height: 160px;
+  height: 180px;
+  width: auto;
   object-fit: cover;
   object-position: center top;
   border-radius: 8px;
-  margin: 0.9rem 0 1rem;
   border: 1.5px solid var(--border);
+  flex-shrink: 0;
 }
-
 .cast-id-info { flex: 1 1 auto; min-width: 0; }
 
 .cast-name {
