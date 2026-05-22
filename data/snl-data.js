@@ -48,7 +48,7 @@ window.SNL_DATA = {
           status: "current",
           role: "Repertory",
           seasons: [49, 50, 51],
-          bio: "Placeholder biography. A couple of sentences about the performer go here."
+          bio: "JAJ has been a cast member since 2021 and (most of the time) impersonates Donald Trump - a total of 14, I think, times"
         },
         kenan: {
           name: "Kenan Thompson",
