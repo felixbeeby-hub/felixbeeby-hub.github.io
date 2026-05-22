@@ -98,7 +98,8 @@
         (m.photo
   ? '<img class="cast-dropdown-photo" src="images/cast/' + esc(m.photo) + '" alt="' + esc(m.name) + '">'
   : '') +
-'<p class="cast-bio">' + esc(m.bio || '') + '</p>' +
+'<p class="cast-bio-above">' + esc(m.bio || '') + '</p>' +
+'<hr class="cast-inner-divider">' +
 '<h4 class="cast-subhead">Sketch appearances</h4>' +
         '<ul class="cast-sketch-list">' + sketches + '</ul>' +
       '</div></div>' +
