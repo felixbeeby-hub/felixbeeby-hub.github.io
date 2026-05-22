@@ -772,6 +772,7 @@ body.switching::after {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--accent);
+   margin-top: 1rem;
   margin-bottom: 0.6rem;
 }
 
