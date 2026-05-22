@@ -93,10 +93,10 @@ window.SNL_DATA = {
               musicalGuest: "Doja Cat",
               airDate: "4 October 2025",
               sketches: [
-                { title: "Cold Open",      score: 7,    blurb: "", cast: ["colin_jost", "james_a_johnson"] },
-                { title: "Monologue",      score: 7,    blurb: "",   cast: [] },
-                 { title: "Jeopardy",      score: 7,    blurb: "", cast: ["andrew", "kenan", "veronika"] },
-                { title: "Weekend Update", score: 9,    blurb: "Placeholder blurb for Weekend Update. Note the anchors and any standout desk pieces.",                  cast: ["c2", "c3"] }
+                { title: "Cold Open",      score: 5,    blurb: "", cast: ["colin_jost", "james_a_johnson"] },
+                { title: "Monologue",      score: 5,    blurb: "",   cast: [] },
+                 { title: "Jeopardy",      score: 8,    blurb: "", cast: ["andrew", "kenan", "veronika"] },
+                { title: "Weekend Update", score: null,    blurb: "Placeholder blurb for Weekend Update. Note the anchors and any standout desk pieces.",                  cast: ["c2", "c3"] }
               ]
             },
             {
