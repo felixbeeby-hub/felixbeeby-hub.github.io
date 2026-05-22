@@ -59,7 +59,12 @@
   ];
 
   /* Pages that actually exist. Anything else renders as "soon". */
-  var BUILT_PAGES = { 'index.html': true, 'seasons.html': true };
+  var BUILT_PAGES = {
+    'index.html': true,
+    'seasons.html': true,
+    'cast.html': true,
+    'cast-alumni.html': true
+  };
 
   var MODE_KEY = 'snl-mode';
 
@@ -231,6 +236,48 @@
           built: href ? isBuilt(href) : false
         };
       });
+    },
+
+    /* The cast registry for the current edition (id -> member). */
+    cast: function () {
+      var r = region();
+      return r ? (r.cast || {}) : {};
+    },
+
+    /* Cross-references every sketch in the current edition and
+       returns derived stats for one cast member id:
+         appearances - number of sketches they're tagged in
+         avg         - average score over RATED sketches (or null)
+         sketches    - [{ seasonId, episodeNumber, episodeTitle,
+                           title, score }]                          */
+    castStats: function (id) {
+      var r = region();
+      var out = { appearances: 0, avg: null, sketches: [] };
+      if (!r) return out;
+
+      var scored = [];
+      r.seasons.forEach(function (s) {
+        s.episodes.forEach(function (ep) {
+          (ep.sketches || []).forEach(function (sk) {
+            if ((sk.cast || []).indexOf(id) === -1) return;
+            out.appearances++;
+            var score = (typeof sk.score === 'number') ? sk.score : null;
+            out.sketches.push({
+              seasonId: s.id,
+              episodeNumber: ep.number,
+              episodeTitle: ep.title,
+              title: sk.title,
+              score: score
+            });
+            if (score !== null) scored.push(score);
+          });
+        });
+      });
+
+      if (scored.length) {
+        out.avg = scored.reduce(function (a, b) { return a + b; }, 0) / scored.length;
+      }
+      return out;
     }
   };
 

@@ -54,8 +54,13 @@
 
   /* ---- HTML builders ---- */
   function sketchHtml(sk) {
-    var cast = (sk.cast || []).map(function (c) {
-      return '<span class="cast-chip">' + esc(c) + '</span>';
+    var registry = window.SNL.cast() || {};
+    var cast = (sk.cast || []).map(function (id) {
+      var m = registry[id];
+      var name = m ? m.name : id;                 /* fall back to raw id */
+      var page = (m && m.status === 'alumni') ? 'cast-alumni.html' : 'cast.html';
+      return '<a class="cast-chip" href="' + page + '?member=' +
+             encodeURIComponent(id) + '">' + esc(name) + '</a>';
     }).join('');
 
     return '' +

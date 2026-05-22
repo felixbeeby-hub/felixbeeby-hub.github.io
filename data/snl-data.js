@@ -1,24 +1,30 @@
 /* ============================================================
    SNL TRACKER — DATA FILE
    ------------------------------------------------------------
-   This is the single source of truth for all SNL content.
-   Nothing is written directly into the HTML files — every page
-   reads from this object.
+   Single source of truth for all SNL content. Nothing is
+   written directly into the HTML files.
 
-   To add content, just extend the structure below. Pages will
-   pick it up automatically (season dropdown, episode list, etc).
+   STRUCTURE
+     regions.<us|uk>.cast      Cast registry, keyed by id (c1, c2…)
+     regions.<us|uk>.seasons   Seasons → episodes → sketches
 
-   Score scale: 0–10. Use `null` for a sketch you haven't rated.
-   Episode "avg" scores are calculated automatically from sketches.
+   CAST
+     Each cast member has: name, status ("current" | "alumni"),
+     role, seasons (roster), bio.
+     Sketches reference cast members by id, e.g. cast: ["c1","c2"].
+     Average scores & appearance counts are CALCULATED from the
+     sketches — never stored here.
 
-   NOTE: All values here are PLACEHOLDERS — replace them with
-   real data as you watch.
+   SCORES
+     Sketch scores are 0–10. Use `null` for "not rated yet" (—).
+
+   NOTE: All values are PLACEHOLDERS — replace as you watch.
    ============================================================ */
 
 window.SNL_DATA = {
   regions: {
 
-    /* ---------------- UNITED STATES ---------------- */
+    /* ==================== UNITED STATES ==================== */
     us: {
       label: "US",
       fullLabel: "United States",
@@ -26,6 +32,45 @@ window.SNL_DATA = {
       seasonWord: "Season",
       heroEyebrow: "Saturday Night Live · United States",
       heroTitle: "Live from<br>New York",
+
+      cast: {
+        c1: {
+          name: "Placeholder Cast One",
+          status: "current",
+          role: "Repertory",
+          seasons: [50, 51],
+          bio: "Placeholder biography for this cast member. Replace with a short summary of their background, recurring characters and notable moments."
+        },
+        c2: {
+          name: "Placeholder Cast Two",
+          status: "current",
+          role: "Repertory",
+          seasons: [49, 50, 51],
+          bio: "Placeholder biography. A couple of sentences about the performer go here."
+        },
+        c3: {
+          name: "Placeholder Cast Three",
+          status: "current",
+          role: "Featured Player",
+          seasons: [51],
+          bio: "Placeholder biography for a newer featured player."
+        },
+        c4: {
+          name: "Placeholder Cast Four",
+          status: "alumni",
+          role: "Repertory",
+          seasons: [47, 48],
+          bio: "Placeholder biography for a former cast member. Their sketches will appear here once you log the seasons they were in."
+        },
+        c5: {
+          name: "Placeholder Cast Five",
+          status: "alumni",
+          role: "Weekend Update Anchor",
+          seasons: [46, 47, 48, 49],
+          bio: "Placeholder biography for a former Weekend Update anchor."
+        }
+      },
+
       seasons: [
         {
           id: 51,
@@ -33,28 +78,13 @@ window.SNL_DATA = {
             {
               number: 1,
               title: "Episode 1",
-              host: "Bad Bunny",
-              musicalGuest: "Doja Cat",
-              airDate: "October 4, 2025",
+              host: "Placeholder Host A",
+              musicalGuest: "Placeholder Musical Guest A",
+              airDate: "TBD",
               sketches: [
-                {
-                  title: "Cold Open",
-                  score: 7,
-                  blurb: "A fairly mediocre Pete Hegseth bit gives way to a surprisingly sharp meta-critique of SNL delivered by Trump.",
-                  cast: ["Colin Jost", "James Austin Johnson", "Cast Member Three"]
-                },
-                {
-                  title: "Monologue",
-                  score: 7,
-                  blurb: "Placeholder blurb for the host monologue. Add notes about the bit, jokes, or surprise appearances.",
-                  cast: ["Placeholder Host A"]
-                },
-                {
-                  title: "Weekend Update",
-                  score: 9,
-                  blurb: "Placeholder blurb for Weekend Update. Note the anchors and any standout desk pieces.",
-                  cast: ["Cast Member Two", "Cast Member Four"]
-                }
+                { title: "Cold Open",      score: 8,    blurb: "Placeholder blurb describing the cold open. Replace with a one or two line summary of what happened.", cast: ["c1", "c2", "c3"] },
+                { title: "Monologue",      score: 7,    blurb: "Placeholder blurb for the host monologue. Add notes about the bit, jokes, or surprise appearances.",   cast: ["c1"] },
+                { title: "Weekend Update", score: 9,    blurb: "Placeholder blurb for Weekend Update. Note the anchors and any standout desk pieces.",                  cast: ["c2", "c3"] }
               ]
             },
             {
@@ -64,24 +94,9 @@ window.SNL_DATA = {
               musicalGuest: "Placeholder Musical Guest B",
               airDate: "TBD",
               sketches: [
-                {
-                  title: "Cold Open",
-                  score: 6,
-                  blurb: "Placeholder blurb for this cold open.",
-                  cast: ["Cast Member One", "Cast Member Five"]
-                },
-                {
-                  title: "Recurring Sketch",
-                  score: null,
-                  blurb: "Placeholder blurb — this sketch has not been rated yet, so it shows a dash.",
-                  cast: ["Cast Member Three", "Cast Member Four", "Placeholder Host B"]
-                },
-                {
-                  title: "Ten-to-One Sketch",
-                  score: 8.5,
-                  blurb: "Placeholder blurb for the weird late-in-the-show sketch.",
-                  cast: ["Cast Member Five"]
-                }
+                { title: "Cold Open",         score: 6,    blurb: "Placeholder blurb for this cold open.",                                                      cast: ["c1", "c3"] },
+                { title: "Recurring Sketch",  score: null, blurb: "Placeholder blurb — this sketch has not been rated yet, so it shows a dash.",                 cast: ["c2", "c3"] },
+                { title: "Ten-to-One Sketch", score: 8.5,  blurb: "Placeholder blurb for the weird late-in-the-show sketch.",                                    cast: ["c1"] }
               ]
             },
             {
@@ -91,18 +106,8 @@ window.SNL_DATA = {
               musicalGuest: "Placeholder Musical Guest C",
               airDate: "TBD",
               sketches: [
-                {
-                  title: "Cold Open",
-                  score: 7.5,
-                  blurb: "Placeholder blurb for this cold open.",
-                  cast: ["Cast Member One", "Cast Member Two"]
-                },
-                {
-                  title: "Commercial Parody",
-                  score: 9,
-                  blurb: "Placeholder blurb for a fake-ad sketch.",
-                  cast: ["Cast Member Four", "Cast Member Five"]
-                }
+                { title: "Cold Open",         score: 7.5, blurb: "Placeholder blurb for this cold open.",     cast: ["c1", "c2"] },
+                { title: "Commercial Parody", score: 9,   blurb: "Placeholder blurb for a fake-ad sketch.",   cast: ["c2", "c3"] }
               ]
             }
           ]
@@ -110,7 +115,7 @@ window.SNL_DATA = {
       ]
     },
 
-    /* ---------------- UNITED KINGDOM ---------------- */
+    /* ==================== UNITED KINGDOM ==================== */
     uk: {
       label: "UK",
       fullLabel: "United Kingdom",
@@ -118,6 +123,31 @@ window.SNL_DATA = {
       seasonWord: "Series",
       heroEyebrow: "Saturday Night Live · United Kingdom",
       heroTitle: "Live from<br>London",
+
+      cast: {
+        c1: {
+          name: "Placeholder Cast One",
+          status: "current",
+          role: "Repertory",
+          seasons: [1],
+          bio: "Placeholder biography for a UK cast member."
+        },
+        c2: {
+          name: "Placeholder Cast Two",
+          status: "current",
+          role: "Featured Player",
+          seasons: [1],
+          bio: "Placeholder biography for a UK cast member."
+        },
+        c3: {
+          name: "Placeholder Cast Three",
+          status: "alumni",
+          role: "Repertory",
+          seasons: [1],
+          bio: "Placeholder biography for a former UK cast member."
+        }
+      },
+
       seasons: [
         {
           id: 1,
@@ -129,18 +159,8 @@ window.SNL_DATA = {
               musicalGuest: "Placeholder Musical Guest A",
               airDate: "TBD",
               sketches: [
-                {
-                  title: "Cold Open",
-                  score: 8,
-                  blurb: "Placeholder blurb for the UK cold open.",
-                  cast: ["Cast Member One", "Cast Member Two"]
-                },
-                {
-                  title: "Monologue",
-                  score: null,
-                  blurb: "Placeholder blurb — not yet rated.",
-                  cast: ["Placeholder Host A"]
-                }
+                { title: "Cold Open", score: 8,    blurb: "Placeholder blurb for the UK cold open.", cast: ["c1", "c2"] },
+                { title: "Monologue", score: null, blurb: "Placeholder blurb — not yet rated.",      cast: ["c1"] }
               ]
             },
             {
@@ -150,18 +170,8 @@ window.SNL_DATA = {
               musicalGuest: "Placeholder Musical Guest B",
               airDate: "TBD",
               sketches: [
-                {
-                  title: "Cold Open",
-                  score: 7,
-                  blurb: "Placeholder blurb for this UK cold open.",
-                  cast: ["Cast Member Two", "Cast Member Three"]
-                },
-                {
-                  title: "Sketch Title",
-                  score: 6.5,
-                  blurb: "Placeholder blurb for a UK sketch.",
-                  cast: ["Cast Member One", "Cast Member Three", "Placeholder Host B"]
-                }
+                { title: "Cold Open",    score: 7,   blurb: "Placeholder blurb for this UK cold open.", cast: ["c2", "c3"] },
+                { title: "Sketch Title", score: 6.5, blurb: "Placeholder blurb for a UK sketch.",       cast: ["c1", "c3"] }
               ]
             }
           ]

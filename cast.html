@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Current Cast · SNL Tracker</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <!-- Restore the saved US/UK mode before paint to avoid a colour flash -->
+  <script>document.documentElement.dataset.mode = localStorage.getItem('snl-mode') || 'us';</script>
+</head>
+<!-- data-cast-view tells cast.js which roster to show -->
+<body data-cast-view="current">
+
+  <header id="site-header"></header>
+
+  <main>
+    <div class="page-head">
+      <h1 class="page-title">Current Cast</h1>
+      <p class="page-subtitle" id="cast-subtitle"></p>
+    </div>
+
+    <!-- Cast cards built from data by cast.js -->
+    <div class="cast-list" id="cast-list"></div>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="data/snl-data.js" defer></script>
+  <script src="assets/js/site.js" defer></script>
+  <script src="assets/js/cast.js" defer></script>
+</body>
+</html>
