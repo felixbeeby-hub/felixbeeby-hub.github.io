@@ -33,9 +33,9 @@ window.SNL_DATA = {
             {
               number: 1,
               title: "Episode 1",
-              host: "Placeholder Host A",
-              musicalGuest: "Placeholder Musical Guest A",
-              airDate: "TBD",
+              host: "Bad Bunny",
+              musicalGuest: "Doja Cat",
+              airDate: "October 4, 2025",
               sketches: [
                 {
                   title: "Cold Open",
