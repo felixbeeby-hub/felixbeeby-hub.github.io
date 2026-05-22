@@ -37,6 +37,7 @@ window.SNL_DATA = {
         colin_jost: {
           name: "Colin Jost",
            photo: "colin_jost.jpg",
+           photobig: ["colin_jost.jpg", "colin_intro.jpg"],
           status: "current",
           role: "Repertory",
           seasons: [51],
