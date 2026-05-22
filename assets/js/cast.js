@@ -77,7 +77,9 @@
     return '' +
     '<article class="cast-card" data-id="' + esc(id) + '">' +
       '<div class="cast-head" role="button" tabindex="0" aria-expanded="false">' +
-        '<span class="cast-avatar">' + esc(initials(m.name)) + '</span>' +
+        (m.photo
+  ? '<img class="cast-avatar cast-avatar-photo" src="images/cast/' + esc(m.photo) + '" alt="' + esc(m.name) + '">'
+  : '<span class="cast-avatar">' + esc(initials(m.name)) + '</span>') +
         '<div class="cast-id-info">' +
           '<h3 class="cast-name">' + esc(m.name) + '</h3>' +
           '<p class="cast-meta">' + meta + '</p>' +
