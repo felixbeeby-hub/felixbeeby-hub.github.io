@@ -41,7 +41,7 @@ window.SNL_DATA = {
           status: "current",
           role: "Repertory",
           seasons: [51],
-          bio: "An anchor of 'Weekend Update' who commonly portrays Pete Hegseth in the cold opens. (LEFT: Jost during Weekend Update. RIGHT: Jost during the SNL intro.)"
+          bio: "An anchor of 'Weekend Update' who commonly portrays Pete Hegseth in the cold opens. <br>(LEFT: Jost during Weekend Update. RIGHT: Jost during the SNL intro.)"
         },
         james_a_johnson: {
           name: "James Austin Johnson",
@@ -50,7 +50,7 @@ window.SNL_DATA = {
           status: "current",
           role: "Repertory",
           seasons: [49, 50, 51],
-          bio: "JAJ has been a cast member since 2021 and (mostly just) impersonates Donald Trump - 14 times!<br>(LEFT: Johnson as Trump. RIGHT: Johnson during the SNL intro."
+          bio: "JAJ has been a cast member since 2021 and (mostly just) impersonates Donald Trump - 14 times!<br>LEFT: Johnson as Trump. RIGHT: Johnson during the SNL intro."
         },
         kenan: {
           name: "Kenan Thompson",
