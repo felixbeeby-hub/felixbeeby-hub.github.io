@@ -41,26 +41,33 @@ window.SNL_DATA = {
           seasons: [51],
           bio: "Colin Jost"
         },
-        c2: {
-          name: "Placeholder Cast Two",
+        james_a_johnson: {
+          name: "James Austin Johnson",
           status: "current",
           role: "Repertory",
           seasons: [49, 50, 51],
           bio: "Placeholder biography. A couple of sentences about the performer go here."
         },
-        c3: {
-          name: "Placeholder Cast Three",
+        kenan: {
+          name: "Kenan Thompson",
           status: "current",
-          role: "Featured Player",
+          role: "Repertory",
           seasons: [51],
-          bio: "Placeholder biography for a newer featured player."
+          bio: ""
         },
-        c4: {
-          name: "Placeholder Cast Four",
-          status: "alumni",
+        veronika: {
+          name: "Veronika Slowikowska",
+          status: "current",
+          role: "Featured",
+          seasons: [47, 48],
+          bio: ""
+        },
+         andrew: {
+          name: "Andrew Dismukes",
+          status: "current",
           role: "Repertory",
           seasons: [47, 48],
-          bio: "Placeholder biography for a former cast member. Their sketches will appear here once you log the seasons they were in."
+          bio: ""
         },
         c5: {
           name: "Placeholder Cast Five",
@@ -82,8 +89,9 @@ window.SNL_DATA = {
               musicalGuest: "Doja Cat",
               airDate: "4 October 2025",
               sketches: [
-                { title: "Cold Open",      score: 7,    blurb: "", cast: ["colin_jost", "c2", "c3"] },
-                { title: "Monologue",      score: 7,    blurb: "Placeholder blurb for the host monologue. Add notes about the bit, jokes, or surprise appearances.",   cast: ["c1"] },
+                { title: "Cold Open",      score: 7,    blurb: "", cast: ["colin_jost", "james_a_johnson"] },
+                { title: "Monologue",      score: 7,    blurb: "",   cast: [] },
+                 { title: "Jeopardy",      score: 7,    blurb: "", cast: ["andrew", "kenan", "veronika"] },
                 { title: "Weekend Update", score: 9,    blurb: "Placeholder blurb for Weekend Update. Note the anchors and any standout desk pieces.",                  cast: ["c2", "c3"] }
               ]
             },
