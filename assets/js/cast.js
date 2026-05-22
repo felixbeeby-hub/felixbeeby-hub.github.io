@@ -102,7 +102,7 @@
       }).join('') +
     '</div>'
   : '') +
-'<p class="cast-bio-above">' + esc(m.bio || '') + '</p>' +
+'<p class="cast-bio-above">' + (m.bio || '') + '</p>' +
 '<hr class="cast-inner-divider">' +
 '<h4 class="cast-subhead">Sketch appearances</h4>' +
         '<ul class="cast-sketch-list">' + sketches + '</ul>' +
