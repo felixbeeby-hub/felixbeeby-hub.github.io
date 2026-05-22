@@ -34,12 +34,12 @@ window.SNL_DATA = {
       heroTitle: "Live from<br>New York",
 
       cast: {
-        c1: {
-          name: "Placeholder Cast One",
+        colin_jost: {
+          name: "Colin Jost",
           status: "current",
           role: "Repertory",
-          seasons: [50, 51],
-          bio: "Placeholder biography for this cast member. Replace with a short summary of their background, recurring characters and notable moments."
+          seasons: [51],
+          bio: "Colin Jost"
         },
         c2: {
           name: "Placeholder Cast Two",
@@ -78,11 +78,11 @@ window.SNL_DATA = {
             {
               number: 1,
               title: "Episode 1",
-              host: "Placeholder Host A",
-              musicalGuest: "Placeholder Musical Guest A",
-              airDate: "TBD",
+              host: "Bad Bunny",
+              musicalGuest: "Doja Cat",
+              airDate: "4 October 2025",
               sketches: [
-                { title: "Cold Open",      score: 8,    blurb: "Placeholder blurb describing the cold open. Replace with a one or two line summary of what happened.", cast: ["c1", "c2", "c3"] },
+                { title: "Cold Open",      score: 7,    blurb: "", cast: ["colin_jost", "c2", "c3"] },
                 { title: "Monologue",      score: 7,    blurb: "Placeholder blurb for the host monologue. Add notes about the bit, jokes, or surprise appearances.",   cast: ["c1"] },
                 { title: "Weekend Update", score: 9,    blurb: "Placeholder blurb for Weekend Update. Note the anchors and any standout desk pieces.",                  cast: ["c2", "c3"] }
               ]
