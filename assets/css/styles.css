@@ -694,6 +694,25 @@ body.switching::after {
   align-items: center;
   justify-content: center;
 }
+.cast-avatar-photo {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  border: 2px solid var(--border);
+}
+.cast-dropdown-photo {
+  display: block;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 8px;
+  margin: 0.9rem 0 1rem;
+  border: 1.5px solid var(--border);
+}
 
 .cast-id-info { flex: 1 1 auto; min-width: 0; }
 
