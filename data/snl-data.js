@@ -93,7 +93,7 @@ window.SNL_DATA = {
               musicalGuest: "Doja Cat",
               airDate: "4 October 2025",
               sketches: [
-                { title: "Cold Open",      score: 5,    blurb: "", cast: ["colin_jost", "james_a_johnson"] },
+                { title: "Cold Open",      score: 5,    blurb: "A seemingly normal Cold Open with Pete Hegseth (Colin Jost) is interrupted by James Austin Johnson's Trump. His commentary during a freeze frame breaks the fourth wall and is the first of many (apparantly necessary) appearances of Donald Trump in S51's Cold Opens ", cast: ["colin_jost", "james_a_johnson"] },
                 { title: "Monologue",      score: 5,    blurb: "",   cast: [] },
                  { title: "Jeopardy",      score: 8,    blurb: "", cast: ["andrew", "kenan", "veronika"] },
                 { title: "Weekend Update", score: null,    blurb: "Placeholder blurb for Weekend Update. Note the anchors and any standout desk pieces.",                  cast: ["c2", "c3"] }
