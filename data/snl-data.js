@@ -40,7 +40,7 @@ window.SNL_DATA = {
           status: "current",
           role: "Repertory",
           seasons: [51],
-          bio: "Colin Jost"
+          bio: "An anchor of 'Weekend Update' who commonly portrays Pete Hegseth in the cold opens."
         },
         james_a_johnson: {
           name: "James Austin Johnson",
