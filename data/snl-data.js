@@ -44,6 +44,7 @@ window.SNL_DATA = {
         },
         james_a_johnson: {
           name: "James Austin Johnson",
+           photo: "jaj.jpg",
           status: "current",
           role: "Repertory",
           seasons: [49, 50, 51],
