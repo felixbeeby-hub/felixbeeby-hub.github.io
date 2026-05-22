@@ -39,9 +39,9 @@ window.SNL_DATA = {
               sketches: [
                 {
                   title: "Cold Open",
-                  score: 8,
-                  blurb: "Placeholder blurb describing the cold open. Replace with a one or two line summary of what happened.",
-                  cast: ["Cast Member One", "Cast Member Two", "Cast Member Three"]
+                  score: 7,
+                  blurb: "A fairly mediocre Pete Hegseth bit gives way to a surprisingly sharp meta-critique of SNL delivered by Trump.",
+                  cast: ["Colin Jost", "James Austin Johnson", "Cast Member Three"]
                 },
                 {
                   title: "Monologue",
