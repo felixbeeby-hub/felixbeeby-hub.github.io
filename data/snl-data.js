@@ -256,23 +256,23 @@ window.SNL_DATA = {
       },
 
       cast: {
-        c1: {
-          name: "Placeholder Cast One",
+        george: {
+          name: "George Foreacres",
           status: "current",
           role: "Repertory",
           seasons: [1],
-          bio: "Placeholder biography for a UK cast member."
+          bio: "(Kier Starmar, 45 seconds with Foreacres)"
         },
-        c2: {
-          name: "Placeholder Cast Two",
+        alnash: {
+          name: "Al Nash",
           status: "current",
           role: "Featured Player",
           seasons: [1],
-          bio: "Placeholder biography for a UK cast member."
+          bio: ""
         },
-        c3: {
-          name: "Placeholder Cast Three",
-          status: "alumni",
+        ania: {
+          name: "Ania Maglioni",
+          status: "Current",
           role: "Repertory",
           seasons: [1],
           bio: "Placeholder biography for a former UK cast member."
