@@ -72,7 +72,7 @@ window.SNL_DATA = {
            photobig: ["colin_jost.jpg", "colin_intro.jpg"],
           status: "current",
           role: "Weekend Update Anchor",
-          seasons: [51],
+          seasons: [39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51],
           bio: "An anchor of 'Weekend Update' who commonly portrays Pete Hegseth in the cold opens. <br>LEFT: Jost during Weekend Update. RIGHT: Jost during the SNL intro."
         },
         jaj: {
@@ -81,14 +81,14 @@ window.SNL_DATA = {
            photobig: ["jaj_trump.jpg", "jaj_intro.jpg"],
           status: "current",
           role: "Repertory",
-          seasons: [49, 50, 51],
+          seasons: [47, 48, 49, 50, 51],
           bio: "JAJ has been a cast member since 2021 and (mostly just) impersonates Donald Trump - 14 times!<br>LEFT: Johnson as Trump. RIGHT: Johnson during the SNL intro."
         },
         kenan: {
           name: "Kenan Thompson",
           status: "current",
           role: "Repertory",
-          seasons: [51],
+          seasons: [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51],
           bio: ""
         },
         veronika: {
