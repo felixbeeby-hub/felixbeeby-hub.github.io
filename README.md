@@ -15,6 +15,8 @@ snl-tracker/
 ├── seasons.html          Seasons page (episode + sketch browser)
 ├── cast.html             Current cast
 ├── cast-alumni.html      Alumni
+├── hosts.html            Hosts
+├── musical-guests.html   Musical guests
 ├── data/
 │   └── snl-data.js        ← ALL content lives here
 └── assets/
@@ -24,12 +26,14 @@ snl-tracker/
         ├── site.js        Shared: header, nav, footer, US/UK toggle, helpers
         ├── home.js        Home page logic
         ├── seasons.js     Seasons page logic
-        └── cast.js        Cast pages logic (shared by both cast pages)
+        ├── cast.js        Cast pages logic (shared by both cast pages)
+        └── hosts.js       Hosts + Musical Guests logic (shared)
 ```
 
 ## Core principles
 
-1. **One HTML file per nav tab.** Built: home, seasons, cast, alumni.
+1. **One HTML file per nav tab.** Built: home, seasons, cast, alumni,
+   hosts, musical guests.
    Unbuilt pages show a "soon" badge in the nav.
 2. **No data in HTML.** Every piece of content is read from
    `data/snl-data.js`. The HTML files are empty shells.
@@ -41,20 +45,27 @@ snl-tracker/
 
 `data/snl-data.js` holds two regions (`us`, `uk`). Each region has:
 
-- **`cast`** — a registry of cast members keyed by id (`c1`, `c2`, …).
-  Fields: `name`, `status` (`current` | `alumni`), `role`, `seasons`, `bio`.
-- **`seasons`** — seasons → episodes → sketches. Each sketch lists its
-  cast **by id**: `cast: ["c1", "c2"]`.
+- **`cast`** — cast members keyed by id. Fields: `name`, `status`
+  (`current` | `alumni`), `role`, `seasons`, `bio`, optional `photo`.
+- **`hosts`** / **`music`** — hosts and musical guests keyed by id.
+  Fields: `name`, `bio`, optional `photo`.
+- **`seasons`** — seasons → episodes → sketches. Each episode names its
+  `host` and `musicalGuest` **by id**. Each sketch lists the people in
+  it **by id**: `cast: [...]`, `hosts: [...]`, `music: [...]`.
 
-The id is the join key: the cast pages cross-reference every sketch to
-work out each member's average score and appearance count.
+The id is the join key: the cast / hosts / music pages cross-reference
+every sketch to derive each person's per-rater average and appearance
+count. Host photos live in `assets/images/hosts/`.
 
 ## How to add things
 
 **Add an episode / sketch / season / cast member:** edit
 `data/snl-data.js` only. Pages update automatically.
 
-- Sketch scores are `0`–`10`. Use `null` for "not rated yet" (shows `—`).
+- Each sketch has **two scores**, one per rater listed in
+  `SNL_DATA.raters` (currently `F` and `O`):
+  `scores: { F: 8, O: 7 }`. Use `null` for a rating not given yet
+  (shows `—`). Episode and cast averages are computed per rater.
 - Tag a sketch's cast with member ids, e.g. `cast: ["c1", "c3"]`.
 - New cast member: add an entry to `cast` with a fresh id and a
   `status`. It appears on the matching cast page automatically.
