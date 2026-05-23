@@ -48,6 +48,63 @@
   /* a ?member=<id> deep-link — applied once on first render */
   var pendingMember = param('member');
 
+  /* ---- Sorting ----------------------------------------------
+     Default order is by sketch count; the buttons switch the
+     key. Every sort tie-breaks alphabetically by name. */
+  var SORTS = [
+    { key: 'sketches', label: 'Sketches' },
+    { key: 'favg',     label: 'F average' },
+    { key: 'oavg',     label: 'O average' },
+    { key: 'tenure',   label: 'Tenure' }
+  ];
+  var currentSort = 'sketches';
+
+  function numOr(v) { return (typeof v === 'number') ? v : -Infinity; }
+
+  /* the value the current sort ranks a member by (higher = first) */
+  function sortMetric(id, registry) {
+    var stats = window.SNL.castStats(id);
+    var m = registry[id] || {};
+    if (currentSort === 'favg')   return numOr(stats.avg.F);
+    if (currentSort === 'oavg')   return numOr(stats.avg.O);
+    if (currentSort === 'tenure') return (m.seasons || []).length;
+    return stats.appearances;                       /* 'sketches' */
+  }
+
+  function sortIds(ids, registry) {
+    return ids.slice().sort(function (a, b) {
+      var diff = sortMetric(b, registry) - sortMetric(a, registry);
+      if (diff) return diff;                        /* metric, descending */
+      var na = (registry[a].name || a).toLowerCase();
+      var nb = (registry[b].name || b).toLowerCase();
+      return na < nb ? -1 : (na > nb ? 1 : 0);      /* name, A→Z */
+    });
+  }
+
+  /* the sort bar is built once; clicks re-sort + re-render */
+  function buildSortBar() {
+    var list = document.getElementById('cast-list');
+    var bar = document.createElement('div');
+    bar.className = 'sort-bar';
+    bar.id = 'cast-sort';
+    bar.innerHTML = '<span class="sort-label">Sort by</span>' +
+      SORTS.map(function (s) {
+        return '<button type="button" class="sort-btn' +
+               (s.key === currentSort ? ' active' : '') +
+               '" data-sort="' + s.key + '">' + s.label + '</button>';
+      }).join('');
+    list.parentNode.insertBefore(bar, list);
+    bar.addEventListener('click', function (e) {
+      var btn = e.target.closest('.sort-btn');
+      if (!btn) return;
+      currentSort = btn.dataset.sort;
+      bar.querySelectorAll('.sort-btn').forEach(function (b) {
+        b.classList.toggle('active', b.dataset.sort === currentSort);
+      });
+      render();
+    });
+  }
+
   /* ---- HTML builders ---- */
   function sketchRowHtml(s, word) {
     return '' +
@@ -128,15 +185,18 @@
       'cast member' + (n === 1 ? '' : 's');
 
     var list = document.getElementById('cast-list');
+    var sortBar = document.getElementById('cast-sort');
 
     if (!n) {
+      if (sortBar) sortBar.style.display = 'none';
       list.innerHTML = '<p class="empty">No ' +
         (VIEW === 'alumni' ? 'former cast members' : 'current cast') +
         ' recorded for this edition yet.</p>';
       return;
     }
+    if (sortBar) sortBar.style.display = '';
 
-    list.innerHTML = ids.map(function (id) {
+    list.innerHTML = sortIds(ids, registry).map(function (id) {
       return cardHtml(id, registry[id], word);
     }).join('');
 
@@ -176,5 +236,6 @@
   /* re-render when the US / UK toggle is flipped */
   document.addEventListener('snl:modechange', render);
 
+  buildSortBar();
   render();
 })();
