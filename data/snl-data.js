@@ -265,7 +265,7 @@ window.SNL_DATA = {
         alnash: {
           name: "Al Nash",
           status: "current",
-          role: "Cast Member",
+          
           seasons: [1],
           bio: ""
         },
@@ -274,7 +274,7 @@ window.SNL_DATA = {
           status: "Current",
           role: "Weekend Update Anchor",
           seasons: [1],
-          bio: "Placeholder biography for a former UK cast member."
+          bio: ""
         }
       },
 
