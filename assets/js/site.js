@@ -63,7 +63,9 @@
     'index.html': true,
     'seasons.html': true,
     'cast.html': true,
-    'cast-alumni.html': true
+    'cast-alumni.html': true,
+    'hosts.html': true,
+    'musical-guests.html': true
   };
 
   var MODE_KEY = 'snl-mode';
@@ -99,6 +101,82 @@
     return String(s).replace(/[&<>"]/g, function (c) {
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
     });
+  }
+
+  /* ---- Scoring: two raters, see SNL_DATA.raters ---- */
+  function raters() {
+    return (window.SNL_DATA && window.SNL_DATA.raters) || ['F', 'O'];
+  }
+
+  /* number -> one decimal; null/undefined -> dash */
+  function fmtScore(n) {
+    return (typeof n === 'number') ? String(Math.round(n * 10) / 10) : '\u2014';
+  }
+
+  /* Per-rater average over a list of `scores` objects. Returns
+     e.g. { F: 7.4, O: null }; a rater with no rated entries is null. */
+  function averages(scoresList) {
+    var out = {};
+    raters().forEach(function (r) {
+      var vals = [];
+      (scoresList || []).forEach(function (sc) {
+        if (sc && typeof sc[r] === 'number') vals.push(sc[r]);
+      });
+      out[r] = vals.length
+        ? vals.reduce(function (a, b) { return a + b; }, 0) / vals.length
+        : null;
+    });
+    return out;
+  }
+
+  /* HTML for a pair of scores, e.g. [F 8][O 7]. Accepts either a
+     raw sketch `scores` object or a computed average object. Pass
+     'score-pair-lg' as sizeClass for the larger episode-header size. */
+  function scorePairHtml(scores, sizeClass) {
+    scores = scores || {};
+    return '<span class="score-pair' + (sizeClass ? ' ' + sizeClass : '') + '">' +
+      raters().map(function (r) {
+        return '<span class="rscore">' +
+                 '<span class="rscore-tag">' + escapeHtml(r) + '</span>' +
+                 '<span class="rscore-val">' + fmtScore(scores[r]) + '</span>' +
+               '</span>';
+      }).join('') + '</span>';
+  }
+
+  /* Cross-references the current edition for one person id.
+       sketchField  - 'cast' | 'hosts' | 'music' (sketch tagging)
+       episodeField - 'host' | 'musicalGuest' | null (episode role)
+     Returns { appearances, avg:{F,O}, sketches:[…], episodes:[…] }
+     where `episodes` lists episodes filled by the episode-level role
+     and `sketches` lists every sketch the id is tagged in. */
+  function personStats(sketchField, episodeField, id) {
+    var r = region();
+    var out = { appearances: 0, avg: averages([]), sketches: [], episodes: [] };
+    if (!r) return out;
+
+    var scoresList = [];
+    r.seasons.forEach(function (s) {
+      s.episodes.forEach(function (ep) {
+        if (episodeField && ep[episodeField] === id) {
+          out.episodes.push({
+            seasonId: s.id, episodeNumber: ep.number, episodeTitle: ep.title
+          });
+        }
+        (ep.sketches || []).forEach(function (sk) {
+          if ((sk[sketchField] || []).indexOf(id) === -1) return;
+          out.appearances++;
+          var sc = sk.scores || {};
+          out.sketches.push({
+            seasonId: s.id, episodeNumber: ep.number,
+            episodeTitle: ep.title, title: sk.title, scores: sc
+          });
+          scoresList.push(sc);
+        });
+      });
+    });
+
+    out.avg = averages(scoresList);
+    return out;
   }
 
   /* Build the dynamic "Seasons" dropdown from the data file. */
@@ -253,47 +331,21 @@
       });
     },
 
-    /* The cast registry for the current edition (id -> member). */
-    cast: function () {
-      var r = region();
-      return r ? (r.cast || {}) : {};
-    },
+    /* Registries for the current edition (id -> entry). */
+    cast:  function () { var r = region(); return r ? (r.cast  || {}) : {}; },
+    hosts: function () { var r = region(); return r ? (r.hosts || {}) : {}; },
+    music: function () { var r = region(); return r ? (r.music || {}) : {}; },
 
-    /* Cross-references every sketch in the current edition and
-       returns derived stats for one cast member id:
-         appearances - number of sketches they're tagged in
-         avg         - average score over RATED sketches (or null)
-         sketches    - [{ seasonId, episodeNumber, episodeTitle,
-                           title, score }]                          */
-    castStats: function (id) {
-      var r = region();
-      var out = { appearances: 0, avg: null, sketches: [] };
-      if (!r) return out;
+    /* Scoring helpers (shared by every page). */
+    raters: raters,
+    averages: averages,
+    scorePairHtml: scorePairHtml,
 
-      var scored = [];
-      r.seasons.forEach(function (s) {
-        s.episodes.forEach(function (ep) {
-          (ep.sketches || []).forEach(function (sk) {
-            if ((sk.cast || []).indexOf(id) === -1) return;
-            out.appearances++;
-            var score = (typeof sk.score === 'number') ? sk.score : null;
-            out.sketches.push({
-              seasonId: s.id,
-              episodeNumber: ep.number,
-              episodeTitle: ep.title,
-              title: sk.title,
-              score: score
-            });
-            if (score !== null) scored.push(score);
-          });
-        });
-      });
-
-      if (scored.length) {
-        out.avg = scored.reduce(function (a, b) { return a + b; }, 0) / scored.length;
-      }
-      return out;
-    }
+    /* Derived stats for a cast member / host / musical guest. Each
+       returns { appearances, avg:{F,O}, sketches:[…], episodes:[…] }. */
+    castStats:  function (id) { return personStats('cast',  null,           id); },
+    hostStats:  function (id) { return personStats('hosts', 'host',         id); },
+    musicStats: function (id) { return personStats('music', 'musicalGuest', id); }
   };
 
   /* ---- Init (deferred script => DOM + data are ready) ---- */

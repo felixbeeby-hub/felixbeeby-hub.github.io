@@ -32,12 +32,11 @@
     return String(Math.round(n * 10) / 10);
   }
 
-  /* Average of the sketches that actually have a score */
+  /* Per-rater average across an episode's sketches -> { F, O } */
   function episodeAvg(sketches) {
-    var scored = sketches.filter(function (s) { return typeof s.score === 'number'; });
-    if (!scored.length) return null;
-    var sum = scored.reduce(function (a, s) { return a + s.score; }, 0);
-    return sum / scored.length;
+    return window.SNL.averages((sketches || []).map(function (s) {
+      return s.scores;
+    }));
   }
 
   /* ---- pick which season to show ---- */
@@ -53,26 +52,45 @@
   }
 
   /* ---- HTML builders ---- */
+  /* one bubble linking to a person's page */
+  function chip(id, name, page, cls) {
+    return '<a class="' + cls + '" href="' + page + '?member=' +
+           encodeURIComponent(id) + '">' + esc(name) + '</a>';
+  }
+
   function sketchHtml(sk) {
-    var registry = window.SNL.cast() || {};
-    var cast = (sk.cast || []).map(function (id) {
-      var m = registry[id];
-      var name = m ? m.name : id;                 /* fall back to raw id */
+    var castReg  = window.SNL.cast()  || {};
+    var hostReg  = window.SNL.hosts() || {};
+    var musicReg = window.SNL.music() || {};
+
+    var castChips = (sk.cast || []).map(function (id) {
+      var m = castReg[id];
       var page = (m && m.status === 'alumni') ? 'cast-alumni.html' : 'cast.html';
-      return '<a class="cast-chip" href="' + page + '?member=' +
-             encodeURIComponent(id) + '">' + esc(name) + '</a>';
+      return chip(id, m ? m.name : id, page, 'cast-chip');
     }).join('');
+
+    var hostChips = (sk.hosts || []).map(function (id) {
+      var m = hostReg[id];
+      return chip(id, m ? m.name : id, 'hosts.html', 'cast-chip host-chip');
+    }).join('');
+
+    var musicChips = (sk.music || []).map(function (id) {
+      var m = musicReg[id];
+      return chip(id, m ? m.name : id, 'musical-guests.html', 'cast-chip music-chip');
+    }).join('');
+
+    var allChips = castChips + hostChips + musicChips;
 
     return '' +
       '<li class="sketch">' +
         '<div class="sketch-head" role="button" tabindex="0" aria-expanded="false">' +
           '<span class="sketch-title">' + esc(sk.title) + '</span>' +
-          '<span class="sketch-score">' + fmtScore(sk.score) + '</span>' +
+          window.SNL.scorePairHtml(sk.scores) +
           '<span class="chevron">\u25BE</span>' +
         '</div>' +
         '<div class="sketch-body"><div class="sketch-body-inner">' +
           '<p class="sketch-blurb">' + esc(sk.blurb || '') + '</p>' +
-          '<div class="cast-row">' + (cast || '<span class="cast-chip">No cast listed</span>') + '</div>' +
+          '<div class="cast-row">' + (allChips || '<span class="cast-chip">No cast listed</span>') + '</div>' +
         '</div></div>' +
       '</li>';
   }
@@ -81,18 +99,22 @@
     var avg = episodeAvg(ep.sketches || []);
     var sketches = (ep.sketches || []).map(sketchHtml).join('');
 
+    var hostReg  = window.SNL.hosts() || {};
+    var musicReg = window.SNL.music() || {};
+    var hostName  = (hostReg[ep.host] || {}).name || ep.host || 'TBD';
+    var musicName = (musicReg[ep.musicalGuest] || {}).name || ep.musicalGuest || 'TBD';
+
     return '' +
       '<article class="episode">' +
         '<div class="episode-head" role="button" tabindex="0" aria-expanded="false">' +
           '<span class="episode-num">EP ' + pad2(ep.number) + '</span>' +
           '<div class="episode-info">' +
-            '<h3 class="episode-title">' + esc(ep.title) + '</h3>' +
-            '<p class="episode-meta">Host: ' + esc(ep.host) +
-              ' &nbsp;·&nbsp; Music: ' + esc(ep.musicalGuest) +
-              ' &nbsp;·&nbsp; Aired: ' + esc(ep.airDate) + '</p>' +
+            '<h3 class="episode-host">Host: ' + esc(hostName) + '</h3>' +
+            '<p class="episode-line">Musical Guest: ' + esc(musicName) + '</p>' +
+            '<p class="episode-line">Airing Date: ' + esc(ep.airDate) + '</p>' +
           '</div>' +
           '<div class="episode-score">' +
-            '<span class="score-num">' + fmtScore(avg) + '</span>' +
+            window.SNL.scorePairHtml(avg, 'score-pair-lg') +
             '<span class="score-cap">avg</span>' +
           '</div>' +
           '<span class="chevron">\u25BE</span>' +
