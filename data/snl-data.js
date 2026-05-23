@@ -71,7 +71,7 @@ window.SNL_DATA = {
            photo: "colin_jost.jpg",
            photobig: ["colin_jost.jpg", "colin_intro.jpg"],
           status: "current",
-          role: "Repertory",
+          role: "Weekend Update Anchor",
           seasons: [51],
           bio: "An anchor of 'Weekend Update' who commonly portrays Pete Hegseth in the cold opens. <br>LEFT: Jost during Weekend Update. RIGHT: Jost during the SNL intro."
         },
@@ -139,8 +139,38 @@ window.SNL_DATA = {
           role: "Repertory",
           seasons: [45, 46, 47, 48, 49, 50, 51],
           bio: ""
-        }
+        },
+        michael: {
+          name: "Michael Che",
+          status: "current",
+          role: "Weekend Update Anchor",
+          seasons: [40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51],
+          bio: ""
+        },
+        kam: {
+          name: "Kam Patterson",
+          status: "current",
+          role: "Featured",
+          seasons: [51],
+          bio: ""
+        },
+        andrew: {
+          name: "Andrew Dismukes",
+          status: "current",
+          role: "Repertory",
+          seasons: [46, 47, 48, 49, 50, 51],
+          bio: ""
+        },
+        Ben: {
+          name: "Ben Marhsall",
+          status: "current",
+          role: "Featured",
+          seasons: [51],
+          bio: ""
+        } 
       },
+       
+       
 
       seasons: [
         {
@@ -157,8 +187,14 @@ window.SNL_DATA = {
                { title: "Monologue",      scores: { F: 5, O: 4 },    blurb: "Bad Bunny struggles through a somewhat dry opening monologue, though his charisma and a touch of español do some work in redeeming it slightly.",   cast: [], hosts: ["bad_bunny"], music: [] },
                { title: "Jeopardy",      scores: { F: 8, O: 3 },    blurb: "", cast: ["andrew", "kenan", "veronika"], hosts: ["bad_bunny"], music: [] },
                { title: "ChatGPTio", scores: { F: , O: 5},    blurb: "", cast: ["chloe", "marcello"], hosts: ["bad_bunny"], music: [] },
-               { title: "The Donor", scores: { F: , O: 2},    blurb: "", cast: ["chloe", "sarah", "kenan", "marcello"], hosts: ["bad_bunny"], music: [] },
-               { title: "K-Pop Demon Hunters", scores: { F: , O: 6},    blurb: "The premise is really stale, but I was won over by Bowen Jinu and the HUNTR/X cameo.", cast: ["chloe", "sarah", "mikey", "bowen"], hosts: ["bad_bunny"], music: [] }  
+               { title: "The Donor", scores: { F: , O: 2},    blurb: "", cast: ["chloe", "sarah","andrew", "kenan", "marcello", "bowen"], hosts: ["bad_bunny"], music: [] },
+               { title: "K-Pop Demon Hunters", scores: { F: , O: 6},    blurb: "The premise is really stale, but I was won over by Bowen Jinu and the HUNTR/X cameo.", cast: ["chloe", "sarah", "mikey", "bowen"], hosts: ["bad_bunny"], music: [] },
+               { title: "AAAHH MEN!", scores: { F: , O: 10},    blurb: "", cast: [], hosts: [], music: ["doja_cat"] },
+               { title: "Weekend Update 04/10/25", scores: { F: , O: },    blurb: "", cast: ["colin", "michael"], hosts: [], music: [] },
+               { title: "Weekend Update: Kam Patterson", scores: { F: , O: 3},    blurb: "", cast: ["kam", "colin", "michael"], hosts: [], music: [] },
+               { title: "Weekend Update: Dobby the House-Elf", scores: { F: , O: 8},    blurb: "", cast: ["bowen", "colin", "michael"], hosts: [], music: [] },
+               { title: "Inventing Spanish", scores: { F: , O: 5},    blurb: "Featuring Javier Bardem", cast: ["marcello", "kenan", "mikey", "andrew", "jaj", "ben"], hosts: ["bad_bunny"], music: [] },  
+                                                                      
               ]
             },
             {
