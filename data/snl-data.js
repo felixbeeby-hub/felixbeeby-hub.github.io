@@ -258,21 +258,21 @@ window.SNL_DATA = {
         george: {
           name: "George Foreacres",
           status: "current",
-          role: "Repertory",
+          
           seasons: [1],
           bio: "(Kier Starmar, 45 seconds with Foreacres)"
         },
         alnash: {
           name: "Al Nash",
           status: "current",
-          role: "Featured Player",
+          
           seasons: [1],
           bio: ""
         },
         ania: {
           name: "Ania Maglioni",
           status: "Current",
-          role: "Repertory",
+          role: "Weekend Update Anchor",
           seasons: [1],
           bio: "Placeholder biography for a former UK cast member."
         }
