@@ -256,16 +256,23 @@ window.SNL_DATA = {
 
       cast: {
         george: {
-          name: "George Foreacres",
+          name: "George Fouracres",
           status: "current",
           
           seasons: [1],
-          bio: "(Kier Starmar, 45 seconds with Foreacres)"
+          bio: "(Kier Starmar, 45 seconds with Fouracres)"
         },
         alnash: {
           name: "Al Nash",
           status: "current",
           
+          seasons: [1],
+          bio: ""
+            },
+        paddy: {
+          name: "Paddy Young",
+          status: "current",
+          role: "Weekend Update Anchor",
           seasons: [1],
           bio: ""
         },
