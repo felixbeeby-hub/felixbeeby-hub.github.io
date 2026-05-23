@@ -98,13 +98,6 @@ window.SNL_DATA = {
           seasons: [47, 48],
           bio: ""
         },
-         andrew: {
-          name: "Andrew Dismukes",
-          status: "current",
-          role: "Repertory",
-          seasons: [47, 48],
-          bio: ""
-        },
         chloe: {
           name: "Chloe Fineman",
           status: "current",
@@ -162,7 +155,7 @@ window.SNL_DATA = {
           bio: ""
         },
         ben: {
-          name: "Ben Marhsall",
+          name: "Ben Marshall",
           status: "current",
           role: "Featured",
           seasons: [51],
@@ -193,17 +186,17 @@ window.SNL_DATA = {
                { title: "Cold Open",      scores: { F: 5, O: 7 },    blurb: "A seemingly normal Cold Open with Pete Hegseth (Colin Jost) is interrupted by James Austin Johnson's Trump. His commentary during a freeze frame breaks the fourth wall and is the first of many (apparantly necessary) appearances of Donald Trump in S51's Cold Opens. ", cast: ["colin", "jaj"], hosts: [], music: [] },
                { title: "Monologue",      scores: { F: 5, O: 4 },    blurb: "Bad Bunny struggles through a somewhat dry opening monologue, though his charisma and a touch of español do some work in redeeming it slightly.",   cast: [], hosts: ["bad_bunny"], music: [] },
                { title: "Jeopardy",      scores: { F: 8, O: 3 },    blurb: "", cast: ["andrew", "kenan", "veronika"], hosts: ["bad_bunny"], music: [] },
-               { title: "ChatGPTio", scores: { F: , O: 5},    blurb: "", cast: ["chloe", "marcello"], hosts: ["bad_bunny"], music: [] },
-               { title: "The Donor", scores: { F: , O: 2},    blurb: "", cast: ["chloe", "sarah","andrew", "kenan", "marcello", "bowen"], hosts: ["bad_bunny"], music: [] },
-               { title: "K-Pop Demon Hunters", scores: { F: , O: 6},    blurb: "The premise is really stale, but I was won over by Bowen Jinu and the HUNTR/X cameo.", cast: ["chloe", "sarah", "mikey", "bowen"], hosts: ["bad_bunny"], music: [] },
-               { title: "AAAHH MEN!", scores: { F: , O: 10},    blurb: "", cast: [], hosts: [], music: ["doja_cat"] },
-               { title: "Weekend Update 04/10/25", scores: { F: , O: },    blurb: "", cast: ["colin", "michael"], hosts: [], music: [] },
-               { title: "Weekend Update: Kam Patterson", scores: { F: , O: 3},    blurb: "", cast: ["kam", "colin", "michael"], hosts: [], music: [] },
-               { title: "Weekend Update: Dobby the House-Elf", scores: { F: , O: 8},    blurb: "", cast: ["bowen", "colin", "michael"], hosts: [], music: [] },
-               { title: "Inventing Spanish", scores: { F: , O: 5},    blurb: "Featuring Javier Bardem", cast: ["marcello", "kenan", "mikey", "andrew", "jaj", "ben"], hosts: ["bad_bunny"], music: [] },
-               { title: "Gorgeous", scores: { F: , O: 8},    blurb: "She should've done Jelous Type! But this is still excellent.", cast: [], hosts: [], music: ["doja_cat"] },
-               { title: "Parent-Teacher Conference", scores: { F: , O: 6},    blurb: "Finally a sketch that play's to Bad Bunny's... strengths.", cast: ["marcello", "andrew", "ashley"], hosts: ["bad_bunny"], music: [] },
-               { title: "The Kid from Number 8", scores: { F: , O: 4},    blurb: "Featuring Jon Hamm. This is probably really funny if you have even a passing knowledge of the reference material.", cast: ["marcello", "andrew", "chloe", "sarah", "kenan"], hosts: ["bad_bunny"], music: [] }
+               { title: "ChatGPTio", scores: { F: null, O: 5},    blurb: "", cast: ["chloe", "marcello"], hosts: ["bad_bunny"], music: [] },
+               { title: "The Donor", scores: { F: null, O: 2},    blurb: "", cast: ["chloe", "sarah","andrew", "kenan", "marcello", "bowen"], hosts: ["bad_bunny"], music: [] },
+               { title: "K-Pop Demon Hunters", scores: { F: null, O: 6},    blurb: "The premise is really stale, but I was won over by Bowen Jinu and the HUNTR/X cameo.", cast: ["chloe", "sarah", "mikey", "bowen"], hosts: ["bad_bunny"], music: [] },
+               { title: "AAAHH MEN!", scores: { F: null, O: 10},    blurb: "", cast: [], hosts: [], music: ["doja_cat"] },
+               { title: "Weekend Update 04/10/25", scores: { F: null, O: },    blurb: "", cast: ["colin", "michael"], hosts: [], music: [] },
+               { title: "Weekend Update: Kam Patterson", scores: { F: null, O: 3},    blurb: "", cast: ["kam", "colin", "michael"], hosts: [], music: [] },
+               { title: "Weekend Update: Dobby the House-Elf", scores: { F: null, O: 8},    blurb: "", cast: ["bowen", "colin", "michael"], hosts: [], music: [] },
+               { title: "Inventing Spanish", scores: { F: null, O: 5},    blurb: "Featuring Javier Bardem", cast: ["marcello", "kenan", "mikey", "andrew", "jaj", "ben"], hosts: ["bad_bunny"], music: [] },
+               { title: "Gorgeous", scores: { F: null, O: 8},    blurb: "She should've done Jelous Type! But this is still excellent.", cast: [], hosts: [], music: ["doja_cat"] },
+               { title: "Parent-Teacher Conference", scores: { F: null, O: 6},    blurb: "Finally a sketch that play's to Bad Bunny's... strengths.", cast: ["marcello", "andrew", "ashley"], hosts: ["bad_bunny"], music: [] },
+               { title: "The Kid from Number 8", scores: { F: null, O: 4},    blurb: "Featuring Jon Hamm. This is probably really funny if you have even a passing knowledge of the reference material.", cast: ["marcello", "andrew", "chloe", "sarah", "kenan"], hosts: ["bad_bunny"], music: [] }
                                                                       
               ]
             },
