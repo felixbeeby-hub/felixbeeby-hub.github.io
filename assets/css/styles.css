@@ -473,13 +473,25 @@ a.card:hover {
   opacity: 0.6;
 }
 
+.episode-host {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+.episode-line {
+  font-size: 0.95rem;
+  opacity: 0.72;
+  margin-top: 0.1rem;
+}
+
 /* Score badge */
 .episode-score {
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-shrink: 0;
-  min-width: 56px;
+  min-width: 124px;
 }
 
 .score-num {
@@ -828,4 +840,66 @@ body.switching::after {
   .cast-head { flex-wrap: wrap; }
   .cast-id-info { flex-basis: 55%; }
   .cast-sketch-link { flex-wrap: wrap; }
+}
+
+/* ─── Two-rater scores (F / O) ──────────────────────────── */
+.score-pair {
+  display: inline-flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+
+.rscore {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.22rem;
+  font-family: 'Anton', sans-serif;
+  background: var(--accent);
+  color: var(--nav-fg);
+  padding: 0.22rem 0.5rem;
+  border-radius: 6px;
+  line-height: 1;
+  transition: background var(--transition);
+}
+
+.rscore-tag {
+  font-size: 0.6rem;
+  letter-spacing: 0.04em;
+  opacity: 0.65;
+}
+
+.rscore-val { font-size: 0.92rem; }
+
+/* larger variant for episode-header averages */
+.score-pair-lg .rscore { padding: 0.32rem 0.55rem; }
+.score-pair-lg .rscore-val { font-size: 1.15rem; }
+.score-pair-lg .rscore-tag { font-size: 0.66rem; }
+
+/* the avg column on cast cards holds a score-pair, not a number */
+.cast-stat-score { min-width: 104px; }
+
+/* ─── Host & musical-guest bubbles (seasons page) ───────── */
+/* They share .cast-chip's shape; these rules only recolour.  */
+.host-chip {
+  background: #fff5e0;
+  border-color: #e3b552;
+  color: #8a5a00;
+}
+
+a.host-chip:hover {
+  background: #e3a72e;
+  border-color: #e3a72e;
+  color: #fff;
+}
+
+.music-chip {
+  background: #e6f6ee;
+  border-color: #5fb98c;
+  color: #1d7a4d;
+}
+
+a.music-chip:hover {
+  background: #2a9d63;
+  border-color: #2a9d63;
+  color: #fff;
 }
