@@ -265,7 +265,7 @@ window.SNL_DATA = {
         alnash: {
           name: "Al Nash",
           status: "current",
-          
+          role: "Cast Member",
           seasons: [1],
           bio: ""
         },
