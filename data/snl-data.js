@@ -168,7 +168,6 @@ window.SNL_DATA = {
           seasons: [50, 51],
           bio: ""
         } ,
-         },
         jeremy: {
           name: "Jeremy Culhane",
           status: "current",
