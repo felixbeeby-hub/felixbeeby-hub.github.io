@@ -190,7 +190,7 @@ window.SNL_DATA = {
                { title: "The Donor", scores: { F: null, O: 2},    blurb: "", cast: ["chloe", "sarah","andrew", "kenan", "marcello", "bowen"], hosts: ["bad_bunny"], music: [] },
                { title: "K-Pop Demon Hunters", scores: { F: null, O: 6},    blurb: "The premise is really stale, but I was won over by Bowen Jinu and the HUNTR/X cameo.", cast: ["chloe", "sarah", "mikey", "bowen"], hosts: ["bad_bunny"], music: [] },
                { title: "AAAHH MEN!", scores: { F: null, O: 10},    blurb: "", cast: [], hosts: [], music: ["doja_cat"] },
-               { title: "Weekend Update 04/10/25", scores: { F: null, O: },    blurb: "", cast: ["colin", "michael"], hosts: [], music: [] },
+               { title: "Weekend Update 04/10/25", scores: { F: null, O: 4},    blurb: "", cast: ["colin", "michael"], hosts: [], music: [] },
                { title: "Weekend Update: Kam Patterson", scores: { F: null, O: 3},    blurb: "", cast: ["kam", "colin", "michael"], hosts: [], music: [] },
                { title: "Weekend Update: Dobby the House-Elf", scores: { F: null, O: 8},    blurb: "", cast: ["bowen", "colin", "michael"], hosts: [], music: [] },
                { title: "Inventing Spanish", scores: { F: null, O: 5},    blurb: "Featuring Javier Bardem", cast: ["marcello", "kenan", "mikey", "andrew", "jaj", "ben"], hosts: ["bad_bunny"], music: [] },
