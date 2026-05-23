@@ -95,7 +95,7 @@ window.SNL_DATA = {
           name: "Veronika Slowikowska",
           status: "current",
           role: "Featured",
-          seasons: [47, 48],
+          seasons: [51],
           bio: ""
         },
         chloe: {
