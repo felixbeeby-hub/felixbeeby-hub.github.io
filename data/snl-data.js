@@ -167,7 +167,15 @@ window.SNL_DATA = {
           role: "Featured",
           seasons: [50, 51],
           bio: ""
-        } 
+        } ,
+         },
+        jeremy: {
+          name: "Jeremy Culhane",
+          status: "current",
+          role: "Featured",
+          seasons: [51],
+          bio:""
+        }
       },
        
        
