@@ -903,3 +903,43 @@ a.music-chip:hover {
   border-color: #2a9d63;
   color: #fff;
 }
+
+/* ─── Sort bar (cast pages) ─────────────────────────────── */
+.sort-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.6rem;
+}
+
+.sort-label {
+  font-family: 'Anton', sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.55;
+  margin-right: 0.2rem;
+}
+
+.sort-btn {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  border: 1.5px solid var(--border);
+  background: var(--card-bg);
+  color: var(--accent);
+  cursor: pointer;
+  transition: background var(--transition), color var(--transition), border-color var(--transition);
+}
+
+.sort-btn:hover { border-color: var(--accent); }
+
+.sort-btn.active {
+  background: var(--accent);
+  color: var(--nav-fg);
+  border-color: var(--accent);
+}
