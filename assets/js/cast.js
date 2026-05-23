@@ -57,7 +57,7 @@
           '<span class="cast-sketch-where">' +
             esc(word + ' ' + s.seasonId) + ' · Ep ' + s.episodeNumber + '</span>' +
           '<span class="cast-sketch-title">' + esc(s.title) + '</span>' +
-          '<span class="sketch-score">' + fmtScore(s.score) + '</span>' +
+          window.SNL.scorePairHtml(s.scores) +
         '</a>' +
       '</li>';
   }
@@ -84,8 +84,8 @@
           '<h3 class="cast-name">' + esc(m.name) + '</h3>' +
           '<p class="cast-meta">' + meta + '</p>' +
         '</div>' +
-        '<div class="cast-stat">' +
-          '<span class="cast-stat-num">' + fmtScore(stats.avg) + '</span>' +
+        '<div class="cast-stat cast-stat-score">' +
+          window.SNL.scorePairHtml(stats.avg) +
           '<span class="cast-stat-cap">avg</span>' +
         '</div>' +
         '<div class="cast-stat">' +
