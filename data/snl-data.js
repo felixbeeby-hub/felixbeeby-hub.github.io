@@ -25,7 +25,16 @@
      (F and O), e.g. scores: { F: 8, O: 7 }. Use `null` for
      a rating not given yet (shown as —).
 
-   NOTE: All values are PLACEHOLDERS — replace as you watch.
+   Useful copy paste templates:
+   { title: "", scores: { F: , O: },    blurb: "", cast: [], hosts: [], music: [] },
+   host_id: { name: "", bio: "" },
+   c5: {
+          name: "",
+          status: "",
+          role: "",
+          seasons: [],
+          bio: ""
+        }
    ============================================================ */
 
 window.SNL_DATA = {
@@ -57,7 +66,7 @@ window.SNL_DATA = {
       },
 
       cast: {
-        colin_jost: {
+        colin: {
           name: "Colin Jost",
            photo: "colin_jost.jpg",
            photobig: ["colin_jost.jpg", "colin_intro.jpg"],
@@ -66,7 +75,7 @@ window.SNL_DATA = {
           seasons: [51],
           bio: "An anchor of 'Weekend Update' who commonly portrays Pete Hegseth in the cold opens. <br>LEFT: Jost during Weekend Update. RIGHT: Jost during the SNL intro."
         },
-        james_a_johnson: {
+        jaj: {
           name: "James Austin Johnson",
            photo: "jaj.jpg",
            photobig: ["jaj_trump.jpg", "jaj_intro.jpg"],
@@ -96,12 +105,26 @@ window.SNL_DATA = {
           seasons: [47, 48],
           bio: ""
         },
-        c5: {
-          name: "Placeholder Cast Five",
-          status: "alumni",
-          role: "Weekend Update Anchor",
-          seasons: [46, 47, 48, 49],
-          bio: "Placeholder biography for a former Weekend Update anchor."
+        chloe: {
+          name: "Chloe Fineman",
+          status: "current",
+          role: "Repertory",
+          seasons: [45, 46, 47, 48, 49, 50, 51],
+          bio: ""
+        },
+        marcello: {
+          name: "Marcello Hernández",
+          status: "current",
+          role: "Repertory",
+          seasons: [48, 49, 50, 51],
+          bio: ""
+        },
+        sarah: {
+          name: "Sarah Sherman",
+          status: "current",
+          role: "Repertory",
+          seasons: [47, 48, 49, 50, 51],
+          bio: ""
         }
       },
 
@@ -116,10 +139,12 @@ window.SNL_DATA = {
               musicalGuest: "doja_cat",
               airDate: "4 October 2025",
               sketches: [
-                { title: "Cold Open",      scores: { F: 5, O: null },    blurb: "A seemingly normal Cold Open with Pete Hegseth (Colin Jost) is interrupted by James Austin Johnson's Trump. His commentary during a freeze frame breaks the fourth wall and is the first of many (apparantly necessary) appearances of Donald Trump in S51's Cold Opens. ", cast: ["colin_jost", "james_a_johnson"], hosts: [], music: [] },
-                { title: "Monologue",      scores: { F: 5, O: null },    blurb: "",   cast: [], hosts: [], music: [] },
-                 { title: "Jeopardy",      scores: { F: 8, O: null },    blurb: "", cast: ["andrew", "kenan", "veronika"], hosts: [], music: [] },
-                { title: "Weekend Update", scores: { F: null, O: null },    blurb: "Placeholder blurb for Weekend Update. Note the anchors and any standout desk pieces.",                  cast: ["c2", "c3"], hosts: [], music: [] }
+               { title: "Cold Open",      scores: { F: 5, O: 7 },    blurb: "A seemingly normal Cold Open with Pete Hegseth (Colin Jost) is interrupted by James Austin Johnson's Trump. His commentary during a freeze frame breaks the fourth wall and is the first of many (apparantly necessary) appearances of Donald Trump in S51's Cold Opens. ", cast: ["colin", "jaj"], hosts: [], music: [] },
+               { title: "Monologue",      scores: { F: 5, O: 4 },    blurb: "Bad Bunny struggles through a somewhat dry opening monologue, though his charisma and a touch of español do some work in redeeming it slightly.",   cast: [], hosts: ["bad_bunny"], music: [] },
+               { title: "Jeopardy",      scores: { F: 8, O: 3 },    blurb: "", cast: ["andrew", "kenan", "veronika"], hosts: ["bad_bunny"], music: [] },
+               { title: "ChatGPTio", scores: { F: , O: 5},    blurb: "", cast: ["chloe", "marcello"], hosts: ["bad_bunny"], music: [] },
+               { title: "The Donor", scores: { F: , O: 2},    blurb: "", cast: ["chloe", ], hosts: [], music: [] },
+               { title: "", scores: { F: , O: },    blurb: "", cast: [], hosts: [], music: [] }  
               ]
             },
             {
