@@ -278,7 +278,7 @@ window.SNL_DATA = {
         },
         ania: {
           name: "Ania Maglioni",
-          status: "Current",
+          status: "current",
           role: "Weekend Update Anchor",
           seasons: [1],
           bio: ""
