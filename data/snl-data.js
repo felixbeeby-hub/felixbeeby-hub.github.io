@@ -125,6 +125,20 @@ window.SNL_DATA = {
           role: "Repertory",
           seasons: [47, 48, 49, 50, 51],
           bio: ""
+        },
+        mikey: {
+          name: "Mikey Day",
+          status: "current",
+          role: "Repertory",
+          seasons: [42, 43, 44, 45, 46, 47, 48, 49, 50, 51],
+          bio: ""
+        },
+        bowen: {
+          name: "Bowen Yang",
+          status: "alumni",
+          role: "Repertory",
+          seasons: [45, 46, 47, 48, 49, 50, 51],
+          bio: ""
         }
       },
 
@@ -143,8 +157,8 @@ window.SNL_DATA = {
                { title: "Monologue",      scores: { F: 5, O: 4 },    blurb: "Bad Bunny struggles through a somewhat dry opening monologue, though his charisma and a touch of español do some work in redeeming it slightly.",   cast: [], hosts: ["bad_bunny"], music: [] },
                { title: "Jeopardy",      scores: { F: 8, O: 3 },    blurb: "", cast: ["andrew", "kenan", "veronika"], hosts: ["bad_bunny"], music: [] },
                { title: "ChatGPTio", scores: { F: , O: 5},    blurb: "", cast: ["chloe", "marcello"], hosts: ["bad_bunny"], music: [] },
-               { title: "The Donor", scores: { F: , O: 2},    blurb: "", cast: ["chloe", ], hosts: [], music: [] },
-               { title: "", scores: { F: , O: },    blurb: "", cast: [], hosts: [], music: [] }  
+               { title: "The Donor", scores: { F: , O: 2},    blurb: "", cast: ["chloe", "sarah", "kenan", "marcello"], hosts: ["bad_bunny"], music: [] },
+               { title: "K-Pop Demon Hunters", scores: { F: , O: 6},    blurb: "The premise is really stale, but I was won over by Bowen Jinu and the HUNTR/X cameo.", cast: ["chloe", "sarah", "mikey", "bowen"], hosts: ["bad_bunny"], music: [] }  
               ]
             },
             {
