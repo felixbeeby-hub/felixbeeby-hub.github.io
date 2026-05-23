@@ -203,7 +203,7 @@ window.SNL_DATA = {
                { title: "Inventing Spanish", scores: { F: , O: 5},    blurb: "Featuring Javier Bardem", cast: ["marcello", "kenan", "mikey", "andrew", "jaj", "ben"], hosts: ["bad_bunny"], music: [] },
                { title: "Gorgeous", scores: { F: , O: 8},    blurb: "She should've done Jelous Type! But this is still excellent.", cast: [], hosts: [], music: ["doja_cat"] },
                { title: "Parent-Teacher Conference", scores: { F: , O: 6},    blurb: "Finally a sketch that play's to Bad Bunny's... strengths.", cast: ["marcello", "andrew", "ashley"], hosts: ["bad_bunny"], music: [] },
-               { title: "The Kid from Number 8", scores: { F: , O: 4},    blurb: "Featuring Jon Hamm. This is probably really funny if you have even a passing knowledge of the reference material.", cast: ["marcello", "andrew", "chloe", "sarah", "kenan"], hosts: ["bad_bunny"], music: [] },  
+               { title: "The Kid from Number 8", scores: { F: , O: 4},    blurb: "Featuring Jon Hamm. This is probably really funny if you have even a passing knowledge of the reference material.", cast: ["marcello", "andrew", "chloe", "sarah", "kenan"], hosts: ["bad_bunny"], music: [] }
                                                                       
               ]
             },
