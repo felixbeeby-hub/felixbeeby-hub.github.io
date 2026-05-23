@@ -195,7 +195,7 @@ window.SNL_DATA = {
                { title: "Weekend Update: Dobby the House-Elf", scores: { F: null, O: 8},    blurb: "", cast: ["bowen", "colin", "michael"], hosts: [], music: [] },
                { title: "Inventing Spanish", scores: { F: null, O: 5},    blurb: "Featuring Javier Bardem", cast: ["marcello", "kenan", "mikey", "andrew", "jaj", "ben"], hosts: ["bad_bunny"], music: [] },
                { title: "Gorgeous", scores: { F: null, O: 8},    blurb: "She should've done Jelous Type! But this is still excellent.", cast: [], hosts: [], music: ["doja_cat"] },
-               { title: "Parent-Teacher Conference", scores: { F: null, O: 6},    blurb: "Finally a sketch that play's to Bad Bunny's... strengths.", cast: ["marcello", "andrew", "ashley"], hosts: ["bad_bunny"], music: [] },
+               { title: "Parent-Teacher Conference", scores: { F: null, O: 6},    blurb: "Finally a sketch that plays to Bad Bunny's... strengths.", cast: ["marcello", "andrew", "ashley"], hosts: ["bad_bunny"], music: [] },
                { title: "The Kid from Number 8", scores: { F: null, O: 4},    blurb: "Featuring Jon Hamm. This is probably really funny if you have even a passing knowledge of the reference material.", cast: ["marcello", "andrew", "chloe", "sarah", "kenan"], hosts: ["bad_bunny"], music: [] }
                                                                       
               ]
