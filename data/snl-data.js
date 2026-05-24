@@ -206,18 +206,18 @@ window.SNL_DATA = {
               sketches: [
                { title: "Cold Open",      scores: { F: 5, O: 7 },    blurb: "A seemingly normal Cold Open with Pete Hegseth (Colin Jost) is interrupted by James Austin Johnson's Trump. His commentary during a freeze frame breaks the fourth wall and is the first of many (apparantly necessary) appearances of Donald Trump in S51's Cold Opens. ", cast: ["colin", "jaj"], hosts: [], music: [] },
                { title: "Monologue",      scores: { F: 5, O: 4 },    blurb: "Bad Bunny struggles through a somewhat dry opening monologue, though his charisma and a touch of español do some work in redeeming it slightly.",   cast: [], hosts: ["bad_bunny"], music: [] },
-               { title: "Jeopardy",      scores: { F: 8, O: 3 },    blurb: "", cast: ["andrew", "kenan", "veronika"], hosts: ["bad_bunny"], music: [] },
-               { title: "ChatGPTio", scores: { F: null, O: 5},    blurb: "", cast: ["chloe", "marcello"], hosts: ["bad_bunny"], music: [] },
-               { title: "The Donor", scores: { F: null, O: 2},    blurb: "", cast: ["chloe", "sarah","andrew", "kenan", "marcello", "bowen"], hosts: ["bad_bunny"], music: [] },
-               { title: "K-Pop Demon Hunters", scores: { F: null, O: 6},    blurb: "The premise is really stale, but I was won over by Bowen Jinu and the HUNTR/X cameo.", cast: ["chloe", "sarah", "mikey", "bowen"], hosts: ["bad_bunny"], music: [] },
+               { title: "Jeopardy",      scores: { F: 6, O: 3 },    blurb: "", cast: ["andrew", "kenan", "veronika"], hosts: ["bad_bunny"], music: [] },
+               { title: "ChatGPTio", scores: { F: 4, O: 5},    blurb: "", cast: ["chloe", "marcello"], hosts: ["bad_bunny"], music: [] },
+               { title: "The Donor", scores: { F: 5, O: 2},    blurb: "", cast: ["chloe", "sarah","andrew", "kenan", "marcello", "bowen"], hosts: ["bad_bunny"], music: [] },
+               { title: "K-Pop Demon Hunters", scores: { F: 6, O: 6},    blurb: "The premise is really stale, but I was won over by Bowen Jinu and the HUNTR/X cameo.", cast: ["chloe", "sarah", "mikey", "bowen"], hosts: ["bad_bunny"], music: [] },
                { title: "AAAHH MEN!", scores: { F: null, O: 10},    blurb: "", cast: [], hosts: [], music: ["doja_cat"] },
                { title: "Weekend Update 04/10/25", scores: { F: null, O: 4},    blurb: "", cast: ["colin", "michael"], hosts: [], music: [] },
-               { title: "Weekend Update: Kam Patterson", scores: { F: null, O: 3},    blurb: "", cast: ["kam", "colin", "michael"], hosts: [], music: [] },
-               { title: "Weekend Update: Dobby the House-Elf", scores: { F: null, O: 8},    blurb: "", cast: ["bowen", "colin", "michael"], hosts: [], music: [] },
-               { title: "Inventing Spanish", scores: { F: null, O: 5},    blurb: "Featuring Javier Bardem", cast: ["marcello", "kenan", "mikey", "andrew", "jaj", "ben"], hosts: ["bad_bunny"], music: [] },
+               { title: "Weekend Update: Kam Patterson", scores: { F: 7, O: 3},    blurb: "", cast: ["kam", "colin", "michael"], hosts: [], music: [] },
+               { title: "Weekend Update: Dobby the House-Elf", scores: { F: 8, O: 8},    blurb: "", cast: ["bowen", "colin", "michael"], hosts: [], music: [] },
+               { title: "Inventing Spanish", scores: { F: 4, O: 5},    blurb: "Featuring Javier Bardem", cast: ["marcello", "kenan", "mikey", "andrew", "jaj", "ben"], hosts: ["bad_bunny"], music: [] },
                { title: "Gorgeous", scores: { F: null, O: 8},    blurb: "She should've done Jelous Type! But this is still excellent.", cast: [], hosts: [], music: ["doja_cat"] },
-               { title: "Parent-Teacher Conference", scores: { F: null, O: 6},    blurb: "Finally a sketch that plays to Bad Bunny's... strengths.", cast: ["marcello", "andrew", "ashley"], hosts: ["bad_bunny"], music: [] },
-               { title: "The Kid from Number 8", scores: { F: null, O: 4},    blurb: "Featuring Jon Hamm. This is probably really funny if you have even a passing knowledge of the reference material.", cast: ["marcello", "andrew", "chloe", "sarah", "kenan"], hosts: ["bad_bunny"], music: [] }
+               { title: "Parent-Teacher Conference", scores: { F: 7, O: 6},    blurb: "Finally a sketch that plays to Bad Bunny's... strengths.", cast: ["marcello", "andrew", "ashley"], hosts: ["bad_bunny"], music: [] },
+               { title: "The Kid from Number 8", scores: { F: 6, O: 4},    blurb: "Featuring Jon Hamm. This is probably really funny if you have even a passing knowledge of the reference material.", cast: ["marcello", "andrew", "chloe", "sarah", "kenan"], hosts: ["bad_bunny"], music: [] }
                                                                       
               ]
             },
@@ -228,21 +228,21 @@ window.SNL_DATA = {
               musicalGuest: "role_model",
               airDate: "11 October 2025",
               sketches: [
-                { title: "Cold Open",         scores: { F: 6, O: 5 },    blurb: "",                                                      cast: ["jaj","andrew","mikey","jeremy","chloe","tommy"], hosts: ["amy_poehler"], music: [] },
-                { title: "Monologue",  scores: { F: null, O: 7 }, blurb: "",                 cast: [], hosts: ["amy_poehler"], music: [] },
-                { title: "The Rudemans", scores: { F: 8.5, O: 6 },  blurb: "",                                    cast: ["ashley","andrew","bowen","sarah","mikey"], hosts: ["amy_poehler"], music: [] },
-                { title: "Non-Non-Alcoholic Beer", scores: { F: null, O: 2},    blurb: "", cast: ["andrew","kam","ashley","ben"], hosts: [], music: [] },
-                { title: "Miss Lycus The Fast Psychic", scores: { F: null, O: 7},    blurb: "", cast: ["jaj","chloe","jeremy","ashley","ben","kam","veronika","jane","bowen","marcello"], hosts: ["amy_poehler"], music: [] },
-                { title: "The Hunting Wives", scores: { F: null, O: 7},    blurb: "Featuring Aubrey Plaza", cast: ["chloe","ashley","sarah","kam","jeremy"], hosts: ["amy_poehler"], music: [] }, 
-                { title: "Work Baby", scores: { F: null, O: 8},    blurb: "", cast: ["ashley", "tommy","sarah","ben","mikey","kenan","bowen"], hosts: ["amy_poehler"], music: [] }, 
+                { title: "Cold Open",         scores: { F:null, O: 5 },    blurb: "",                                                      cast: ["jaj","andrew","mikey","jeremy","chloe","tommy"], hosts: ["amy_poehler"], music: [] },
+                { title: "Monologue",  scores: { F: 6, O: 7 }, blurb: "",                 cast: [], hosts: ["amy_poehler"], music: [] },
+                { title: "The Rudemans", scores: { F: 7, O: 6 },  blurb: "",                                    cast: ["ashley","andrew","bowen","sarah","mikey"], hosts: ["amy_poehler"], music: [] },
+                { title: "Non-Non-Alcoholic Beer", scores: { F: 3, O: 2},    blurb: "", cast: ["andrew","kam","ashley","ben"], hosts: [], music: [] },
+                { title: "Miss Lycus The Fast Psychic", scores: { F: 8, O: 7},    blurb: "", cast: ["jaj","chloe","jeremy","ashley","ben","kam","veronika","jane","bowen","marcello"], hosts: ["amy_poehler"], music: [] },
+                { title: "The Hunting Wives", scores: { F: 6, O: 7},    blurb: "Featuring Aubrey Plaza", cast: ["chloe","ashley","sarah","kam","jeremy"], hosts: ["amy_poehler"], music: [] }, 
+                { title: "Work Baby", scores: { F: 7, O: 8},    blurb: "", cast: ["ashley", "tommy","sarah","ben","mikey","kenan","bowen"], hosts: ["amy_poehler"], music: [] }, 
                 { title: "Sally, When The Wine Runs Out", scores: { F: null, O: 6},    blurb: "Featuring Charli XCX", cast: [], hosts: [], music: ["role_model"] }, 
                 { title: "Weekend Update 11/10/2025", scores: { F: null, O: 5},    blurb: "", cast: ["colin", "michael"], hosts: [], music: [] }, 
-                { title: "Weekend Update: Rhonda LaCenzo", scores: { F: null, O: 9},    blurb: "", cast: ["sarah", "michael", "colin"], hosts: [], music: [] }, 
+                { title: "Weekend Update: Rhonda LaCenzo", scores: { F: 9, O: 9},    blurb: "", cast: ["sarah", "michael", "colin"], hosts: [], music: [] }, 
                 { title: "Weekend Udpate: Joke-Off", scores: { F: null, O: 7},    blurb: "Twelve pound newborn baby jokes. Featuring Seth Meyers and Tina Fey.", cast: ["colin", "michael"], hosts: ["amy_poehler"], music: [] },
-                { title: "Billson & Lieberman Attorneys at Law", scores: { F: null, O: 8},    blurb: "", cast: ["andrew", "jaj", "tommy","mikey","kam","ben","veronika","ashley","chloe","jane","marcello","jeremy","sarah","bowen","kenan"], hosts: ["amy_poehler"], music: [] },
+                { title: "Billson & Lieberman Attorneys at Law", scores: { F: 5, O: 8},    blurb: "", cast: ["andrew", "jaj", "tommy","mikey","kam","ben","veronika","ashley","chloe","jane","marcello","jeremy","sarah","bowen","kenan"], hosts: ["amy_poehler"], music: [] },
                 { title: "Some Protector", scores: { F: null, O: 4},    blurb: "", cast: [], hosts: [], music: ["role_model"] },
-                { title: "Teen Mom", scores: { F: null, O: 7},    blurb: "", cast: ["jaj","chloe","jeremy","jane","ben","kam"], hosts: [], music: [] },
-                { title: "TV Composer Masterclass", scores: { F: null, O: 7},    blurb: "", cast: ["bowen","jaj","ben","tommy","jane","ashley"], hosts: [], music: [] }
+                { title: "Emo Mom", scores: { F: 5, O: 7},    blurb: "", cast: ["jaj","chloe","jeremy","jane","ben","kam"], hosts: [], music: [] },
+                { title: "TV Composer Masterclass", scores: { F: 8, O: 7},    blurb: "", cast: ["bowen","jaj","ben","tommy","jane","ashley"], hosts: [], music: [] }
                  
               ]
             },
