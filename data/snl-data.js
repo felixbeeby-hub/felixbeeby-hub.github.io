@@ -174,7 +174,21 @@ window.SNL_DATA = {
           role: "Featured",
           seasons: [51],
           bio:""
-        }
+        },
+        tommy: {
+          name: "Tommy Brennan",
+          status: "current",
+          role: "featured",
+          seasons: [51],
+          bio: ""
+        },
+        jane: {
+          name: "Jane Wickline",
+          status: "current",
+          role: "Featured",
+          seasons: [51],
+          bio: ""
+        } 
       },
        
        
@@ -222,7 +236,7 @@ window.SNL_DATA = {
                 { title: "The Hunting Wives", scores: { F: null, O: 7},    blurb: "Featuring Aubrey Plaza", cast: ["chloe","ashley","sarah","kam","jeremy"], hosts: ["amy_poehler"], music: [] }, 
                 { title: "Work Baby", scores: { F: null, O: 8},    blurb: "", cast: ["ashley", "tommy","sarah","ben","mikey","kenan","bowen"], hosts: ["amy_poehler"], music: [] }, 
                 { title: "Sally, When The Wine Runs Out", scores: { F: null, O: 6},    blurb: "Featuring Charli XCX", cast: [], hosts: [], music: ["role_model"] }, 
-                { title: "Weekend Update 11/10/2025", scores: { F: null, O: 5},    blurb: "", cast: ["colin", "micahel"], hosts: [], music: [] }, 
+                { title: "Weekend Update 11/10/2025", scores: { F: null, O: 5},    blurb: "", cast: ["colin", "michael"], hosts: [], music: [] }, 
                 { title: "Weekend Update: Rhonda LaCenzo", scores: { F: null, O: 9},    blurb: "", cast: ["sarah", "michael", "colin"], hosts: [], music: [] }, 
                 { title: "Weekend Udpate: Joke-Off", scores: { F: null, O: 7},    blurb: "Twelve pound newborn baby jokes. Featuring Seth Meyers and Tina Fey.", cast: ["colin", "michael"], hosts: ["amy_poehler"], music: [] },
                 { title: "Billson & Lieberman Attorneys at Law", scores: { F: null, O: 8},    blurb: "", cast: ["andrew", "jaj", "tommy","mikey","kam","ben","veronika","ashley","chloe","jane","marcello","jeremy","sarah","bowen","kenan"], hosts: ["amy_poehler"], music: [] },
