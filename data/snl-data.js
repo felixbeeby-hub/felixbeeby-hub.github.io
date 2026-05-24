@@ -55,13 +55,13 @@ window.SNL_DATA = {
 
       hosts: {
         bad_bunny:          { name: "Bad Bunny",          bio: "" },
-        placeholder_host_b: { name: "Placeholder Host B", bio: "Placeholder host bio." },
+        amy_poehler: { name: "Amy Poehler", bio: "" },
         placeholder_host_c: { name: "Placeholder Host C", bio: "" }
       },
 
       music: {
         doja_cat:            { name: "Doja Cat",                    bio: "" },
-        placeholder_music_b: { name: "Placeholder Musical Guest B", bio: "Placeholder musical-guest bio." },
+        role_model: { name: "Role Model", bio: "" },
         placeholder_music_c: { name: "Placeholder Musical Guest C", bio: "" }
       },
 
@@ -210,13 +210,26 @@ window.SNL_DATA = {
             {
               number: 2,
               title: "Episode 2",
-              host: "placeholder_host_b",
+              host: "amy_poehler",
               musicalGuest: "placeholder_music_b",
               airDate: "TBD",
               sketches: [
-                { title: "Cold Open",         scores: { F: 6, O: null },    blurb: "Placeholder blurb for this cold open.",                                                      cast: ["c1", "c3"], hosts: [], music: [] },
-                { title: "Recurring Sketch",  scores: { F: null, O: null }, blurb: "Placeholder blurb — this sketch has not been rated yet, so it shows a dash.",                 cast: ["c2", "c3"], hosts: ["placeholder_host_b"], music: ["placeholder_music_b"] },
-                { title: "Ten-to-One Sketch", scores: { F: 8.5, O: null },  blurb: "Placeholder blurb for the weird late-in-the-show sketch.",                                    cast: ["c1"], hosts: ["placeholder_host_b"], music: [] }
+                { title: "Cold Open",         scores: { F: 6, O: 5 },    blurb: "",                                                      cast: ["jaj","andrew","mikey","jeremy","chloe","tommy"], hosts: ["amy_poehler"], music: [] },
+                { title: "Monologue",  scores: { F: null, O: 7 }, blurb: "",                 cast: [], hosts: ["amy_poehler"], music: [] },
+                { title: "The Rudemans", scores: { F: 8.5, O: 6 },  blurb: "",                                    cast: ["ashley","andrew","bowen","sarah","mikey"], hosts: ["amy_poehler"], music: [] },
+                { title: "Non-Non-Alcoholic Beer", scores: { F: null, O: 2},    blurb: "", cast: ["andrew","kam","ashley","ben"], hosts: [], music: [] },
+                { title: "Miss Lycus The Fast Psychic", scores: { F: null, O: 7},    blurb: "", cast: ["jaj","chloe","jeremy","ashley","ben","kam","veronika","jane","bowen","marcello"], hosts: ["amy_poehler"], music: [] },
+                { title: "The Hunting Wives", scores: { F: null, O: 7},    blurb: "Featuring Aubrey Plaza", cast: ["chloe","ashley","sarah","kam","jeremy"], hosts: ["amy_poehler"], music: [] }, 
+                { title: "Work Baby", scores: { F: null, O: 8},    blurb: "", cast: ["ashley", "tommy","sarah","ben","mikey","kenan","bowen"], hosts: ["amy_poehler"], music: [] }, 
+                { title: "Sally, When The Wine Runs Out", scores: { F: null, O: 6},    blurb: "Featuring Charli XCX", cast: [], hosts: [], music: ["role_model"] }, 
+                { title: "Weekend Update 10/10/2025", scores: { F: null, O: 5},    blurb: "", cast: ["colin", "micahel"], hosts: [], music: [] }, 
+                { title: "Weekend Update: Rhonda LaCenzo", scores: { F: null, O: 9},    blurb: "", cast: ["sarah", "michael", "colin"], hosts: [], music: [] }, 
+                { title: "Weekend Udpate: Joke-Off", scores: { F: null, O: 7},    blurb: "Twelve pound newborn baby jokes. Featuring Seth Meyers and Tina Fey.", cast: ["colin", "michael"], hosts: ["amy_poehler"], music: [] },
+                { title: "Billson & Lieberman Attorneys at Law", scores: { F: null, O: 8},    blurb: "", cast: ["andrew", "jaj", "tommy","mikey","kam","ben","veronika","ashley","chloe","jane","marcello","jeremy","sarah","bowen","kenan"], hosts: ["amy_poehler"], music: [] },
+                { title: "Some Protector", scores: { F: null, O: 4},    blurb: "", cast: [], hosts: [], music: ["role_model"] },
+                { title: "Teen Mom", scores: { F: null, O: 7},    blurb: "", cast: ["jaj","chloe","jeremy","jane","ben","kam"], hosts: [], music: [] },
+                { title: "TV Composer Masterclass", scores: { F: null, O: 7},    blurb: "", cast: ["bowen","jaj","ben","tommy","jane","ashley"], hosts: [], music: [] }
+                 
               ]
             },
             {
