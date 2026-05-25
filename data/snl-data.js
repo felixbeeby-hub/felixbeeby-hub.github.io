@@ -56,13 +56,13 @@ window.SNL_DATA = {
       hosts: {
         bad_bunny:          { name: "Bad Bunny",          bio: "" },
         amy_poehler: { name: "Amy Poehler", bio: "" },
-        placeholder_host_c: { name: "Placeholder Host C", bio: "" }
+        sabrina_carpenter: { name: "Sabrina Carpenter", bio: "" }
       },
 
       music: {
         doja_cat:            { name: "Doja Cat",                    bio: "" },
         role_model: { name: "Role Model", bio: "" },
-        placeholder_music_c: { name: "Placeholder Musical Guest C", bio: "" }
+        sabrina_carpenter: { name: "Sabrina Carpenter", bio: "" }
       },
 
       cast: {
