@@ -135,10 +135,12 @@ window.SNL_DATA = {
         },
         michael: {
           name: "Michael Che",
+           photo: "che.jpg",
+           photobig: ["che.jpg", "che_intro.jpeg"],
           status: "current",
           role: "Weekend Update Anchor",
           seasons: [40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51],
-          bio: ""
+          bio: "The (probably) better Weekend Update anchor.<br>LEFT: Che during Weekend Update. RIGHT: Che during the SNL intro."
         },
         kam: {
           name: "Kam Patterson",
