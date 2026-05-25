@@ -115,7 +115,7 @@ window.SNL_DATA = {
         sarah: {
           name: "Sarah Sherman",
            photo: "sherman.jpg",
-           photobig: ["sherman.jpg, "shermanraccoon.jpg", "sherman_squirrel.jpg", "sherman_intro.jpeg"],
+           photobig: ["sherman.jpg", "shermanraccoon.jpg", "sherman_squirrel.jpg", "sherman_intro.jpeg"],
           status: "current",
           role: "Repertory",
           seasons: [47, 48, 49, 50, 51],
