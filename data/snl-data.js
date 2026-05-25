@@ -309,7 +309,49 @@ window.SNL_DATA = {
           role: "Weekend Update Anchor",
           seasons: [1],
           bio: ""
-        }
+        },
+        hammed: {
+          name: "Hammed Animashaun",
+          status: "current",
+          seasons: [1],
+          bio: ""
+        },
+        ayoade: {
+          name: "Ayoade Bamgboye",
+          status: "current",
+          seasons: [1],
+          bio: ""
+        },
+        larry: {
+          name: "Larry Dean",
+          status: "current",
+          seasons: [1],
+          bio: ""
+        },
+        celeste: {
+          name: "Celeste Dring",
+          status: "current",
+          seasons: [1],
+          bio: ""
+        },
+        annabel: {
+          name: "Annabel Marlow",
+          status: "current",
+          seasons: [1],
+          bio: ""
+        },
+        jack: {
+          name: "Jack Shep",
+          status: "current",
+          seasons: [1],
+          bio: ""
+        },
+        emma: {
+          name: "Emma Sidi",
+          status: "current",
+          seasons: [1],
+          bio: ""
+        } 
       },
 
       seasons: [
