@@ -174,13 +174,14 @@ window.SNL_DATA = {
           seasons: [50, 51],
           bio: "Despite being a Featured Player, Padilla is one of the funniest (and a favourite) cast members and surely deserves the promotion to Repertory Cast. Her memorable mannerisms and vocals alongside how she sits on the verge of breaking add to her success during sketches.<br>LEFT: Padilla as Kristi Noem (repeated role). CENTER: Padilla (and Marshall) in the sketch 'My Ex.' RIGHT: Padilla during the SNL into."
         } ,
-        jeremy: {
+         jeremy: {
           name: "Jeremy Culhane",
-           
+           photo: "culhane.jpg",
+           photobig: ["culhane.jpg", "culhaneonblast.jpg", "culhane_intro.jpg"],
           status: "current",
           role: "Featured",
           seasons: [51],
-          bio:""
+          bio:"A phenomenal casting by NBC and already one of my favourite cast members, after only 1 season he has produced two iconic Weekend Update characters/impersonations (performing both of them twice in his debut season). He brings good energy and facial expressions to his roles.<br>LEFT: Culhane as Tucker Carlson on Weekend Update. CENTER: Culhane as 'Mr On Blast' during Weekend Update. RIGHT: Culhane during the SNL intro."
         },
         tommy: {
           name: "Tommy Brennan",
