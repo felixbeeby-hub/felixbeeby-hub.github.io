@@ -368,7 +368,7 @@ window.SNL_DATA = {
 
       seasons: [
          {
-          id: 51,
+          id: 1,
           episodes: [
              {
               number: 1,
