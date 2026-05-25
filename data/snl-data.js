@@ -301,7 +301,7 @@ window.SNL_DATA = {
           seasons: [1],
           bio: "(Kier Starmar, 45 seconds with Fouracres)"
         },
-        alnash: {
+        al: {
           name: "Al Nash",
           status: "current",
           
