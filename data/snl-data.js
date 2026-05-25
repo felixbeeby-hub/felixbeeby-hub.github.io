@@ -176,12 +176,11 @@ window.SNL_DATA = {
         } ,
         jeremy: {
           name: "Jeremy Culhane",
-           photo: "culhane.jpg",
-           photobig: ["culhane.jpg", "culhaneonblast.jpg", "culhane_intro.jpg"],
+           
           status: "current",
           role: "Featured",
           seasons: [51],
-          bio:"A phenomenal casting by NBC and already one of my favourite cast members, after only 1 season he has produced two iconic Weekend Update characters/impersonations (performing both of them twice in his debut season). He brings good energy and facial expressions to his roles.<br>LEFT: Culhane as Tucker Carlson on Weekend Update. CENTER: Culhane as 'Mr On Blast' during Weekend Update. RIGHT: Culhane during the SNL intro."
+          bio:""
         },
         tommy: {
           name: "Tommy Brennan",
