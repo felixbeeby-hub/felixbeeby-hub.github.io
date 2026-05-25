@@ -114,10 +114,12 @@ window.SNL_DATA = {
         },
         sarah: {
           name: "Sarah Sherman",
+           photo: "sherman.jpg",
+           photobig: ["sherman.jpg, "shermanraccoon.jpg", "sherman_squirrel.jpg", "sherman_intro.jpeg"],
           status: "current",
           role: "Repertory",
           seasons: [47, 48, 49, 50, 51],
-          bio: ""
+          bio: "She has a chaotic energy that (although similar) she brings to many of her characters that make them funny: both through physical comedy and he dialouge  + vocals. She also does a suprisingly good job acting as small mammals!<br>LEFT: Sherman during Weekend Update. CENTER LEFT: Sherman as a drunk raccoon during Weekend Update. CENTER RIGHT: Sherman as a Squirrel during Weekend Update. RIGHT: Sherman during the SNL intro."
         },
         mikey: {
           name: "Mikey Day",
