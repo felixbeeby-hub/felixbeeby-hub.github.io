@@ -185,7 +185,7 @@ window.SNL_DATA = {
         jane: {
           name: "Jane Wickline",
            photo: "jane_wickline.jpg",
-           photobig: ["jane_wickline.jpg", "jane_intro.jpg"],
+           photobig: ["jane_wickline.jpg", "jane_intro.jpeg"],
           status: "current",
           role: "Featured",
           seasons: [51],
