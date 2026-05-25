@@ -367,7 +367,10 @@ window.SNL_DATA = {
       },
 
       seasons: [
-        {
+         {
+          id: 51,
+          episodes: [
+             {
               number: 1,
               title: "Episode 1",
               host: "tina_fey",
@@ -381,7 +384,9 @@ window.SNL_DATA = {
                 { title: "Boovies", scores: { F: null, O: 6},    blurb: "", cast: ["hammed","jack"], hosts: ["tina_fey"], music: [] },
                 { title: "Internet Team", scores: { F: null, O: 5},    blurb: "", cast: ["hammed", "jack", "larry",], hosts: [], music: [] },
                 { title: "Performative Baby", scores: { F: null, O: 4},    blurb: "", cast: ["ayoade", "george", "celeste", "jack"], hosts: ["tina_fey"], music: [] },
-                { title: "mangetout", scores: { F: null, O: 6},    blurb: "", cast: [], hosts: [], music: ["wet_leg"] }
+                { title: "mangetout", scores: { F: null, O: 6},    blurb: "", cast: [], hosts: [], music: ["wet_leg"] },
+                { title: "Weekend Update", scores: { F: null, O: null},    blurb: "Where is Belgium?", cast: ["paddy", "ania"], hosts: [], music: [] },
+                { title: "Weekend Update: Captain Birdseye", scores: { F: null, O: 2},    blurb: "", cast: ["al", "paddy"], hosts: [], music: [] } 
               ]
             },
             {
