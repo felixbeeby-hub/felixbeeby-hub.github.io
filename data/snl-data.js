@@ -282,12 +282,12 @@ window.SNL_DATA = {
       heroTitle: "Live from<br>London",
 
       hosts: {
-        placeholder_host_a: { name: "Placeholder Host A", bio: "Placeholder host bio." },
+        tina_fey: { name: "Tina Fey", bio: "" },
         placeholder_host_b: { name: "Placeholder Host B", bio: "" }
       },
 
       music: {
-        placeholder_music_a: { name: "Placeholder Musical Guest A", bio: "Placeholder musical-guest bio." },
+        wet_leg: { name: "Wet Leg", bio: "" },
         placeholder_music_b: { name: "Placeholder Musical Guest B", bio: "" }
       },
 
@@ -366,17 +366,20 @@ window.SNL_DATA = {
 
       seasons: [
         {
-          id: 1,
-          episodes: [
-            {
               number: 1,
               title: "Episode 1",
-              host: "placeholder_host_a",
-              musicalGuest: "placeholder_music_a",
-              airDate: "TBD",
+              host: "tina_fey",
+              musicalGuest: "wet_leg",
+              airDate: "21 March 2026",
               sketches: [
-                { title: "Cold Open", scores: { F: 8, O: null },    blurb: "Placeholder blurb for the UK cold open.", cast: ["c1", "c2"], hosts: ["placeholder_host_a"], music: ["placeholder_music_a"] },
-                { title: "Monologue", scores: { F: null, O: null }, blurb: "Placeholder blurb — not yet rated.",      cast: ["c1"], hosts: ["placeholder_host_a"], music: [] }
+                { title: "Cold Open", scores: { F: null, O: 8 },    blurb: "", cast: ["george", "hammed", "jack"], hosts: [], music: [] },
+                { title: "Monologue", scores: { F: null, O: 7 }, blurb: "Featuring Nicola Coughlan, Michael Cera, & Graham Norton.",      cast: [], hosts: ["tina_fey"], music: [] },
+                { title: "Undérage", scores: { F: null, O: 4},    blurb: "", cast: ["celeste", "emma", "ayoade","paddy","al","george","jack"], hosts: ["tina_fey"], music: [] },
+                { title: "David Attenborough's Last Supper", scores: { F: null, O: 4},    blurb: "", cast: ["george","al","annabel","ayoade","jack","hammed","larry","emma","celeste"], hosts: ["tina_fey"], music: [] },
+                { title: "Boovies", scores: { F: null, O: 6},    blurb: "", cast: ["hammed","jack"], hosts: ["tina_fey"], music: [] },
+                { title: "Internet Team", scores: { F: null, O: 5},    blurb: "", cast: ["hammed", "jack", "larry",], hosts: [], music: [] },
+                { title: "Performative Baby", scores: { F: null, O: 4},    blurb: "", cast: ["ayoade", "george", "celeste", "jack"], hosts: ["tina_fey"], music: [] },
+                { title: "mangetout", scores: { F: null, O: 6},    blurb: "", cast: [], hosts: [], music: ["wet_leg"] }
               ]
             },
             {
