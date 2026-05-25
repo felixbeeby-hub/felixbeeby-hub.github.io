@@ -184,10 +184,12 @@ window.SNL_DATA = {
         },
         jane: {
           name: "Jane Wickline",
+           photo: "jane_wickline.jpg",
+           photobig: ["jane_wickline.jpg", "jane_intro.jpg"],
           status: "current",
           role: "Featured",
           seasons: [51],
-          bio: ""
+          bio: "BIO.<br>LEFT: Wickline during Weekend Update. RIGHT: Wickline during the SNL intro."
         } 
       },
        
