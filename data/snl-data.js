@@ -170,7 +170,7 @@ window.SNL_DATA = {
           status: "current",
           role: "Featured",
           seasons: [50, 51],
-          bio: "Despite being a Featured Player, Padilla is one of the funniest cast members and surely deserves the promotion to Repertory Cast. Her memorable mannerisms and vocals alongside how she sits on the verge of breaking add to her success during sketches.<br>LEFT: Padilla as Kristi Noem (repeated role). CENTER: Padilla (and Marshall) in the sketch 'My Ex.'"
+          bio: "Despite being a Featured Player, Padilla is one of the funniest cast members and surely deserves the promotion to Repertory Cast. Her memorable mannerisms and vocals alongside how she sits on the verge of breaking add to her success during sketches.<br>LEFT: Padilla as Kristi Noem (repeated role). CENTER: Padilla (and Marshall) in the sketch 'My Ex.' RIGHT: Padilla during the SNL into."
         } ,
         jeremy: {
           name: "Jeremy Culhane",
