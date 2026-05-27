@@ -263,12 +263,14 @@ window.SNL_DATA = {
             {
               number: 3,
               title: "Episode 3",
-              host: "placeholder_host_c",
-              musicalGuest: "placeholder_music_c",
-              airDate: "TBD",
+              host: "sabrina_carpenter",
+              musicalGuest: "sabrina_carpenter",
+              airDate: "18 October 2025",
               sketches: [
-                { title: "Cold Open",         scores: { F: 7.5, O: null }, blurb: "Placeholder blurb for this cold open.",     cast: ["c1", "c2"], hosts: [], music: [] },
-                { title: "Commercial Parody", scores: { F: 9, O: null },   blurb: "Placeholder blurb for a fake-ad sketch.",   cast: ["c2", "c3"], hosts: ["placeholder_host_c"], music: ["placeholder_music_c"] }
+                { title: "Cold Open (Domingo Reprise 2)",         scores: { F: null, O: 9 }, blurb: "It's getting kind of corny but I still love it.",     cast: ["chloe", "andrew","sarah","veronika","ashley","marcello"], hosts: ["sabrina_carpenter"], music: [] },
+                { title: "Monologue", scores: { F: null, O: 6 },   blurb: "",   cast: ["kenan"], hosts: ["sabrina_carpenter"], music: [] },
+                { title: "Snack Homiez", scores: { F: null, O: 7},    blurb: "Inlcuding Trump in this was a great idea, but then they didn't execute it correctly!", cast: ["chloe","jane","veronika","jaj"], hosts: ["sabrina_carpenter"], music: [] }, 
+                 
               ]
             }
           ]
