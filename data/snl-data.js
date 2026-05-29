@@ -111,10 +111,12 @@ window.SNL_DATA = {
         },
         marcello: {
           name: "Marcello Hernández",
+           photo: "marcello.jpg",
+           photobig: ["marcello.jpg", "marcello_domingo.jpg", "marcello_heart.jpg", "marcello_intro.jpg"],
           status: "current",
           role: "Repertory",
           seasons: [48, 49, 50, 51],
-          bio: ""
+          bio: "Despite usually doing the same couple bits/voices, they still land and are funny!<br>LEFT: Hernández during Weekend Update. CENTER LEFT: Hernández as the iconic and beloved 'Domingo'. CENTER RIGHT: Hernández (breaking) during the hilarious 'AERIAL TRAMWAY!!' sketch. RIGHT: Hernández during the SNL intro."
         },
         sarah: {
           name: "Sarah Sherman",
