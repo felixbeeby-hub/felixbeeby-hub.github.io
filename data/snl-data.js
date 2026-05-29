@@ -130,7 +130,7 @@ window.SNL_DATA = {
         mikey: {
           name: "Mikey Day",
            photo: "mikey.jpg",
-           photobig: ["mikey.jpg", "mikey_spit.jpeg", "mikey_tramway.jpeg", "mikey_intro.jpg"],
+           photobig: ["mikey.jpg", "mikey_spit.jpeg", "mikey_tramway.jpg", "mikey_intro.jpg"],
           status: "current",
           role: "Repertory",
           seasons: [42, 43, 44, 45, 46, 47, 48, 49, 50, 51],
