@@ -102,10 +102,12 @@ window.SNL_DATA = {
         },
         chloe: {
           name: "Chloe Fineman",
+           photo: "fineman.jpg",
+           photobig: ["fineman.jpg", "fineman_intro.jpg"],
           status: "current",
           role: "Repertory",
           seasons: [45, 46, 47, 48, 49, 50, 51],
-          bio: ""
+          bio: "Maybe still a Scientologist, but a good cast member - nothing too stand out, but usually funny.<br>LEFT: Fineman during Weekend Update. RIGHT: Fineman during the SNL intro."
         },
         marcello: {
           name: "Marcello Hernández",
