@@ -164,10 +164,12 @@ window.SNL_DATA = {
         },
         ben: {
           name: "Ben Marshall",
+           photo: "marshall.jpg",
+           photobig: ["marshall.jpg", "marshall_tall.jpg", "marshall_intro.jpg"],
           status: "current",
           role: "Featured",
           seasons: [51],
-          bio: ""
+          bio: "He was promoted from writer to cast member in season 51 and his 'thing' is being very tall I guess.<br>LEFT: Marshall during a sketch. CENTER: Marshall during a sketch about height. LEFT: Marshall during the SNL intro."
         },
         ashley: {
           name: "Ashley Padilla",
