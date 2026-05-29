@@ -130,7 +130,7 @@ window.SNL_DATA = {
           status: "current",
           role: "Repertory",
           seasons: [42, 43, 44, 45, 46, 47, 48, 49, 50, 51],
-          bio: "The most memorable things are that he appears to be the oldest cast memeber and his name rhymes with Che's in the intro. His sketches are sometimes funny... and is often (maybe??) at the expense of him - like the Matt Damon sketch above.<br>LEFT: Day during a Cold Open. CENTER: Mikey during one of MANY spit takes in a sketch with Matt Damon. RIGHT: Mikey during the SNL intro"
+          bio: "The most memorable things are that he appears to be the oldest cast memeber and his name rhymes with Che's in the intro. His sketches are sometimes funny... and is often (maybe??) at the expense of him - like the Matt Damon sketch above.<br>LEFT: Day during a Cold Open. CENTER: Day during one of MANY spit takes in a sketch with Matt Damon. RIGHT: Day during the SNL intro"
         },
         bowen: {
           name: "Bowen Yang",
