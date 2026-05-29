@@ -150,10 +150,12 @@ window.SNL_DATA = {
         },
         kam: {
           name: "Kam Patterson",
+           photo: "kam.jpg",
+           photobig: ["kam.jpg", "kam_sax.jpg", "kam_intro.jpg"],
           status: "current",
           role: "Featured",
           seasons: [51],
-          bio: ""
+          bio: "I like Kam, and he is funny, but so far he hasnt appeared many times and, when is the main part of a sketch, has kinda only done one of two 'characters': Young Kid and ¿himself?<br>LEFT: Patterson during Weekend Update. CENTER: Patterson (incorrectly) playing the Saxophone to a 'drunk' Miles Teller. RIGHT: Patterson during the SNL intro."
         },
         andrew: {
           name: "Andrew Dismukes",
