@@ -344,6 +344,8 @@ window.SNL_DATA = {
         },
         hammed: {
           name: "Hammed Animashaun",
+           photo: "hammed.jpg",
+           photobig: ["hammed.jpg", "Hammed.jpg"],
           status: "current",
           seasons: [1],
           bio: ""
