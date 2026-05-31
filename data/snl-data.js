@@ -165,10 +165,12 @@ window.SNL_DATA = {
         },
         andrew: {
           name: "Andrew Dismukes",
+           photo: "dismukes.jpg",
+           photobig: ["dismukes.jpg", "dismukes_intro.jpg"],
           status: "current",
           role: "Repertory",
           seasons: [46, 47, 48, 49, 50, 51],
-          bio: ""
+          bio: "Seems to be in a lot of sketches but is never really too memorable.<br>LEFT: Dismukes during a sketch. RIGHT: Dismukes during the SNL intro."
         },
         ben: {
           name: "Ben Marshall",
