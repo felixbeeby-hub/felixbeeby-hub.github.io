@@ -345,10 +345,10 @@ window.SNL_DATA = {
         hammed: {
           name: "Hammed Animashaun",
            photo: "hammed.jpg",
-           photobig: ["hammed.jpg", "Hammed.jpg"],
+           photobig: ["hammed.jpg", "hammed_intro.jpg"],
           status: "current",
           seasons: [1],
-          bio: ""
+          bio: "BIO<br>LEFT: Animashaun during and interview. RIGHT: Animashaun during the SNLUK intro."
         },
         ayoade: {
           name: "Ayoade Bamgboye",
