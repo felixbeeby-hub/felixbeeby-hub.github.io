@@ -316,10 +316,11 @@ window.SNL_DATA = {
       cast: {
         george: {
           name: "George Fouracres",
+           photo: "george.jpg",
+           photobig: ["george.jpg", "george_kier.jpg", "george_intro.jpg"],
           status: "current",
-          
           seasons: [1],
-          bio: "(Kier Starmar, 45 seconds with Fouracres)"
+          bio: "(Kier Starmar, 45 seconds with Fouracres)<br>LEFT: Fouracres during a '45 seconds with Fouracres' segment. CENTER: Fouracres as Kier Starmer during a Cold Open. RIGHT: Fouracres during the SNLUK intro."
         },
         al: {
           name: "Al Nash",
