@@ -286,6 +286,19 @@ window.SNL_DATA = {
                 { title: "Cold Open (Domingo Reprise 2)",         scores: { F: null, O: 9 }, blurb: "It's getting kind of corny but I still love it.",     cast: ["chloe", "andrew","sarah","veronika","ashley","marcello"], hosts: ["sabrina_carpenter"], music: [] },
                 { title: "Monologue", scores: { F: null, O: 6 },   blurb: "",   cast: ["kenan"], hosts: ["sabrina_carpenter"], music: [] },
                 { title: "Snack Homiez", scores: { F: null, O: 7},    blurb: "Inlcuding Trump in this was a great idea, but then they didn't execute it correctly!", cast: ["chloe","jane","veronika","jaj"], hosts: ["sabrina_carpenter"], music: [] }, 
+                { title: "Plans: Coming Soon", scores: { F: null, O: 6},    blurb: "", cast: ["ben", "sarah", "mikey", "andrew"], hosts: ["sabrina_carpenter"], music: [] }, 
+                { title: "ShopTV", scores: { F: null, O: 2},    blurb: "", cast: ["ashley", "mikey", "jaj"], hosts: ["sabrina_carpenter"], music: [] }, 
+                { title: "Girlboss Female Confidence Seminar", scores: { F: null, O: 7},    blurb: "", cast: ["chloe", "sarah", "jeremy", "tommy", "ashley", "kenan"], hosts: ["sabrina_carpenter"], music: [] },
+                { title: "Grind", scores: { F: null, O: 6},    blurb: "Not really funny per se, but this song is lowkey good.", cast: ["bowen", "jeremy", "kenan", "jane", "kam", "marcello", "veronika", "chloe", "ashley"], hosts: ["sabrina_carpenter"], music: [] },
+                { title: "Manchild", scores: { F: null, O: 10},    blurb: "", cast: [], hosts: [], music: ["sabrina_carpenter"] },
+                { title: "Weekend Update 18/10/2025", scores: { F: null, O: },    blurb: "It's exhausting how much of these segments is about Trump. Like, I do get it... but come on. It's telling that all the best jokes don't involve him!", cast: ["colin", "michael"], hosts: [], music: [] },
+                { title: "The Movie Guy", scores: { F: null, O: 3},    blurb: "Seems like a slight missed opportunity for some actual jokes about these films.", cast: ["marcello", "colin"], hosts: [], music: [] },
+                { title: "Tommy Brennan: Moving", scores: { F: null, O: 3},    blurb: "Almost like an introductory monologue for Tommy Brennan. Except it wasn't very interesting.", cast: ["tommy", "colin"], hosts: [], music: [] },
+                { title: "P.C. Richard & Son", scores: { F: null, O: 8},    blurb: "", cast: ["kenan", "andrew", "ashley", "veronika"], hosts: ["sabrina_carpenter"], music: [] },
+                { title: "Office Birthday", scores: { F: null, O: 7},    blurb: "", cast: ["ashley", "andrew", "sarah", "ben", "chloe", "jeremy"], hosts: ["sabrina_carpenter"], music: [] },
+                { title: "Nobody's Son", scores: { F: null, O: 9},    blurb: "She sounds so good!", cast: [], hosts: [], music: ["sabrina_carpenter"] },
+                { title: "Social Experiment", scores: { F: null, O: 7},    blurb: "Featuring Martin Herlihy (should this guy get some kind of tag...?)", cast: ["jane", "veronika", "kam"], hosts: [], music: [] }
+                 
                  
               ]
             }
