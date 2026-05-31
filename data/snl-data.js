@@ -140,10 +140,12 @@ window.SNL_DATA = {
         },
         bowen: {
           name: "Bowen Yang",
+           photo:"bowen.jpg",
+           photobig: ["bowen.jpg", "bowen_moodeng.jpg", "bowen_dobby.jpg", "bowen_intro.jpeg"],
           status: "alumni",
           role: "Repertory",
           seasons: [45, 46, 47, 48, 49, 50, 51],
-          bio: ""
+          bio: "BIO<br>LEFT: Yang during Weekend Update. CENTER LEFT: Yang as Moo Deng during Weekend Update. CENTER RIGHT: Yang as Dobby during Weekend Update. RIGHT: Yang during the SNL intro (S51)."
         },
         michael: {
           name: "Michael Che",
