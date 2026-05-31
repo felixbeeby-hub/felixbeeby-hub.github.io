@@ -320,7 +320,7 @@ window.SNL_DATA = {
            photobig: ["george.jpg", "george_kier.jpg", "george_intro.jpg"],
           status: "current",
           seasons: [1],
-          bio: "(Kier Starmar, 45 seconds with Fouracres)<br>LEFT: Fouracres during a '45 seconds with Fouracres' segment. CENTER: Fouracres as Kier Starmer during a Cold Open. RIGHT: Fouracres during the SNLUK intro."
+          bio: "(Kier Starmar, 45 seconds with Fouracres)<br>LEFT: Fouracres during a '45 seconds with Fouracres' segment. CENTER: Fouracres as Kier Starmer during a Cold Open. RIGHT: Fouracres during the SNL UK intro."
         },
         al: {
           name: "Al Nash",
@@ -349,7 +349,7 @@ window.SNL_DATA = {
            photobig: ["hammed.jpg", "hammed_intro.jpg"],
           status: "current",
           seasons: [1],
-          bio: "BIO<br>LEFT: Animashaun during and interview. RIGHT: Animashaun during the SNLUK intro."
+          bio: "BIO<br>LEFT: Animashaun during and interview. RIGHT: Animashaun during the SNL UK intro."
         },
         ayoade: {
           name: "Ayoade Bamgboye",
@@ -381,7 +381,7 @@ window.SNL_DATA = {
            photobig: ["shep.jpg", "shep_dianna.jpeg", "shep_intro.jpg"],
           status: "current",
           seasons: [1],
-          bio: "BIO<br>LEFT: Shep at the BAFTAs. CENTER: Shep as Princess Diana during a sketch. RIGHT: Shep during the SNLUK intro."
+          bio: "BIO<br>LEFT: Shep at the BAFTAs. CENTER: Shep as Princess Diana during a sketch. RIGHT: Shep during the SNL UK intro."
         },
         emma: {
           name: "Emma Sidi",
