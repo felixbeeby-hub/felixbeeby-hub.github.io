@@ -291,7 +291,7 @@ window.SNL_DATA = {
                 { title: "Girlboss Female Confidence Seminar", scores: { F: null, O: 7},    blurb: "", cast: ["chloe", "sarah", "jeremy", "tommy", "ashley", "kenan"], hosts: ["sabrina_carpenter"], music: [] },
                 { title: "Grind", scores: { F: null, O: 6},    blurb: "Not really funny per se, but this song is lowkey good.", cast: ["bowen", "jeremy", "kenan", "jane", "kam", "marcello", "veronika", "chloe", "ashley"], hosts: ["sabrina_carpenter"], music: [] },
                 { title: "Manchild", scores: { F: null, O: 10},    blurb: "", cast: [], hosts: [], music: ["sabrina_carpenter"] },
-                { title: "Weekend Update 18/10/2025", scores: { F: null, O: },    blurb: "It's exhausting how much of these segments is about Trump. Like, I do get it... but come on. It's telling that all the best jokes don't involve him!", cast: ["colin", "michael"], hosts: [], music: [] },
+                { title: "Weekend Update 18/10/2025", scores: { F: null, O: 6},    blurb: "It's exhausting how much of these segments is about Trump. Like, I do get it... but come on. It's telling that all the best jokes don't involve him!", cast: ["colin", "michael"], hosts: [], music: [] },
                 { title: "The Movie Guy", scores: { F: null, O: 3},    blurb: "Seems like a slight missed opportunity for some actual jokes about these films.", cast: ["marcello", "colin"], hosts: [], music: [] },
                 { title: "Tommy Brennan: Moving", scores: { F: null, O: 3},    blurb: "Almost like an introductory monologue for Tommy Brennan. Except it wasn't very interesting.", cast: ["tommy", "colin"], hosts: [], music: [] },
                 { title: "P.C. Richard & Son", scores: { F: null, O: 8},    blurb: "", cast: ["kenan", "andrew", "ashley", "veronika"], hosts: ["sabrina_carpenter"], music: [] },
@@ -318,12 +318,12 @@ window.SNL_DATA = {
 
       hosts: {
         tina_fey: { name: "Tina Fey", bio: "" },
-        placeholder_host_b: { name: "Placeholder Host B", bio: "" }
+        jamie_dornan: { name: "Jamie Dornan", bio: "" }
       },
 
       music: {
         wet_leg: { name: "Wet Leg", bio: "" },
-        placeholder_music_b: { name: "Placeholder Musical Guest B", bio: "" }
+        wolf_alice: { name: "Wolf Alice", bio: "" }
       },
 
       cast: {
@@ -435,12 +435,18 @@ window.SNL_DATA = {
             {
               number: 2,
               title: "Episode 2",
-              host: "placeholder_host_b",
-              musicalGuest: "placeholder_music_b",
+              host: "jamie_dornan",
+              musicalGuest: "wolf_alice",
               airDate: "TBD",
               sketches: [
-                { title: "Cold Open",    scores: { F: 7, O: null },   blurb: "Placeholder blurb for this UK cold open.", cast: ["c2", "c3"], hosts: ["placeholder_host_b"], music: ["placeholder_music_b"] },
-                { title: "Sketch Title", scores: { F: 6.5, O: null }, blurb: "Placeholder blurb for a UK sketch.",       cast: ["c1", "c3"], hosts: ["placeholder_host_b"], music: [] }
+                { title: "Cold Open",    scores: { F: null, O: 5},   blurb: "A slightly strange premise, but some of the jokes just about work.", cast: ["hammed", "ayoade", "jack", "celeste", "larry", "emma"], hosts: [], music: [] },
+                { title: "Monologue", scores: { F: null, O: 2}, blurb: "The potatoes are actually really cool... but this just isn't funny. Jamie seemed scared.",       cast: [], hosts: ["jamie_dornan"], music: [] },
+                { title: "British-Themed Pub", scores: { F: null, O: 10},    blurb: "", cast: ["jack", "annabel", "emma", "hammed", "al", "larry"], hosts: ["jamie_dornan"], music: [] },
+                { title: "Hostage Situationship", scores: { F: null, O: 8},    blurb: "", cast: ["annabel", "jack"], hosts: ["jamie_dornan"], music: [] },
+                { title: "The Time-Man", scores: { F: null, O: 1},    blurb: "I don't get it.", cast: ["annabel", "george", "paddy", "al", "emma"], hosts: [], music: [] },
+                { title: "The Battle Within", scores: { F: null, O: 2},    blurb: "The type of sketch where there is just sort of one (unfunny) joke and it gets dragged out over several minutes with pretty much no variation.", cast: ["jack", "celeste", "hammed", "emma"], hosts: ["jamie_dornan"], music: [] },
+                { title: "White Horses", scores: { F: null, O: 6},    blurb: "I get that they're a rock band... but did the Sky budget not extend to any kind of staging for the music?? Anyway, this song is pretty good and they definitely sound nice.", cast: [], hosts: [], music: ["wolf_alice"] },
+                { title: "Weekend Update", scores: { F: null, O: },    blurb: "", cast: ["ania", "paddy"], hosts: [], music: [] }, 
               ]
             }
           ]
