@@ -35,6 +35,19 @@
           seasons: [],
           bio: ""
         }
+
+
+   {
+              number: 4,
+              title: "Episode 4",
+              host: "miles_teller",
+              musicalGuest: "brandi_carlile",
+              airDate: "",
+              sketches: [  
+                { title: "", scores: { F: null, O: null},    blurb: "", cast: ["kenan", "kam"], hosts: ["miles_teller"], music: [] }
+
+               ]
+             }
    ============================================================ */
 
 window.SNL_DATA = {
@@ -311,7 +324,14 @@ window.SNL_DATA = {
               musicalGuest: "brandi_carlile",
               airDate: "",
               sketches: [  
-                { title: "Cold Open: NYC Mayoral Debate", scores: { F: null, O: 3},    blurb: "Featuring Ramy Youssef & Shane Gillis. It's nice to see some new impersonations - but they're a little bit esoteric and one-note.", cast: ["kenan", "kam"], hosts: ["miles_teller"], music: [] }
+                { title: "Cold Open: NYC Mayoral Debate", scores: { F: null, O: 3},    blurb: "Featuring Ramy Youssef & Shane Gillis. It's nice to see some new impersonations - but they're a little bit esoteric and one-note.", cast: ["kenan", "kam"], hosts: ["miles_teller"], music: [] },
+                { title: "Monologue", scores: { F: null, O: 2},    blurb: "Shockingly bland monologue.", cast: [], hosts: ["miles_teller"], music: [] },
+                { title: "What Did I Do Last Night?", scores: { F: null, O: 5},    blurb: "", cast: ["kenan", "veronika", "ben", "kam", "jane"], hosts: ["miles_teller"], music: [] },
+                { title: "Property Brothers: White House Ballroom", scores: { F: null, O: 7},    blurb: "", cast: ["jaj", "chloe"], hosts: ["miles_teller"], music: [] },
+                { title: "NHL Cares", scores: { F: null, O: 4},    blurb: "A bad joke dragged out over five minutes.", cast: ["andrew", "ashley", "tommy", "ben", "jeremy", "veronika"], hosts: ["miles_teller"], music: [] },
+                { title: "Gone Without a Trace", scores: { F: null, O: 2},    blurb: "Unfunny and kind of a weird perpetuation of gender norms.", cast: ["ben", "kenan", "veronika", "chloe", "sarah", "mikey", "tommy"], hosts: ["miles_teller"], music: [] },
+                { title: "NewsPoint", scores: { F: null, O: 7},    blurb: "A great concept for a sketch - it could've been pushed further though... I wanted more chaos!", cast: ["chloe", "kenan", "bowen", "mikey", "kam", "jane"], hosts: ["miles_teller"], music: [] } 
+                 
 
                ]
              }    
