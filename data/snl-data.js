@@ -446,7 +446,12 @@ window.SNL_DATA = {
                 { title: "The Time-Man", scores: { F: null, O: 1},    blurb: "I don't get it.", cast: ["annabel", "george", "paddy", "al", "emma"], hosts: [], music: [] },
                 { title: "The Battle Within", scores: { F: null, O: 2},    blurb: "The type of sketch where there is just sort of one (unfunny) joke and it gets dragged out over several minutes with pretty much no variation.", cast: ["jack", "celeste", "hammed", "emma"], hosts: ["jamie_dornan"], music: [] },
                 { title: "White Horses", scores: { F: null, O: 6},    blurb: "I get that they're a rock band... but did the Sky budget not extend to any kind of staging for the music?? Anyway, this song is pretty good and they definitely sound nice.", cast: [], hosts: [], music: ["wolf_alice"] },
-                { title: "Weekend Update", scores: { F: null, O: },    blurb: "", cast: ["ania", "paddy"], hosts: [], music: [] }, 
+                { title: "Weekend Update", scores: { F: null, O: 4},    blurb: "These two don't have the chemistry that Colin & Che do. I mean, I don't want them to have the exact same kind of rivalrous dynamic, but there really isn't anything there. In fact, they're pretty wooden - especially Paddy!", cast: ["ania", "paddy"], hosts: [], music: [] },
+                { title: "Weekend Update: Ayoade Bamgboye", scores: { F: null, O: 6},    blurb: "Easily charisma-mogs the two anchors. Though I don't think the concept was fully fleshed out.", cast: ["ayoade", "paddy", "ania"], hosts: [], music: [] },
+                { title: "Wrap Gluing Factory", scores: { F: null, O: 6},    blurb: "It's weirdly extremely well executed. But I just don't think this is a real premise?? It's observational humour about something that isn't true.", cast: ["jack", "annabel", "celeste", "ayoade", "larry", "george", "emma"], hosts: ["jamie_dornan"], music: [] },
+                { title: "Beanz Bros", scores: { F: null, O: 4},    blurb: "", cast: ["larry", "jack"], hosts: [], music: [] },
+                { title: "Leaning Against The Wall", scores: { F: null, O: 3},    blurb: "", cast: [], hosts: [], music: ["wolf_alice"] },
+                { title: "The Condition", scores: { F: null, O: 5},    blurb: "", cast: ["hammed", "emma", "annabel"], hosts: ["jamie_dornan"], music: [] } 
               ]
             }
           ]
