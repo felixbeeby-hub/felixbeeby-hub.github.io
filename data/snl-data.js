@@ -56,13 +56,15 @@ window.SNL_DATA = {
       hosts: {
         bad_bunny:          { name: "Bad Bunny",          bio: "" },
         amy_poehler: { name: "Amy Poehler", bio: "" },
-        sabrina_carpenter: { name: "Sabrina Carpenter", bio: "" }
+        sabrina_carpenter: { name: "Sabrina Carpenter", bio: "" },
+        miles_teller: { name: "Miles Teller", bio:""} 
       },
 
       music: {
         doja_cat:            { name: "Doja Cat",                    bio: "" },
         role_model: { name: "Role Model", bio: "" },
-        sabrina_carpenter: { name: "Sabrina Carpenter", bio: "" }
+        sabrina_carpenter: { name: "Sabrina Carpenter", bio: "" },
+        brandi_carlile: { name: "Brandi Carlile", bio: "" } 
       },
 
       cast: {
@@ -301,7 +303,18 @@ window.SNL_DATA = {
                  
                  
               ]
-            }
+            },
+             {
+              number: 4,
+              title: "Episode 4",
+              host: "miles_teller",
+              musicalGuest: "brandi_carlile",
+              airDate: "",
+              sketches: [  
+                { title: "Cold Open: NYC Mayoral Debate", scores: { F: null, O: 3},    blurb: "Featuring Ramy Youssef & Shane Gillis. It's nice to see some new impersonations - but they're a little bit esoteric and one-note.", cast: ["kenan", "kam"], hosts: ["miles_teller"], music: [] }
+
+               ]
+             }    
           ]
         }
       ]
