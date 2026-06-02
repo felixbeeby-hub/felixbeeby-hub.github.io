@@ -498,10 +498,10 @@ window.SNL_DATA = {
             },
 
              {
-              number: 4,
-              title: "Episode 4",
-              host: "miles_teller",
-              musicalGuest: "brandi_carlile",
+              number: 3,
+              title: "Episode 3",
+              host: "riz_ahmed",
+              musicalGuest: "kasabian",
               airDate: "",
               sketches: [  
                 { title: "Cold Open: Iran War Speech", scores: { F: null, O: 4},    blurb: "There's something kind of depressing about the Keir bashing - which probably means it's working. The other impersonations felt a little half-baked.", cast: ["george", "al", "emma", "annabel"], hosts: [], music: [] },
