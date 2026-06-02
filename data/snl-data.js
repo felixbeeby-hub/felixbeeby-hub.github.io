@@ -330,7 +330,14 @@ window.SNL_DATA = {
                 { title: "Property Brothers: White House Ballroom", scores: { F: null, O: 7},    blurb: "", cast: ["jaj", "chloe"], hosts: ["miles_teller"], music: [] },
                 { title: "NHL Cares", scores: { F: null, O: 4},    blurb: "A bad joke dragged out over five minutes.", cast: ["andrew", "ashley", "tommy", "ben", "jeremy", "veronika"], hosts: ["miles_teller"], music: [] },
                 { title: "Gone Without a Trace", scores: { F: null, O: 2},    blurb: "Unfunny and kind of a weird perpetuation of gender norms.", cast: ["ben", "kenan", "veronika", "chloe", "sarah", "mikey", "tommy"], hosts: ["miles_teller"], music: [] },
-                { title: "NewsPoint", scores: { F: null, O: 7},    blurb: "A great concept for a sketch - it could've been pushed further though... I wanted more chaos!", cast: ["chloe", "kenan", "bowen", "mikey", "kam", "jane"], hosts: ["miles_teller"], music: [] } 
+                { title: "NewsPoint", scores: { F: null, O: 7},    blurb: "A great concept for a sketch - it could've been pushed further though... I wanted more chaos!", cast: ["chloe", "kenan", "bowen", "mikey", "kam", "jane"], hosts: ["miles_teller"], music: [] },
+                { title: "Church & State", scores: { F: null, O: 3},    blurb: "Unlike the UK counterpart, SNL knows how to effectively stage a rock song.", cast: [], hosts: [], music: ["brandi_carlile"] },
+                { title: "Weekend Update", scores: { F: null, O: 6},    blurb: "Some decent ones here, nothing spectacular.", cast: ["colin", "michael"], hosts: [], music: [] },
+                { title: "Weekend Update: George Santos", scores: { F: null, O: 6},    blurb: "I don't think George Santos is a particularly funny or necessary topic for comedy... but Bowen is a delight to watch, as usual.", cast: ["bowen", "colin"], hosts: [], music: [] },
+                { title: "Weekend Update: Two People Who Just Hooked Up", scores: { F: null, O: 8},    blurb: "", cast: ["andrew", "ashley", "colin"], hosts: [], music: [] },
+                { title: "Gar-Girl", scores: { F: null, O: 3},    blurb: "Idiotic conceit with nothing really to elevate it.", cast: ["jaj", "bowen", "sarah", "andrew", "jeremy", "ashley", "veronika", "tommy", "ben"], hosts: ["miles_teller"], music: [] },
+                { title: "Human", scores: { F: null, O: 4},    blurb: "Definitely the better song of the two.", cast: [], hosts: [], music: ["brandi_carlile"] },
+                { title: "Best Italian Restaurant in Nebraska", scores: { F: null, O: 7},    blurb: "", cast: ["mikey", "chloe", "marcello", "kenan"], hosts: [], music: [] } 
                  
 
                ]
