@@ -358,12 +358,14 @@ window.SNL_DATA = {
 
       hosts: {
         tina_fey: { name: "Tina Fey", bio: "" },
-        jamie_dornan: { name: "Jamie Dornan", bio: "" }
+        jamie_dornan: { name: "Jamie Dornan", bio: "" },
+        riz_ahmed: { name: "Riz Ahmed", bio: ""} 
       },
 
       music: {
         wet_leg: { name: "Wet Leg", bio: "" },
-        wolf_alice: { name: "Wolf Alice", bio: "" }
+        wolf_alice: { name: "Wolf Alice", bio: "" },
+        kasabian: { name: "Kasabian", bio: ""} 
       },
 
       cast: {
@@ -483,7 +485,7 @@ window.SNL_DATA = {
                 { title: "Monologue", scores: { F: null, O: 2}, blurb: "The potatoes are actually really cool... but this just isn't funny. Jamie seemed scared.",       cast: [], hosts: ["jamie_dornan"], music: [] },
                 { title: "British-Themed Pub", scores: { F: null, O: 10},    blurb: "", cast: ["jack", "annabel", "emma", "hammed", "al", "larry"], hosts: ["jamie_dornan"], music: [] },
                 { title: "Hostage Situationship", scores: { F: null, O: 8},    blurb: "", cast: ["annabel", "jack"], hosts: ["jamie_dornan"], music: [] },
-                { title: "The Time-Man", scores: { F: null, O: 1},    blurb: "I don't get it.", cast: ["annabel", "george", "paddy", "al", "emma"], hosts: [], music: [] },
+                { title: "The Time-Man", scores: { F: null, O: 3},    blurb: "I don't get it.", cast: ["annabel", "george", "paddy", "al", "emma"], hosts: [], music: [] },
                 { title: "The Battle Within", scores: { F: null, O: 2},    blurb: "The type of sketch where there is just sort of one (unfunny) joke and it gets dragged out over several minutes with pretty much no variation.", cast: ["jack", "celeste", "hammed", "emma"], hosts: ["jamie_dornan"], music: [] },
                 { title: "White Horses", scores: { F: null, O: 6},    blurb: "I get that they're a rock band... but did the Sky budget not extend to any kind of staging for the music?? Anyway, this song is pretty good and they definitely sound nice.", cast: [], hosts: [], music: ["wolf_alice"] },
                 { title: "Weekend Update", scores: { F: null, O: 4},    blurb: "These two don't have the chemistry that Colin & Che do. I mean, I don't want them to have the exact same kind of rivalrous dynamic, but there really isn't anything there. In fact, they're pretty wooden - especially Paddy!", cast: ["ania", "paddy"], hosts: [], music: [] },
@@ -493,7 +495,23 @@ window.SNL_DATA = {
                 { title: "Leaning Against The Wall", scores: { F: null, O: 3},    blurb: "", cast: [], hosts: [], music: ["wolf_alice"] },
                 { title: "The Condition", scores: { F: null, O: 5},    blurb: "", cast: ["hammed", "emma", "annabel"], hosts: ["jamie_dornan"], music: [] } 
               ]
-            }
+            },
+
+             {
+              number: 4,
+              title: "Episode 4",
+              host: "miles_teller",
+              musicalGuest: "brandi_carlile",
+              airDate: "",
+              sketches: [  
+                { title: "Cold Open: Iran War Speech", scores: { F: null, O: 4},    blurb: "There's something kind of depressing about the Keir bashing - which probably means it's working. The other impersonations felt a little half-baked.", cast: ["george", "al", "emma", "annabel"], hosts: [], music: [] },
+                { title: "Monologue", scores: { F: null, O: 3},    blurb: "", cast: [], hosts: ["riz_ahmed"], music: [] },
+                { title: "Why Does Everyone in TV and Movies?", scores: { F: null, O: 5},    blurb: "Cinema sins level braindead observational humour. But I like the country line dance of it all.", cast: ["jack", "ayoade", "emma", "al"], hosts: [], music: [] },
+                { title: "Great Big Crab Man", scores: { F: null, O: 9},    blurb: "", cast: ["celeste", "emma", "annabel", "larry", "ayoade", "george"], hosts: ["riz_ahmed"], music: [] },
+                { title: "Operation", scores: { F: null, O: 4},    blurb: "", cast: ["annabel", "celeste", "jack", "al", "ayoade"], hosts: ["riz_ahmed"], music: [] }
+
+               ]
+             }
           ]
         }
       ]
