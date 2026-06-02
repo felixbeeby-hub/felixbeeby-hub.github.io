@@ -508,7 +508,16 @@ window.SNL_DATA = {
                 { title: "Monologue", scores: { F: null, O: 3},    blurb: "", cast: [], hosts: ["riz_ahmed"], music: [] },
                 { title: "Why Does Everyone in TV and Movies?", scores: { F: null, O: 5},    blurb: "Cinema sins level braindead observational humour. But I like the country line dance of it all.", cast: ["jack", "ayoade", "emma", "al"], hosts: [], music: [] },
                 { title: "Great Big Crab Man", scores: { F: null, O: 9},    blurb: "", cast: ["celeste", "emma", "annabel", "larry", "ayoade", "george"], hosts: ["riz_ahmed"], music: [] },
-                { title: "Operation", scores: { F: null, O: 4},    blurb: "", cast: ["annabel", "celeste", "jack", "al", "ayoade"], hosts: ["riz_ahmed"], music: [] }
+                { title: "Operation", scores: { F: null, O: 4},    blurb: "", cast: ["annabel", "celeste", "jack", "al", "ayoade"], hosts: ["riz_ahmed"], music: [] },
+                { title: "OG FM", scores: { F: null, O: 9},    blurb: "When it's good, it's good! But why so inconsistent!", cast: ["hammed", "ayoade", "al"], hosts: ["riz_ahmed"], music: [] },
+                { title: "GREAT PRETENDER", scores: { F: null, O: 2},    blurb: "Every single musical guest has been a boring white rock band. Come on guys.", cast: [], hosts: [], music: ["kasabian"] },
+                { title: "Weekend Update", scores: { F: null, O: 7},    blurb: "+2 for Ania and -1 for Paddy", cast: ["ania", "paddy"], hosts: [], music: [] },
+                { title: "Weekend Update: Chloe Bibby Rinkle", scores: { F: null, O: 8},    blurb: "", cast: ["emma", "ania", "paddy"], hosts: [], music: [] },
+                { title: "Weekend Update: An Adorable Little Dormouse", scores: { F: null, O: 8},    blurb: "", cast: ["jack", "ania"], hosts: [], music: [] },
+                { title: "Weekend Update: Patrick & Patrick Jr.", scores: { F: null, O: 3},    blurb: "", cast: ["george", "al", "paddy"], hosts: [], music: [] },
+                { title: "Tales of Unspeakable Horror", scores: { F: null, O: null},    blurb: "", cast: ["celeste", "hammed", "george", "ayoade", "al"], hosts: ["riz_ahmed"], music: [] },
+                { title: "Release The Pressure", scores: { F: null, O: 5},    blurb: "Slightly better, thanks to Calvin Harris, I'm sure.", cast: [], hosts: [], music: ["kasabian"] },
+                { title: "NCT Class", scores: { F: null, O: 7},    blurb: "", cast: ["ayoade", "celeste", "emma", "hammed", "annabel", "larry"], hosts: ["riz_ahmed"], music: [] } 
 
                ]
              }
