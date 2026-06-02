@@ -515,7 +515,7 @@ window.SNL_DATA = {
                 { title: "Weekend Update: Chloe Bibby Rinkle", scores: { F: null, O: 8},    blurb: "", cast: ["emma", "ania", "paddy"], hosts: [], music: [] },
                 { title: "Weekend Update: An Adorable Little Dormouse", scores: { F: null, O: 8},    blurb: "", cast: ["jack", "ania"], hosts: [], music: [] },
                 { title: "Weekend Update: Patrick & Patrick Jr.", scores: { F: null, O: 3},    blurb: "", cast: ["george", "al", "paddy"], hosts: [], music: [] },
-                { title: "Tales of Unspeakable Horror", scores: { F: null, O: null},    blurb: "", cast: ["celeste", "hammed", "george", "ayoade", "al"], hosts: ["riz_ahmed"], music: [] },
+                { title: "Tales of Unspeakable Horror", scores: { F: null, O: 3},    blurb: "", cast: ["celeste", "hammed", "george", "ayoade", "al"], hosts: ["riz_ahmed"], music: [] },
                 { title: "Release The Pressure", scores: { F: null, O: 5},    blurb: "Slightly better, thanks to Calvin Harris, I'm sure.", cast: [], hosts: [], music: ["kasabian"] },
                 { title: "NCT Class", scores: { F: null, O: 7},    blurb: "", cast: ["ayoade", "celeste", "emma", "hammed", "annabel", "larry"], hosts: ["riz_ahmed"], music: [] } 
 
