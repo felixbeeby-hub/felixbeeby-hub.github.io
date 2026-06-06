@@ -345,10 +345,10 @@ window.SNL_DATA = {
                ]
              },
              {
-              number: 4,
-              title: "Episode 4",
-              host: "miles_teller",
-              musicalGuest: "brandi_carlile",
+              number: 5,
+              title: "Episode 5",
+              host: "nikki_glaser",
+              musicalGuest: "chop",
               airDate: "",
               sketches: [  
                 { title: "Cold Open (Oval Office Monologue)", scores: { F: null, O: 2},    blurb: "Feels like they're running out of novel Trump material. This is really sraping the bottom of the barrel.", cast: ["jaj", "mikey", "marcello", "andy", "jeremy"], hosts: [], music: [] },
