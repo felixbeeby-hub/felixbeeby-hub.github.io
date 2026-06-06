@@ -70,14 +70,16 @@ window.SNL_DATA = {
         bad_bunny:          { name: "Bad Bunny",          bio: "" },
         amy_poehler: { name: "Amy Poehler", bio: "" },
         sabrina_carpenter: { name: "Sabrina Carpenter", bio: "" },
-        miles_teller: { name: "Miles Teller", bio:""} 
+        miles_teller: { name: "Miles Teller", bio:""},
+        nikki_glaser: { name: "Nikki Glaser", bio:""} 
       },
 
       music: {
         doja_cat:            { name: "Doja Cat",                    bio: "" },
         role_model: { name: "Role Model", bio: "" },
         sabrina_carpenter: { name: "Sabrina Carpenter", bio: "" },
-        brandi_carlile: { name: "Brandi Carlile", bio: "" } 
+        brandi_carlile: { name: "Brandi Carlile", bio: "" },
+        chop: { name: "Sombr", bio: ""} 
       },
 
       cast: {
@@ -341,7 +343,33 @@ window.SNL_DATA = {
                  
 
                ]
-             }    
+             },
+             {
+              number: 4,
+              title: "Episode 4",
+              host: "miles_teller",
+              musicalGuest: "brandi_carlile",
+              airDate: "",
+              sketches: [  
+                { title: "Cold Open (Oval Office Monologue)", scores: { F: null, O: 2},    blurb: "Feels like they're running out of novel Trump material. This is really sraping the bottom of the barrel.", cast: ["jaj", "mikey", "marcello", "andy", "jeremy"], hosts: [], music: [] },
+                { title: "Opening Monologue", scores: { F: null, O: 9},    blurb: "So THIS is what a proper stand-up comedian's opening monologue looks like!", cast: [], hosts: ["nikki_glaser"], music: [] },
+                { title: "Family Karaoke Night", scores: { F: null, O: 2},    blurb: "", cast: ["tommy", "sarah", "andrew", "ashley", "kenan"], hosts: ["nikki_glaser"], music: [] },
+                { title: "Hudsacillin", scores: { F: null, O: 9},    blurb: "", cast: ["marcello"], hosts: ["nikki_glaser"], music: [] },
+                { title: "Beauty and Mr Beast", scores: { F: null, O: 7},    blurb: "A hilarious idea, but I fear the writers don't have enough Beast knowledge to really make this elite.", cast: ["andrew", "ben", "kenan", "bowen"], hosts: ["nikki_glaser"], music: [] },
+                { title: "American Doll XL", scores: { F: null, O: 1},    blurb: "Gross", cast: ["chloe", "ashley", "andrew", "veronika", "sarah", "ben", "kam", "tommy", "mikey", "jaj"], hosts: ["nikki_glaser"], music: [] },
+                { title: "Runaway Mechanical Bull", scores: { F: null, O: 9},    blurb: "", cast: ["chloe", "veronika", "jane", "sarah", "andrew", "kenan", "jaj", "colin"], hosts: ["nikki_glaser"], music: [] },
+                { title: "12 to 12", scores: { F: null, O: 4},    blurb: "Despite his deeply off-putting stage presence, I unfortunately do see the appeal of this music sonically. There's a certain undeniable groove here.", cast: [], hosts: [], music: ["chop"] },
+                { title: "Weekend Update", scores: { F: null, O: 4},    blurb: "Making jokes about the topic of the cold open is a little bit lame.", cast: ["colin", "michael"], hosts: [], music: [] },
+                { title: "Weekend Update: Pete Davidson", scores: { F: null, O: 2},    blurb: "Featuring Pete Davidson. Unfortunately. But the ferry thing is quite funny, so I'm glad I've been made aware of it!", cast: ["colin"], hosts: [], music: [] },
+                { title: "Delta Gamma", scores: { F: null, O: 5},    blurb: "", cast: ["chloe", "ashley", "sarah", "veronika", "jane", "mikey", "andrew"], hosts: ["nikki_glaser"], music: [] },
+                { title: "Brad and His Dad", scores: { F: null, O: 6},    blurb: "", cast: ["mikey"], hosts: [], music: [] },
+                { title: "Flight Delay", scores: { F: null, O: 7},    blurb: "", cast: ["sarah", "andrew", "kenan", "bowen", "jaj", "kam"], hosts: ["nikki_glaser"], music: [] },
+                { title: "back to friends", scores: { F: null, O: 6},    blurb: "", cast: [], hosts: [], music: ["chop"] },
+                { title: "The Make Believe Meadow", scores: { F: null, O: 8},    blurb: "", cast: ["ben", "jeremy", "mikey", "sarah"], hosts: [], music: [] } 
+                 
+
+               ]
+             }
           ]
         }
       ]
