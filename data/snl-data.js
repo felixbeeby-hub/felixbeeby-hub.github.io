@@ -412,13 +412,15 @@ window.SNL_DATA = {
       hosts: {
         tina_fey: { name: "Tina Fey", bio: "" },
         jamie_dornan: { name: "Jamie Dornan", bio: "" },
-        riz_ahmed: { name: "Riz Ahmed", bio: ""} 
+        riz_ahmed: { name: "Riz Ahmed", bio: ""},
+        jack_whitehall: { name: "Jack Whitehall", bio: ""} 
       },
 
       music: {
         wet_leg: { name: "Wet Leg", bio: "" },
         wolf_alice: { name: "Wolf Alice", bio: "" },
-        kasabian: { name: "Kasabian", bio: ""} 
+        kasabian: { name: "Kasabian", bio: ""},
+        jorja_smith: { name: "Jorja Smith", bio: ""}
       },
 
       cast: {
@@ -571,6 +573,21 @@ window.SNL_DATA = {
                 { title: "Tales of Unspeakable Horror", scores: { F: null, O: 3},    blurb: "", cast: ["celeste", "hammed", "george", "ayoade", "al"], hosts: ["riz_ahmed"], music: [] },
                 { title: "Release The Pressure", scores: { F: null, O: 5},    blurb: "Slightly better, thanks to Calvin Harris, I'm sure.", cast: [], hosts: [], music: ["kasabian"] },
                 { title: "NCT Class", scores: { F: null, O: 7},    blurb: "", cast: ["ayoade", "celeste", "emma", "hammed", "annabel", "larry"], hosts: ["riz_ahmed"], music: [] } 
+
+               ]
+             },
+             {
+              number: 4,
+              title: "Episode 4",
+              host: "jack_whitehall",
+              musicalGuest: "jorja_smith",
+              airDate: "",
+              sketches: [  
+                { title: "Cold Open (Melania Trump)", scores: { F: null, O: 2},    blurb: "Confusing. Why would they make a sketch about Melania Trump? Emma Sidi's impression is somehow even worse than Chloe Fineman's.", cast: ["jack", "annabel", "al", "emma"], hosts: [], music: [] },
+                { title: "Opening Monologue", scores: { F: null, O: 6},    blurb: "What is he wearing?? The wedding material is a little trite, but it's nice to see a confident monologue.", cast: [], hosts: ["jack_whitehall"], music: [] },
+                { title: "Gary Thomas", scores: { F: null, O: 3},    blurb: "??????", cast: ["al", "ayoade", "celeste", "hammed", "larry"], hosts: ["jack_whitehall"], music: [] },
+                { title: "Football Match Kids", scores: { F: null, O: 5},    blurb: "There's potential here, but it isn't quite coming together.", cast: ["al", "hammed", "jack", "larry", "emma", "ayoade", "celeste"], hosts: ["jack_whitehall"], music: [] },
+                { title: "Mastermind", scores: { F: null, O: 3},    blurb: "", cast: ["hammed", "celeste" ], hosts: ["jack_whitehall"], music: [] }
 
                ]
              }
