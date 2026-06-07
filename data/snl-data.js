@@ -67,17 +67,17 @@ window.SNL_DATA = {
       heroTitle: "Live from<br>New York",
 
       hosts: {
-        bad_bunny:          { name: "Bad Bunny",          bio: "" },
-        amy_poehler: { name: "Amy Poehler", bio: "" },
-        sabrina_carpenter: { name: "Sabrina Carpenter", bio: "" },
-        miles_teller: { name: "Miles Teller", bio:""},
-        nikki_glaser: { name: "Nikki Glaser", bio:""},
-        glen_powell: { name: "Glen Powell", bio: ""} 
+        bad_bunny:          { name: "Bad Bunny",          bio: "It feels like the writers slightly struggled to write around his thick accent and aloof aura." },
+        amy_poehler: { name: "Amy Poehler", bio: "Needless to say, Amy is absolutely in her element and is an absolute joy to watch (no pun intended)." },
+        sabrina_carpenter: { name: "Sabrina Carpenter", bio: "Sabrina's slapstick comedic style meshes really well with what SNL is good at, making her an excellent host." },
+        miles_teller: { name: "Miles Teller", bio: "As more of a dramatic actor, and a pretty mediocre one at that, Miles Teller falls fairly flat in most of his sketches unfortunately."},
+        nikki_glaser: { name: "Nikki Glaser", bio: ""},
+        glen_powell: { name: "Glen Powell", bio: "As evidenced by the ineffable Chad Radwell, Glen Powell has incredible comedic timing and range. And he doesn't dissapoint on SNL. He nails all of his characters - though the scripts given to him sometimes leave a little bit to be desired."} 
       },
 
       music: {
         doja_cat:            { name: "Doja Cat",                    bio: "" },
-        role_model: { name: "Role Model", bio: "" },
+        role_model: { name: "Role Model", bio: "He sounded absolutely terrible but Sally is a banger. And Charli XCX appeared, so bonus points for that." },
         sabrina_carpenter: { name: "Sabrina Carpenter", bio: "" },
         brandi_carlile: { name: "Brandi Carlile", bio: "" },
         chop: { name: "Sombr", bio: ""},
