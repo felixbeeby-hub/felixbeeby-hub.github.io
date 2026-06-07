@@ -384,7 +384,14 @@ window.SNL_DATA = {
                 { title: "Old Photo AI", scores: { F: null, O: 5},    blurb: "", cast: ["ashley", "chloe", "marcello", "sarah", "tommy", "veronika", "mikey"], hosts: ["glen_powell"], music: [] },
                 { title: "My Ex's Dad", scores: { F: null, O: 6},    blurb: "Tommy Brennan has such a good country singing voice", cast: ["tommy", "ben", "kenan", "sarah", "jeremy"], hosts: ["glen_powell"], music: [] },
                 { title: "Bachelor Party", scores: { F: null, O: 6},    blurb: "Despite having no familiarity with the reference material, I did enjoy this.", cast: ["jeremy", "tommy", "jaj", "kam", "marcello", "chloe"], hosts: ["glen_powell"], music: [] },
-                { title: "The Scent of a Marriage", scores: { F: null, O: 5},    blurb: "I don't think it quite has enough reverence for the thing which it is parodying.", cast: ["mikey", "jane", "chloe", "jeremy", "jaj"], hosts: ["glen_powell"], music: [] }
+                { title: "The Scent of a Marriage", scores: { F: null, O: 5},    blurb: "I don't think it quite has enough reverence for the thing which it is parodying.", cast: ["mikey", "jane", "chloe", "jeremy", "jaj"], hosts: ["glen_powell"], music: [] },
+                { title: "MacGruber", scores: { F: null, O: 4},    blurb: "Featuring Someone. Split in 3 parts.", cast: ["chloe"], hosts: ["glen_powell"], music: [] },
+                { title: "The Slay Division", scores: { F: null, O: 10},    blurb: "It's corny, but I love it, sorry.", cast: ["andrew", "bowen", "sarah", "kenan", "veronika", "ben", "ashley", "tommy", "jaj", "kam", "jane", "jeremy"], hosts: ["glen_powell"], music: [] },
+                { title: "Man I Need", scores: { F: null, O: 8},    blurb: "", cast: [], hosts: [], music: ["olivia_dean"] },
+                { title: "Weekend Update", scores: { F: null, O: 3},    blurb: "Unusually tacky and with no sub-segments! Boo!", cast: ["colin", "michael"], hosts: [], music: [] },
+                { title: "Taken", scores: { F: null, O: 3},    blurb: "Not a lot of jokes here...", cast: ["andrew", "chloe", "veronika", "marcello"], hosts: [], music: [] },
+                { title: "Let Alone The One You Love", scores: { F: null, O: 6},    blurb: "It's a shame she didn't go for So Easy. This one is a little slow.", cast: [], hosts: [], music: ["olivia_dean"] },
+                { title: "New Haircut", scores: { F: null, O: 6},    blurb: "Another sketch about hairstyles. This is the type of sketch that only works because of the charisma of the cast (Ashley and Sarah that is).", cast: ["sarah", "bowen", "ben", "ashley", "mikey", "kenan"], hosts: ["glen_powell"], music: [] } 
 
                ]
              }
