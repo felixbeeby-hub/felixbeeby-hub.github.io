@@ -44,7 +44,7 @@
               musicalGuest: "brandi_carlile",
               airDate: "",
               sketches: [  
-                { title: "", scores: { F: null, O: null},    blurb: "", cast: ["kenan", "kam"], hosts: ["miles_teller"], music: [] }
+                { title: "", scores: { F: null, O: null},    blurb: "", cast: [], hosts: [], music: [] }
 
                ]
              }
@@ -71,7 +71,8 @@ window.SNL_DATA = {
         amy_poehler: { name: "Amy Poehler", bio: "" },
         sabrina_carpenter: { name: "Sabrina Carpenter", bio: "" },
         miles_teller: { name: "Miles Teller", bio:""},
-        nikki_glaser: { name: "Nikki Glaser", bio:""} 
+        nikki_glaser: { name: "Nikki Glaser", bio:""},
+        glen_powell: { name: "Glen Powell", bio: ""} 
       },
 
       music: {
@@ -79,7 +80,8 @@ window.SNL_DATA = {
         role_model: { name: "Role Model", bio: "" },
         sabrina_carpenter: { name: "Sabrina Carpenter", bio: "" },
         brandi_carlile: { name: "Brandi Carlile", bio: "" },
-        chop: { name: "Sombr", bio: ""} 
+        chop: { name: "Sombr", bio: ""},
+        olivia_dean: { name: "Olivia Dean", bio: ""} 
       },
 
       cast: {
@@ -367,6 +369,22 @@ window.SNL_DATA = {
                 { title: "back to friends", scores: { F: null, O: 6},    blurb: "", cast: [], hosts: [], music: ["chop"] },
                 { title: "The Make Believe Meadow", scores: { F: null, O: 8},    blurb: "", cast: ["ben", "jeremy", "mikey", "sarah"], hosts: [], music: [] } 
                  
+
+               ]
+             },
+             {
+              number: 6,
+              title: "Episode 6",
+              host: "glen_powell",
+              musicalGuest: "olivia_dean",
+              airDate: "",
+              sketches: [  
+                { title: "Cold Open (White House Press Briefing)", scores: { F: null, O: 4},    blurb: "Every time I think the writers have the restraint to NOT put Trump into the cold open... he appears. Come on, guys! I know JAJ does it well, but sometimes it's funnier if you have to write around him.", cast: ["ashley", "chloe", "kam", "bowen", "andrew", "kenan", "jaj", "jeremy", "mikey"], hosts: [], music: [] },
+                { title: "Opening Monologue", scores: { F: null, O: 5},    blurb: "A little bit serious.", cast: [], hosts: ["glen_powell"], music: [] },
+                { title: "Old Photo AI", scores: { F: null, O: 5},    blurb: "", cast: ["ashley", "chloe", "marcello", "sarah", "tommy", "veronika", "mikey"], hosts: ["glen_powell"], music: [] },
+                { title: "My Ex's Dad", scores: { F: null, O: 6},    blurb: "Tommy Brennan has such a good country singing voice", cast: ["tommy", "ben", "kenan", "sarah", "jeremy"], hosts: ["glen_powell"], music: [] },
+                { title: "Bachelor Party", scores: { F: null, O: 6},    blurb: "Despite having no familiarity with the reference material, I did enjoy this.", cast: ["jeremy", "tommy", "jaj", "kam", "marcello", "chloe"], hosts: ["glen_powell"], music: [] },
+                { title: "The Scent of a Marriage", scores: { F: null, O: 5},    blurb: "I don't think it quite has enough reverence for the thing which it is parodying.", cast: ["mikey", "jane", "chloe", "jeremy", "jaj"], hosts: ["glen_powell"], music: [] }
 
                ]
              }
