@@ -587,7 +587,18 @@ window.SNL_DATA = {
                 { title: "Opening Monologue", scores: { F: null, O: 6},    blurb: "What is he wearing?? The wedding material is a little trite, but it's nice to see a confident monologue.", cast: [], hosts: ["jack_whitehall"], music: [] },
                 { title: "Gary Thomas", scores: { F: null, O: 3},    blurb: "??????", cast: ["al", "ayoade", "celeste", "hammed", "larry"], hosts: ["jack_whitehall"], music: [] },
                 { title: "Football Match Kids", scores: { F: null, O: 5},    blurb: "There's potential here, but it isn't quite coming together.", cast: ["al", "hammed", "jack", "larry", "emma", "ayoade", "celeste"], hosts: ["jack_whitehall"], music: [] },
-                { title: "Mastermind", scores: { F: null, O: 3},    blurb: "", cast: ["hammed", "celeste" ], hosts: ["jack_whitehall"], music: [] }
+                { title: "Mastermind", scores: { F: null, O: 3},    blurb: "", cast: ["hammed", "celeste" ], hosts: ["jack_whitehall"], music: [] },
+                { title: "DadSwap", scores: { F: null, O: 5},    blurb: "", cast: ["al", "larry", "george", "annabel", "hammed", "jack", "celeste"], hosts: ["jack_whitehall"], music: [] },
+                { title: "The Masters", scores: { F: null, O: 6},    blurb: "", cast: ["george", "jack", "al", "annabel", "larry", "emma", "hammed"], hosts: ["jack_whitehall"], music: [] },
+                { title: "Little Things", scores: { F: null, O: 7},    blurb: "", cast: [], hosts: [], music: ["jorja_smith"] },
+                { title: "Weekend Update", scores: { F: null, O: 6},    blurb: "", cast: ["ania", "paddy"], hosts: [], music: [] },
+                { title: "Weekend Update: Paul Townend", scores: { F: null, O: 5},    blurb: "", cast: ["celeste", "al", "ania"], hosts: [], music: [] },
+                { title: "Weekend Update: Gen Z Correspondents", scores: { F: null, O: 6},    blurb: "??", cast: ["annabel", "jack", "paddy"], hosts: [], music: [] },
+                { title: "Peter Pan & Wendy", scores: { F: null, O: 6},    blurb: "I can't help but feel this is wasted potential.", cast: ["celeste", "al"], hosts: ["jack_whitehall"], music: [] },
+                { title: "Falling Down a Hill", scores: { F: null, O: 4},    blurb: "?", cast: ["celeste"], hosts: [], music: [] },
+                { title: "Price Of It All", scores: { F: null, O: 6},    blurb: "", cast: [], hosts: [], music: ["jorja_smith"] },
+                { title: "Lavendar Marriage", scores: { F: null, O: 8},    blurb: "Jack Shep always doing too much...", cast: ["annabel", "jack", "celeste", "emma"], hosts: [], music: [] } 
+                                                                                         
 
                ]
              }
