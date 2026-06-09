@@ -73,7 +73,7 @@ window.SNL_DATA = {
         miles_teller: { name: "Miles Teller", bio: "As more of a dramatic actor, and a pretty mediocre one at that, Miles Teller falls fairly flat in most of his sketches unfortunately."},
         nikki_glaser: { name: "Nikki Glaser", bio: ""},
         glen_powell: { name: "Glen Powell", bio: "As evidenced by the ineffable Chad Radwell, Glen Powell has incredible comedic timing and range. And he doesn't dissapoint on SNL. He nails all of his characters - though the scripts given to him sometimes leave a little bit to be desired."},
-        melissa_mccarthy: { name: "Melissa McCarthy", bio: ""} 
+        melissa_mccarthy: { name: "Melissa McCarthy", bio: "Incredible host. I was nervous at the start of the monologue, but she clicked so well with the cast in every sketch."} 
       },
 
       music: {
