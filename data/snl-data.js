@@ -237,8 +237,8 @@ window.SNL_DATA = {
            photobig: ["jane_wickline.jpg", "jane_intro.jpeg"],
           status: "current",
           role: "Featured",
-          seasons: [51],
-          bio: "Its her first season and she is doing well! She is becoming quite popular with viewers and has featured in many sketches and usually fits a specific niche (of comedically akward). Jane's look is often similar with most wigs being straight brown hair (the same as, but longer, than her real hair). She has also appeared numerous times on Weekend Update as herself, often times with a keyboard which she plays while singing!<br>LEFT: Wickline during Weekend Update. RIGHT: Wickline during the SNL intro."
+          seasons: [50, 51],
+          bio: "She is doing well! She is becoming quite popular with viewers and has featured in many sketches and usually fits a specific niche (of comedically akward). Jane's look is often similar with most wigs being straight brown hair (the same as, but longer, than her real hair). She has also appeared numerous times on Weekend Update as herself, often times with a keyboard which she plays while singing!<br>LEFT: Wickline during Weekend Update. RIGHT: Wickline during the SNL intro."
         } 
       },
        
