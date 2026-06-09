@@ -413,7 +413,7 @@ window.SNL_DATA = {
                 { title: "Weekend Update", scores: { F: null, O: 7},    blurb: "Unusually strong jokes this time!", cast: ["colin", "michael"], hosts: [], music: [] },
                 { title: "Weekend Update: A Redhead Who Just Went On Vacation", scores: { F: null, O: 6},    blurb: "I think Ben is struggling slightly... he doesn't quite have it. There were some good jokes though.", cast: ["ben", "colin"], hosts: [], music: [] },
                 { title: "Weekend Update: A Drunk Racoon", scores: { F: null, O: 10},    blurb: "", cast: ["sarah", "colin"], hosts: [], music: [] },
-                { title: "Mom Hang", scores: { F: null, O: null},    blurb: "", cast: ["ashley", "veronika", "sarah", "chloe", "jane"], hosts: ["melissa_mccarthy"], music: [] },
+                { title: "Mom Hang", scores: { F: null, O: 6},    blurb: "", cast: ["ashley", "veronika", "sarah", "chloe", "jane"], hosts: ["melissa_mccarthy"], music: [] },
                 { title: "Sunday Supper", scores: { F: null, O: 7},    blurb: "", cast: ["andrew", "ashley", "kam", "bowen", "sarah"], hosts: ["melissa_mccarthy"], music: [] },
                 { title: "Another Baby!", scores: { F: null, O: 5},    blurb: "", cast: [], hosts: [], music: ["dijon"] },
                 { title: "Cousin Planet", scores: { F: null, O: 7},    blurb: "This PC Music masterpiece", cast: ["veronika", "jane"], hosts: ["melissa_mccarthy"], music: [] },
