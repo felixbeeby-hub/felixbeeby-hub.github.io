@@ -72,7 +72,8 @@ window.SNL_DATA = {
         sabrina_carpenter: { name: "Sabrina Carpenter", bio: "Sabrina's slapstick comedic style meshes really well with what SNL is good at, making her an excellent host." },
         miles_teller: { name: "Miles Teller", bio: "As more of a dramatic actor, and a pretty mediocre one at that, Miles Teller falls fairly flat in most of his sketches unfortunately."},
         nikki_glaser: { name: "Nikki Glaser", bio: ""},
-        glen_powell: { name: "Glen Powell", bio: "As evidenced by the ineffable Chad Radwell, Glen Powell has incredible comedic timing and range. And he doesn't dissapoint on SNL. He nails all of his characters - though the scripts given to him sometimes leave a little bit to be desired."} 
+        glen_powell: { name: "Glen Powell", bio: "As evidenced by the ineffable Chad Radwell, Glen Powell has incredible comedic timing and range. And he doesn't dissapoint on SNL. He nails all of his characters - though the scripts given to him sometimes leave a little bit to be desired."},
+        melissa_mccarthy: { name: "Melissa McCarthy", bio: ""} 
       },
 
       music: {
@@ -81,7 +82,8 @@ window.SNL_DATA = {
         sabrina_carpenter: { name: "Sabrina Carpenter", bio: "" },
         brandi_carlile: { name: "Brandi Carlile", bio: "" },
         chop: { name: "Sombr", bio: ""},
-        olivia_dean: { name: "Olivia Dean", bio: ""} 
+        olivia_dean: { name: "Olivia Dean", bio: ""},
+        dijon: {name: "Dijon", bio: ""}
       },
 
       cast: {
@@ -392,6 +394,31 @@ window.SNL_DATA = {
                 { title: "Taken", scores: { F: null, O: 3},    blurb: "Not a lot of jokes here...", cast: ["andrew", "chloe", "veronika", "marcello"], hosts: [], music: [] },
                 { title: "Let Alone The One You Love", scores: { F: null, O: 6},    blurb: "It's a shame she didn't go for So Easy. This one is a little slow.", cast: [], hosts: [], music: ["olivia_dean"] },
                 { title: "New Haircut", scores: { F: null, O: 6},    blurb: "Another sketch about hairstyles. This is the type of sketch that only works because of the charisma of the cast (Ashley and Sarah that is).", cast: ["sarah", "bowen", "ben", "ashley", "mikey", "kenan"], hosts: ["glen_powell"], music: [] } 
+
+               ]
+             },
+             {
+              number: 7,
+              title: "Episode 7",
+              host: "melissa_mccarthy",
+              musicalGuest: "dijon",
+              airDate: "",
+              sketches: [  
+                { title: "Cold Open (Hegseth Press Conference)", scores: { F: null, O: 7},    blurb: "It's nice to see Colin doing something different. And they haven't worn down this character (Hegseth) yet. But why must Trump always appear!", cast: ["jeremy", "colin", "andrew", "mikey", "tommy", "ashley", "ben", "sarah", "bowen"], hosts: [], music: [] },
+                { title: "Opening Monologue", scores: { F: null, O: 6},    blurb: "A slightly unique monologue. I like it!", cast: ["marcello", "kenan"], hosts: ["melissa_mccarthy"], music: [] },
+                { title: "Free Samples", scores: { F: null, O: 9},    blurb: "", cast: ["jeremy", "ben", "veronika", "mikey"], hosts: ["melissa_mccarthy"], music: [] },
+                { title: "A Helping Hand", scores: { F: null, O: 8},    blurb: "", cast: ["marcello", "mikey", "sarah", "chloe", "kenan", "jeremy"], hosts: ["melissa_mccarthy"], music: [] },
+                { title: "UPS", scores: { F: null, O: 8},    blurb: "", cast: ["mikey", "ashley"], hosts: [], music: [] },
+                { title: "HIGHER!", scores: { F: null, O: 6},    blurb: "", cast: [], hosts: [], music: ["dijon"] },
+                { title: "Weekend Update", scores: { F: null, O: 7},    blurb: "Unusually strong jokes this time!", cast: ["colin", "michael"], hosts: [], music: [] },
+                { title: "Weekend Update: A Redhead Who Just Went On Vacation", scores: { F: null, O: 6},    blurb: "I think Ben is struggling slightly... he doesn't quite have it. There were some good jokes though.", cast: ["ben", "colin"], hosts: [], music: [] },
+                { title: "Weekend Update: A Drunk Racoon", scores: { F: null, O: 10},    blurb: "", cast: ["sarah", "colin"], hosts: [], music: [] },
+                { title: "Mom Hang", scores: { F: null, O: null},    blurb: "", cast: ["ashley", "veronika", "sarah", "chloe", "jane"], hosts: ["melissa_mccarthy"], music: [] },
+                { title: "Sunday Supper", scores: { F: null, O: 7},    blurb: "", cast: ["andrew", "ashley", "kam", "bowen", "sarah"], hosts: ["melissa_mccarthy"], music: [] },
+                { title: "Another Baby!", scores: { F: null, O: 5},    blurb: "", cast: [], hosts: [], music: ["dijon"] },
+                { title: "Cousin Planet", scores: { F: null, O: 7},    blurb: "This PC Music masterpiece", cast: ["veronika", "jane"], hosts: ["melissa_mccarthy"], music: [] },
+                { title: "Spectrum News: Homes of the Holidays", scores: { F: null, O: 6},    blurb: "", cast: ["tommy", "bowen"], hosts: ["melissa_mccarthy"], music: [] }
+                                                                                                             
 
                ]
              }
