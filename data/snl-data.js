@@ -73,7 +73,8 @@ window.SNL_DATA = {
         miles_teller: { name: "Miles Teller", bio: "As more of a dramatic actor, and a pretty mediocre one at that, Miles Teller falls fairly flat in most of his sketches unfortunately."},
         nikki_glaser: { name: "Nikki Glaser", bio: ""},
         glen_powell: { name: "Glen Powell", bio: "As evidenced by the ineffable Chad Radwell, Glen Powell has incredible comedic timing and range. And he doesn't dissapoint on SNL. He nails all of his characters - though the scripts given to him sometimes leave a little bit to be desired."},
-        melissa_mccarthy: { name: "Melissa McCarthy", bio: "Incredible host. I was nervous at the start of the monologue, but she clicked so well with the cast in every sketch."} 
+        melissa_mccarthy: { name: "Melissa McCarthy", bio: "Incredible host. I was nervous at the start of the monologue, but she clicked so well with the cast in every sketch."},
+        josh_oconnor: { name: "Josh O'Connor", bio: ""} 
       },
 
       music: {
@@ -83,7 +84,8 @@ window.SNL_DATA = {
         brandi_carlile: { name: "Brandi Carlile", bio: "" },
         chop: { name: "Sombr", bio: ""},
         olivia_dean: { name: "Olivia Dean", bio: ""},
-        dijon: {name: "Dijon", bio: ""}
+        dijon: {name: "Dijon", bio: ""},
+        lily_allen: {name: "Lily Allen", bio: ""} 
       },
 
       cast: {
@@ -404,7 +406,7 @@ window.SNL_DATA = {
               musicalGuest: "dijon",
               airDate: "",
               sketches: [  
-                { title: "Cold Open (Hegseth Press Conference)", scores: { F: null, O: 7},    blurb: "It's nice to see Colin doing something different. And they haven't worn down this character (Hegseth) yet. But why must Trump always appear!", cast: ["jeremy", "colin", "andrew", "mikey", "tommy", "ashley", "ben", "sarah", "bowen"], hosts: [], music: [] },
+                { title: "Cold Open (Hegseth Press Conference)", scores: { F: null, O: 7},    blurb: "It's nice to see Colin doing something different. And they haven't worn down this character (Hegseth) yet. But why must Trump always appear!", cast: ["jeremy", "colin", "andrew", "mikey", "tommy", "ashley", "ben", "sarah", "bowen", "jaj"], hosts: [], music: [] },
                 { title: "Opening Monologue", scores: { F: null, O: 6},    blurb: "A slightly unique monologue. I like it!", cast: ["marcello", "kenan"], hosts: ["melissa_mccarthy"], music: [] },
                 { title: "Free Samples", scores: { F: null, O: 9},    blurb: "", cast: ["jeremy", "ben", "veronika", "mikey"], hosts: ["melissa_mccarthy"], music: [] },
                 { title: "A Helping Hand", scores: { F: null, O: 8},    blurb: "", cast: ["marcello", "mikey", "sarah", "chloe", "kenan", "jeremy"], hosts: ["melissa_mccarthy"], music: [] },
@@ -419,6 +421,27 @@ window.SNL_DATA = {
                 { title: "Cousin Planet", scores: { F: null, O: 7},    blurb: "This PC Music masterpiece", cast: ["veronika", "jane"], hosts: ["melissa_mccarthy"], music: [] },
                 { title: "Spectrum News: Homes of the Holidays", scores: { F: null, O: 6},    blurb: "", cast: ["tommy", "bowen"], hosts: ["melissa_mccarthy"], music: [] }
                                                                                                              
+
+               ]
+             },
+             {
+              number: 7,
+              title: "Episode 7",
+              host: "josh_oconnor",
+              musicalGuest: "lily_allen",
+              airDate: "",
+              sketches: [  
+                { title: "Cold Open (Air Force One Press Conference)", scores: { F: null, O: 2},    blurb: "Uninspired.", cast: ["ashley", "jaj", "chloe", "jeremy", "andrew", "mikey", "tommy"], hosts: [], music: [] },
+                { title: "Opening Monologue", scores: { F: null, O: 3},    blurb: "I feel like dramatic actors really struggle to be funny in this section.", cast: [], hosts: ["josh_oconnor"], music: [] },
+                { title: "Let's Find Love!", scores: { F: null, O: 8},    blurb: "Why have both sketches so far mentioned Pixar films?", cast: ["kenan", "chloe", "veronika", "ashley"], hosts: ["josh_oconnor"], music: [] },
+                { title: "Uber Eats Wrapped", scores: { F: null, O: 6},    blurb: "", cast: ["ben", "veronika", "andrew", "ashley", "kam", "chloe", "jaj", "sarah", "marcello", "mikey"], hosts: [], music: [] },
+                { title: "Blood Test", scores: { F: null, O: 9},    blurb: "", cast: ["andrew", "ashley", "bowen"], hosts: ["josh_oconnor"], music: [] },
+                { title: "Performative Male Strippers", scores: { F: null, O: 8},    blurb: "Why is he kissing boys in every sketch oml ;-;", cast: ["ashley", "sarah", "chloe", "veronika", "jane", "ben", "mikey"], hosts: ["josh_oconnor"], music: [] },
+                { title: "Sleepwalking", scores: { F: null, O: 6},    blurb: "", cast: [], hosts: [], music: ["lily_allen"] },
+                { title: "Weekend Update", scores: { F: null, O: null},    blurb: "", cast: ["colin", "michael"], hosts: [], music: [] },
+                { title: "Weekend Update: Marcello Hernandez on Christmas", scores: { F: null, O: 4},    blurb: "", cast: ["marcello", "colin"], hosts: [], music: [] },
+                { title: "Weekend Update: The Greatest Threat to Humanity Right Now", scores: { F: null, O: 6},    blurb: "", cast: ["jane", "colin"], hosts: [], music: [] },
+                { title: "", scores: { F: null, O: null},    blurb: "", cast: [], hosts: ["josh_oconnor"], music: [] }
 
                ]
              }
