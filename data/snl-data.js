@@ -441,7 +441,12 @@ window.SNL_DATA = {
                 { title: "Weekend Update", scores: { F: null, O: null},    blurb: "", cast: ["colin", "michael"], hosts: [], music: [] },
                 { title: "Weekend Update: Marcello Hernandez on Christmas", scores: { F: null, O: 4},    blurb: "", cast: ["marcello", "colin"], hosts: [], music: [] },
                 { title: "Weekend Update: The Greatest Threat to Humanity Right Now", scores: { F: null, O: 6},    blurb: "", cast: ["jane", "colin"], hosts: [], music: [] },
-                { title: "", scores: { F: null, O: null},    blurb: "", cast: [], hosts: ["josh_oconnor"], music: [] }
+                { title: "Deleted Scene from Wizard of Oz", scores: { F: null, O: 3},    blurb: "", cast: ["bowen", "sarah", "andrew", "kenan"], hosts: ["josh_oconnor"], music: [] },
+                { title: "Brad and His Dad", scores: { F: null, O: null},    blurb: "", cast: ["mikey"], hosts: [], music: [] },
+                { title: "12-Year-Old College Student", scores: { F: null, O: 7},    blurb: "", cast: ["bowen", "ben", "veronika", "sarah", "ashley", "chloe"], hosts: ["josh_oconnor"], music: [] },
+                { title: "Madeline", scores: { F: null, O: 7},    blurb: "Featuring Dakota Johnson", cast: [], hosts: [], music: ["lily_allen"] },
+                { title: "Christmas Characters on Characters", scores: { F: null, O: 8},    blurb: "", cast: ["bowen", "mikey", "jaj", "kenan", "marcello", "chloe", "ashley"], hosts: ["josh_oconnor"], music: [] },
+                { title: "I Thought That Was Quite Strange", scores: { F: null, O: 9},    blurb: "", cast: ["veronika", "jane", "chloe", "bowen", "sarah"], hosts: ["josh_oconnor"], music: ["lily_allen"] }
 
                ]
              }
