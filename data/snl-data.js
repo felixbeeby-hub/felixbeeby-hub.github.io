@@ -74,7 +74,8 @@ window.SNL_DATA = {
         nikki_glaser: { name: "Nikki Glaser", bio: ""},
         glen_powell: { name: "Glen Powell", bio: "As evidenced by the ineffable Chad Radwell, Glen Powell has incredible comedic timing and range. And he doesn't dissapoint on SNL. He nails all of his characters - though the scripts given to him sometimes leave a little bit to be desired."},
         melissa_mccarthy: { name: "Melissa McCarthy", bio: "Incredible host. I was nervous at the start of the monologue, but she clicked so well with the cast in every sketch."},
-        josh_oconnor: { name: "Josh O'Connor", bio: ""} 
+        josh_oconnor: { name: "Josh O'Connor", bio: ""},
+        ariana_grande: { name: "Ariana Grande", bio: ""} 
       },
 
       music: {
@@ -85,7 +86,8 @@ window.SNL_DATA = {
         chop: { name: "Sombr", bio: ""},
         olivia_dean: { name: "Olivia Dean", bio: ""},
         dijon: {name: "Dijon", bio: ""},
-        lily_allen: {name: "Lily Allen", bio: ""} 
+        lily_allen: {name: "Lily Allen", bio: ""},
+        cher: {name: "Cher", bio: ""} 
       },
 
       cast: {
@@ -447,6 +449,25 @@ window.SNL_DATA = {
                 { title: "Madeline", scores: { F: null, O: 7},    blurb: "Featuring Dakota Johnson", cast: [], hosts: [], music: ["lily_allen"] },
                 { title: "Christmas Characters on Characters", scores: { F: null, O: 8},    blurb: "", cast: ["bowen", "mikey", "jaj", "kenan", "marcello", "chloe", "ashley"], hosts: ["josh_oconnor"], music: [] },
                 { title: "I Thought That Was Quite Strange", scores: { F: null, O: 9},    blurb: "", cast: ["veronika", "jane", "chloe", "bowen", "sarah"], hosts: ["josh_oconnor"], music: ["lily_allen"] }
+
+               ]
+             },
+             {
+              number: 7,
+              title: "Episode 7",
+              host: "ariana_grande",
+              musicalGuest: "cher",
+              airDate: "",
+              sketches: [  
+                { title: "It's still a fantastic impersonation, and a solid script. But I'm just craving more originality and less Trump.", scores: { F: null, O: 4},    blurb: "", cast: ["jaj"], hosts: [], music: [] },
+                { title: "Opening Monologue", scores: { F: null, O: 8},    blurb: "", cast: ["bowen", "sarah", "kenan", "chloe", "veronika", "jaj", "ashley", "marcello"], hosts: ["ariana_grande"], music: [] },
+                { title: "Elf on the Shelf Support Group", scores: { F: null, O: 6},    blurb: "", cast: ["andrew", "kam", "kenan", "jeremy", "mikey", "jane"], hosts: ["ariana_grande"], music: [] },
+                { title: "Home Alone Revisited", scores: { F: null, O: 7},    blurb: "", cast: ["ashley", "mikey", "colin", "jeremy", "sarah", "andrew", "bowen", "tommy"], hosts: ["ariana_grande"], music: [] },
+                { title: "Dance Class", scores: { F: null, O: 7},    blurb: "", cast: ["chloe", "jaj", "bowen", "jeremy", "marcello"], hosts: ["ariana_grande"], music: [] },
+                { title: "Random Duet Christmas Spectacular", scores: { F: null, O: 8},    blurb: "I need to see more of Sarah's Kate Bush!!", cast: ["jaj", "andrew", "marcello", "sarah", "bowen", "kenan", "chloe", "ben", "jane", "kam"], hosts: ["ariana_grande"], music: [] },
+                { title: "Do You Believe in Black Santa Claus?", scores: { F: null, O: 4},    blurb: "", cast: ["mikey", "kenan", "kam", ], hosts: ["ariana_grande"], music: [] },
+                { title: "DJ Play a Christmas Song", scores: { F: null, O: 3},    blurb: "I mean to be fair it isn't Christmas when I'm watching this so perhaps I'm not in a festive mood. But this song kind of sucks and the staging is unusually terrible.", cast: [], hosts: [], music: ["cher"] },
+                { title: "Weekend Update", scores: { F: null, O: null},    blurb: "", cast: ["colin", "michael"], hosts: ["ariana_grande"], music: [] }
 
                ]
              }
