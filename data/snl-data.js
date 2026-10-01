@@ -216,7 +216,7 @@ window.SNL_DATA = {
           photobig: ["marshall.jpg", "marshall_tall.jpg", "marshall_intro.jpg"],
           status: "current",
           role: "Featured",
-          seasons: [51],
+          seasons: [51, 52],
           bio: "He was promoted from writer to cast member in season 51 and his 'thing' is being very tall I guess.<br>LEFT: Marshall during a sketch. CENTER: Marshall during a sketch about height. LEFT: Marshall during the SNL intro."
         },
         ashley: {
