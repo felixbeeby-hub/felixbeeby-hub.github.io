@@ -563,8 +563,9 @@ window.SNL_DATA = {
           photo: "shep.jpg",
           photobig: ["shep.jpg", "shep_dianna.jpeg", "shep_intro.jpg"],
           status: "current",
-          seasons: [1],
-          bio: "BIO<br>LEFT: Shep at the BAFTAs. CENTER: Shep as Princess Diana during a sketch. RIGHT: Shep during the SNL UK intro."
+          seasons: [1, 2],
+          bio: "BIO<br>LEFT: Shep at the BAFTAs. CENTER: Shep as Princess Diana during a sketch. RIGHT: Shep during the SNL UK intro.",
+          role: ""
         },
         emma: { name: "Emma Sidi", status: "current", seasons: [1], bio: "" }
       },
