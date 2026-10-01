@@ -243,7 +243,7 @@ window.SNL_DATA = {
           photobig: ["brennan.jpg", "brennan_intro.jpeg"],
           status: "current",
           role: "featured",
-          seasons: [51],
+          seasons: [51, 52],
           bio: "One of the newest members of the cast, he is not the most memorable of the new cast and has not featured in many sketches.<br>LEFT: Brennan during Weekend Update. RIGHT: Brennan during the SNL intro."
         },
         jane: {
