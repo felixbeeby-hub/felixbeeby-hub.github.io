@@ -271,7 +271,8 @@ window.SNL_DATA = {
               musicalGuest: "katseye",
               airDate: "27 October 2026",
               sketches: [
-                { title: "Cold Open (Mamdani & Trump)", scores: { F: null, O: 6 }, blurb: "less entertaining than watching trump and mamdani themselves interact - though that is admittedly a high bar to clear", cast: ["ashley", "jaj", "veronika"], hosts: [], music: [] }
+                { title: "Cold Open (Mamdani & Trump)", scores: { F: null, O: 6 }, blurb: "less entertaining than watching trump and mamdani themselves interact - though that is admittedly a high bar to clear", cast: ["ashley", "jaj", "veronika"], hosts: [], music: [] },
+                { title: "Opening Monologue (Jalen Brunson)", scores: { F: null, O: 2 }, blurb: "slightly inaccessible subject matter for me, but im sure this is great for all the fans!", cast: ["kenan"], hosts: ["jalen_brunson"], music: [] }
               ]
             }
           ]
