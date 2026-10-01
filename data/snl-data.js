@@ -279,7 +279,8 @@ window.SNL_DATA = {
                 { title: "New High School Musical", scores: { F: null, O: 6 }, blurb: "", cast: ["ben", "jeremy", "kam", "tommy", "veronika"], hosts: ["jalen_brunson"], music: [] },
                 { title: "Airport Massage Chair", scores: { F: null, O: 6 }, blurb: "", cast: ["andrew", "ashley", "kenan", "mikey"], hosts: ["jalen_brunson"], music: [] },
                 { title: "Animal", scores: { F: null, O: 5 }, blurb: "somehow... understated? didn't really give much", cast: [], hosts: [], music: ["katseye"] },
-                { title: "Weekend Update", scores: { F: null, O: 6 }, blurb: "", cast: ["colin", "michael"], hosts: [], music: [] }
+                { title: "Weekend Update", scores: { F: null, O: 6 }, blurb: "", cast: ["colin", "michael"], hosts: [], music: [] },
+                { title: "Dario Amodei on Weekend Update", scores: { F: null, O: 7 }, blurb: "", cast: ["jane", "michael"], hosts: [], music: [] }
               ]
             }
           ]
