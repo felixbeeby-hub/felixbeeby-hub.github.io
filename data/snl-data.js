@@ -60,7 +60,8 @@ window.SNL_DATA = {
           bio: "Incredible host. I was nervous at the start of the monologue, but she clicked so well with the cast in every sketch."
         },
         josh_oconnor: { name: "Josh O'Connor", bio: "" },
-        ariana_grande: { name: "Ariana Grande", bio: "" }
+        ariana_grande: { name: "Ariana Grande", bio: "" },
+        jalen_brunson: { name: "Jalen Brunson", bio: "" }
       },
       music: {
         doja_cat: { name: "Doja Cat", bio: "" },
@@ -74,7 +75,8 @@ window.SNL_DATA = {
         olivia_dean: { name: "Olivia Dean", bio: "" },
         dijon: { name: "Dijon", bio: "" },
         lily_allen: { name: "Lily Allen", bio: "" },
-        cher: { name: "Cher", bio: "" }
+        cher: { name: "Cher", bio: "" },
+        katseye: { name: "Katseye", bio: "" }
       },
       cast: {
         colin: {
@@ -259,7 +261,19 @@ window.SNL_DATA = {
         grace_reiter: { name: "Grace Reiter", status: "current", role: "Featured", seasons: [52], bio: "" }
       },
       seasons: [
-        { id: 52, episodes: [] },
+        {
+          id: 52,
+          episodes: [
+            {
+              number: 1,
+              title: "Episode 1",
+              host: "jalen_brunson",
+              musicalGuest: "katseye",
+              airDate: "27 October 2026",
+              sketches: []
+            }
+          ]
+        },
         {
           id: 51,
           episodes: [
