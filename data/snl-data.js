@@ -537,7 +537,7 @@ window.SNL_DATA = {
           name: "Paddy Young",
           status: "current",
           role: "Weekend Update Anchor",
-          seasons: [1],
+          seasons: [1, 2],
           bio: ""
         },
         ania: {
