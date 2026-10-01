@@ -619,7 +619,8 @@ window.SNL_DATA = {
                 { title: "Ten Over Ten", scores: { F: null, O: 4 }, blurb: "Slightly hollow-sounding rock song", cast: [], hosts: [], music: ["royal_blood"] },
                 { title: "Weekend Update", scores: { F: null, O: 7 }, blurb: "Some good ones here, despite Paddy's continually annoying facial expressions", cast: ["ania", "paddy"], hosts: [], music: [] },
                 { title: "Two Letting Agents on Weekend Update", scores: { F: null, O: 6 }, blurb: "", cast: ["ania"], hosts: ["jamie_demetriou"], music: [] },
-                { title: "The Woman of Darkness", scores: { F: null, O: 6 }, blurb: "", cast: ["emma", "jack"], hosts: ["jamie_demetriou"], music: [] }
+                { title: "The Woman of Darkness", scores: { F: null, O: 6 }, blurb: "", cast: ["emma", "jack"], hosts: ["jamie_demetriou"], music: [] },
+                { title: "Figure It Out", scores: { F: null, O: 4 }, blurb: "", cast: [], hosts: [], music: ["royal_blood"] }
               ]
             }
           ]
