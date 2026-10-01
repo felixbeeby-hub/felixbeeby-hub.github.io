@@ -609,7 +609,8 @@ window.SNL_DATA = {
               musicalGuest: "royal_blood",
               airDate: "19 September 2026",
               sketches: [
-                { title: "Cold Open (D.I.A.N.A.)", scores: { F: null, O: 8 }, blurb: "Re-treading some familiar ground, but it's ridiculous, camp, and I can't really ask for more.", cast: ["annabel", "celeste", "freddie_meredith", "jack", "larry"], hosts: [], music: [] }
+                { title: "Cold Open (D.I.A.N.A.)", scores: { F: null, O: 8 }, blurb: "Re-treading some familiar ground, but it's ridiculous, camp, and I can't really ask for more.", cast: ["annabel", "celeste", "freddie_meredith", "jack", "larry"], hosts: [], music: [] },
+                { title: "Opening Monologue (Jamie Demetriou)", scores: { F: null, O: 6 }, blurb: "", cast: [], hosts: ["jamie_demetriou"], music: [] }
               ]
             }
           ]
