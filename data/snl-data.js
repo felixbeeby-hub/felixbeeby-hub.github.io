@@ -556,7 +556,7 @@ window.SNL_DATA = {
         },
         ayoade: { name: "Ayoade Bamgboye", status: "current", seasons: [1], bio: "" },
         larry: { name: "Larry Dean", status: "current", seasons: [1], bio: "" },
-        celeste: { name: "Celeste Dring", status: "current", seasons: [1], bio: "" },
+        celeste: { name: "Celeste Dring", status: "current", seasons: [1, 2], bio: "", role: "" },
         annabel: { name: "Annabel Marlow", status: "current", seasons: [1], bio: "" },
         jack: {
           name: "Jack Shep",
