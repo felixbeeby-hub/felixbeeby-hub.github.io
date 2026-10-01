@@ -281,7 +281,8 @@ window.SNL_DATA = {
                 { title: "Animal", scores: { F: null, O: 5 }, blurb: "somehow... understated? didn't really give much", cast: [], hosts: [], music: ["katseye"] },
                 { title: "Weekend Update", scores: { F: null, O: 6 }, blurb: "", cast: ["colin", "michael"], hosts: [], music: [] },
                 { title: "Dario Amodei on Weekend Update", scores: { F: null, O: 7 }, blurb: "", cast: ["jane", "michael"], hosts: [], music: [] },
-                { title: "Tucker Carlson on Weekend Update (Summer Box Office)", scores: { F: null, O: 8 }, blurb: "", cast: ["colin", "jeremy"], hosts: [], music: [] }
+                { title: "Tucker Carlson on Weekend Update (Summer Box Office)", scores: { F: null, O: 8 }, blurb: "", cast: ["colin", "jeremy"], hosts: [], music: [] },
+                { title: "Adults of the Household", scores: { F: null, O: 5 }, blurb: "", cast: ["andrew", "ashley", "ben", "jaj", "kenan"], hosts: ["jalen_brunson"], music: [] }
               ]
             }
           ]
