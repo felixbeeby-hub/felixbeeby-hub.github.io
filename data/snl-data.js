@@ -198,7 +198,7 @@ window.SNL_DATA = {
           photobig: ["kam.jpg", "kam_sax.jpg", "kam_intro.jpg"],
           status: "current",
           role: "Featured",
-          seasons: [51],
+          seasons: [51, 52],
           bio: "I like Kam, and he is funny, but so far he hasnt appeared many times and, when is the main part of a sketch, has kinda only done one of two 'characters': Young Kid and ¿himself?<br>LEFT: Patterson during Weekend Update. CENTER: Patterson (incorrectly) playing the Saxophone to a 'drunk' Miles Teller. RIGHT: Patterson during the SNL intro."
         },
         andrew: {
