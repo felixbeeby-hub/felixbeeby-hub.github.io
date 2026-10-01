@@ -270,7 +270,9 @@ window.SNL_DATA = {
               host: "jalen_brunson",
               musicalGuest: "katseye",
               airDate: "27 October 2026",
-              sketches: []
+              sketches: [
+                { title: "Cold Open (Mamdani & Trump)", scores: { F: null, O: 6 }, blurb: "less entertaining than watching trump and mamdani themselves interact - though that is admittedly a high bar to clear", cast: ["ashley", "jaj", "veronika"], hosts: [], music: [] }
+              ]
             }
           ]
         },
