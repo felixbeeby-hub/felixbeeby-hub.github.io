@@ -189,7 +189,7 @@ window.SNL_DATA = {
           photobig: ["che.jpg", "che_intro.jpeg"],
           status: "current",
           role: "Weekend Update Anchor",
-          seasons: [40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51],
+          seasons: [40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52],
           bio: "The (probably) better Weekend Update anchor.<br>LEFT: Che during Weekend Update. RIGHT: Che during the SNL intro."
         },
         kam: {
