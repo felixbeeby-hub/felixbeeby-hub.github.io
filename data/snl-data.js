@@ -584,7 +584,9 @@ window.SNL_DATA = {
               host: "jeff_goldblum",
               musicalGuest: "cmat",
               airDate: "12 September 2026",
-              sketches: []
+              sketches: [
+                { title: "Opening Monologue (Harry's Return)", scores: { F: null, O: 5 }, blurb: "These don't really feel like the freshest topics, but Harry and Meghan admittedly do seem determined not to leave the news cycle so maybe they have no choice", cast: ["ayoade", "emma", "george", "jack", "larry"], hosts: [], music: [] }
+              ]
             }
           ]
         },
