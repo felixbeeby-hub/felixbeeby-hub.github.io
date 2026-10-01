@@ -124,7 +124,8 @@ window.SNL_DATA = {
             48,
             49,
             50,
-            51
+            51,
+            52
           ],
           bio: "He is, by far, the cast member with the largest tenure and has an iconic, 'innocent' smile. <br>LEFT: Thompson attending an event. CENTER: Thompson as a game show host during an SNL sketch (a common role). RIGHT: Thompson during the SNL intro."
         },
