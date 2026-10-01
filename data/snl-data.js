@@ -608,7 +608,9 @@ window.SNL_DATA = {
               host: "jamie_demetriou",
               musicalGuest: "royal_blood",
               airDate: "19 September 2026",
-              sketches: []
+              sketches: [
+                { title: "Cold Open (D.I.A.N.A.)", scores: { F: null, O: 8 }, blurb: "", cast: ["annabel", "celeste", "freddie_meredith", "jack", "larry"], hosts: [], music: [] }
+              ]
             }
           ]
         },
