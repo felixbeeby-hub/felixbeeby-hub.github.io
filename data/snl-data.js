@@ -614,7 +614,8 @@ window.SNL_DATA = {
                 { title: "Lime", scores: { F: null, O: 9 }, blurb: "", cast: ["annabel", "ayoade", "celeste", "freddie_meredith", "jack"], hosts: ["jamie_demetriou"], music: [] },
                 { title: "On Set: Ancient Greek Production", scores: { F: null, O: 5 }, blurb: "Silly acting on set is kind of a tired bit. Demetriou goes some of the way to making it work.", cast: ["annabel", "celeste", "hammed", "larry"], hosts: ["jamie_demetriou"], music: [] },
                 { title: "The Shape", scores: { F: null, O: 7 }, blurb: "", cast: ["ayoade", "emma", "freddie_meredith", "jack"], hosts: ["jamie_demetriou"], music: [] },
-                { title: "Why Did You Dump Me?", scores: { F: null, O: 9 }, blurb: "", cast: ["ayoade", "emma", "larry"], hosts: ["jamie_demetriou"], music: [] }
+                { title: "Why Did You Dump Me?", scores: { F: null, O: 9 }, blurb: "", cast: ["ayoade", "emma", "larry"], hosts: ["jamie_demetriou"], music: [] },
+                { title: "Console Trade-In", scores: { F: null, O: 7 }, blurb: "", cast: ["annabel", "celeste", "emma", "freddie_meredith", "hammed"], hosts: ["jamie_demetriou"], music: [] }
               ]
             }
           ]
