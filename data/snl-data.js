@@ -611,7 +611,8 @@ window.SNL_DATA = {
               sketches: [
                 { title: "Cold Open (D.I.A.N.A.)", scores: { F: null, O: 8 }, blurb: "Re-treading some familiar ground, but it's ridiculous, camp, and I can't really ask for more.", cast: ["annabel", "celeste", "freddie_meredith", "jack", "larry"], hosts: [], music: [] },
                 { title: "Opening Monologue (Jamie Demetriou)", scores: { F: null, O: 6 }, blurb: "", cast: [], hosts: ["jamie_demetriou"], music: [] },
-                { title: "Lime", scores: { F: null, O: 9 }, blurb: "", cast: ["annabel", "ayoade", "celeste", "freddie_meredith", "jack"], hosts: ["jamie_demetriou"], music: [] }
+                { title: "Lime", scores: { F: null, O: 9 }, blurb: "", cast: ["annabel", "ayoade", "celeste", "freddie_meredith", "jack"], hosts: ["jamie_demetriou"], music: [] },
+                { title: "On Set: Ancient Greek Production", scores: { F: null, O: 5 }, blurb: "Silly acting on set is kind of a tired bit. Demetriou goes some of the way to making it work.", cast: ["annabel", "celeste", "hammed", "larry"], hosts: ["jamie_demetriou"], music: [] }
               ]
             }
           ]
