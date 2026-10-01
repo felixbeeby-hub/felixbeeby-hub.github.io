@@ -617,7 +617,8 @@ window.SNL_DATA = {
                 { title: "Why Did You Dump Me?", scores: { F: null, O: 9 }, blurb: "", cast: ["ayoade", "emma", "larry"], hosts: ["jamie_demetriou"], music: [] },
                 { title: "Console Trade-In", scores: { F: null, O: 7 }, blurb: "", cast: ["annabel", "celeste", "emma", "freddie_meredith", "hammed"], hosts: ["jamie_demetriou"], music: [] },
                 { title: "Ten Over Ten", scores: { F: null, O: 4 }, blurb: "Slightly hollow-sounding rock song", cast: [], hosts: [], music: ["royal_blood"] },
-                { title: "Weekend Update", scores: { F: null, O: null }, blurb: "", cast: ["ania", "paddy"], hosts: [], music: [] }
+                { title: "Weekend Update", scores: { F: null, O: null }, blurb: "", cast: ["ania", "paddy"], hosts: [], music: [] },
+                { title: "Two Letting Agents on Weekend Update", scores: { F: null, O: 6 }, blurb: "", cast: ["ania"], hosts: ["jamie_demetriou"], music: [] }
               ]
             }
           ]
