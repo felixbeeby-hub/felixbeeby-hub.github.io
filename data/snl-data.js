@@ -252,7 +252,7 @@ window.SNL_DATA = {
           photobig: ["jane_wickline.jpg", "jane_intro.jpeg"],
           status: "current",
           role: "Featured",
-          seasons: [50, 51],
+          seasons: [50, 51, 52],
           bio: "She is doing well! She is becoming quite popular with viewers and has featured in many sketches and usually fits a specific niche (of comedically akward). Jane's look is often similar with most wigs being straight brown hair (the same as, but longer, than her real hair). She has also appeared numerous times on Weekend Update as herself, often times with a keyboard which she plays while singing!<br>LEFT: Wickline during Weekend Update. RIGHT: Wickline during the SNL intro."
         },
         saidah_belo_osagie: { name: "Saidah Belo-Osagie", status: "current", role: "Featured", seasons: [52], bio: "" },
