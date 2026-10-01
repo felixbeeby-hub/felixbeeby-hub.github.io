@@ -593,7 +593,7 @@ window.SNL_DATA = {
                 { title: "The Piano", scores: { F: null, O: 8 }, blurb: "", cast: ["annabel", "ayoade", "celeste", "emma", "freddie_meredith", "george", "jack", "larry"], hosts: ["jeff_goldblum"], music: [] },
                 { title: "Movement Class", scores: { F: null, O: 6 }, blurb: "", cast: ["annabel", "celeste", "freddie_meredith", "jack"], hosts: ["jeff_goldblum"], music: [] },
                 { title: "Stay For Something", scores: { F: null, O: 6 }, blurb: "I like all the styling and her energy, but this song itself is a little repetitive, and it's hard to find anything to cling onto. The build in energy is convincing though.", cast: [], hosts: [], music: ["cmat"] },
-                { title: "Weekend Update", scores: { F: null, O: null }, blurb: "Why are we struggling so much to read the lines?", cast: ["ania", "paddy"], hosts: [], music: [] },
+                { title: "Weekend Update", scores: { F: null, O: 6 }, blurb: "Why are we struggling so much to read the lines?", cast: ["ania", "paddy"], hosts: [], music: [] },
                 { title: "A Cleaner on Weekend Update", scores: { F: null, O: 7 }, blurb: "", cast: ["annabel", "paddy"], hosts: [], music: [] }
               ]
             }
