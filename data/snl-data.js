@@ -92,7 +92,7 @@ window.SNL_DATA = {
           photobig: ["jaj_trump.jpg", "jaj_intro.jpg"],
           status: "current",
           role: "Repertory",
-          seasons: [47, 48, 49, 50, 51],
+          seasons: [47, 48, 49, 50, 51, 52],
           bio: "JAJ has been a cast member since 2021 and (mostly just) impersonates Donald Trump - 14 times!<br>LEFT: Johnson as Trump. RIGHT: Johnson during the SNL intro."
         },
         kenan: {
