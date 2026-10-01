@@ -589,7 +589,8 @@ window.SNL_DATA = {
                 { title: "Opening Monologue (Jeff Goldblum)", scores: { F: null, O: 6 }, blurb: "embarrassingly bad piano playing for it to be a whole thing. if we must have american hosts on the show, do they really have to do the whole \"oooh i know british things\" shtick every time. anyway I do like a musical number.", cast: [], hosts: ["jeff_goldblum"], music: ["cmat"] },
                 { title: "1-800-555-BABY", scores: { F: null, O: 6 }, blurb: "", cast: ["al", "ayoade", "celeste", "emma", "george", "larry"], hosts: ["jeff_goldblum"], music: [] },
                 { title: "D'Artagnan Gumbert", scores: { F: null, O: 8 }, blurb: "", cast: ["al", "annabel", "celeste", "freddie_meredith", "hammed", "jack"], hosts: ["jeff_goldblum"], music: [] },
-                { title: "Dating Advice", scores: { F: null, O: 8 }, blurb: "Kind of a played out trope, but it kind of works", cast: ["annabel", "freddie_meredith", "jack"], hosts: ["jeff_goldblum"], music: [] }
+                { title: "Dating Advice", scores: { F: null, O: 8 }, blurb: "Kind of a played out trope, but it kind of works", cast: ["annabel", "freddie_meredith", "jack"], hosts: ["jeff_goldblum"], music: [] },
+                { title: "The Piano", scores: { F: null, O: 8 }, blurb: "", cast: ["annabel", "ayoade", "celeste", "emma", "freddie_meredith", "george", "jack", "larry"], hosts: ["jeff_goldblum"], music: [] }
               ]
             }
           ]
