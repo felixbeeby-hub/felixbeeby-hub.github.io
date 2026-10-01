@@ -573,6 +573,7 @@ window.SNL_DATA = {
         freddie_meredith: { name: "Freddie Meredith", status: "current", role: "", seasons: [2], bio: "" }
       },
       seasons: [
+        { id: 2, episodes: [] },
         {
           id: 1,
           episodes: [
