@@ -551,8 +551,9 @@ window.SNL_DATA = {
           photo: "hammed.jpg",
           photobig: ["hammed.jpg", "hammed_intro.jpg"],
           status: "current",
-          seasons: [1],
-          bio: "BIO<br>LEFT: Animashaun during and interview. RIGHT: Animashaun during the SNL UK intro."
+          seasons: [1, 2],
+          bio: "BIO<br>LEFT: Animashaun during and interview. RIGHT: Animashaun during the SNL UK intro.",
+          role: ""
         },
         ayoade: { name: "Ayoade Bamgboye", status: "current", seasons: [1, 2], bio: "", role: "" },
         larry: { name: "Larry Dean", status: "current", seasons: [1], bio: "" },
