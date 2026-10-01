@@ -514,13 +514,15 @@ window.SNL_DATA = {
         tina_fey: { name: "Tina Fey", bio: "" },
         jamie_dornan: { name: "Jamie Dornan", bio: "" },
         riz_ahmed: { name: "Riz Ahmed", bio: "" },
-        jack_whitehall: { name: "Jack Whitehall", bio: "" }
+        jack_whitehall: { name: "Jack Whitehall", bio: "" },
+        jeff_goldblum: { name: "Jeff Goldblum", bio: "" }
       },
       music: {
         wet_leg: { name: "Wet Leg", bio: "" },
         wolf_alice: { name: "Wolf Alice", bio: "" },
         kasabian: { name: "Kasabian", bio: "" },
-        jorja_smith: { name: "Jorja Smith", bio: "" }
+        jorja_smith: { name: "Jorja Smith", bio: "" },
+        cmat: { name: "CMAT", bio: "" }
       },
       cast: {
         george: {
@@ -573,7 +575,19 @@ window.SNL_DATA = {
         freddie_meredith: { name: "Freddie Meredith", status: "current", role: "", seasons: [2], bio: "" }
       },
       seasons: [
-        { id: 2, episodes: [] },
+        {
+          id: 2,
+          episodes: [
+            {
+              number: 1,
+              title: "Episode 1",
+              host: "jeff_goldblum",
+              musicalGuest: "cmat",
+              airDate: "12 September 2026",
+              sketches: []
+            }
+          ]
+        },
         {
           id: 1,
           episodes: [
