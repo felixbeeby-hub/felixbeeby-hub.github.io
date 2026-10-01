@@ -515,14 +515,16 @@ window.SNL_DATA = {
         jamie_dornan: { name: "Jamie Dornan", bio: "" },
         riz_ahmed: { name: "Riz Ahmed", bio: "" },
         jack_whitehall: { name: "Jack Whitehall", bio: "" },
-        jeff_goldblum: { name: "Jeff Goldblum", bio: "" }
+        jeff_goldblum: { name: "Jeff Goldblum", bio: "" },
+        jamie_demetriou: { name: "Jamie Demetriou", bio: "" }
       },
       music: {
         wet_leg: { name: "Wet Leg", bio: "" },
         wolf_alice: { name: "Wolf Alice", bio: "" },
         kasabian: { name: "Kasabian", bio: "" },
         jorja_smith: { name: "Jorja Smith", bio: "" },
-        cmat: { name: "CMAT", bio: "" }
+        cmat: { name: "CMAT", bio: "" },
+        royal_blood: { name: "Royal Blood", bio: "" }
       },
       cast: {
         george: {
@@ -599,6 +601,14 @@ window.SNL_DATA = {
                 { title: "EURO-COUNTRY", scores: { F: null, O: 7 }, blurb: "CMAT expresses the poignancy of everyday life for those struggling beautifully, in the way only country music can.", cast: [], hosts: [], music: ["cmat"] },
                 { title: "45 Seconds with Fouracres", scores: { F: null, O: 6 }, blurb: "A marked improvement on the previous installation", cast: ["george"], hosts: [], music: ["cmat"] }
               ]
+            },
+            {
+              number: 2,
+              title: "Episode 2",
+              host: "jamie_demetriou",
+              musicalGuest: "royal_blood",
+              airDate: "19 September 2026",
+              sketches: []
             }
           ]
         },
