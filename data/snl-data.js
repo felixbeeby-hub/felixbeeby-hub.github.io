@@ -587,7 +587,8 @@ window.SNL_DATA = {
               sketches: [
                 { title: "Cold Open (Harry's Return)", scores: { F: null, O: 5 }, blurb: "These don't really feel like the freshest topics, but Harry and Meghan admittedly do seem determined not to leave the news cycle so maybe they have no choice", cast: ["ayoade", "emma", "george", "jack", "larry"], hosts: [], music: [] },
                 { title: "Opening Monologue (Jeff Goldblum)", scores: { F: null, O: 6 }, blurb: "embarrassingly bad piano playing for it to be a whole thing. if we must have american hosts on the show, do they really have to do the whole \"oooh i know british things\" shtick every time. anyway I do like a musical number.", cast: [], hosts: ["jeff_goldblum"], music: ["cmat"] },
-                { title: "1-800-555-BABY", scores: { F: null, O: 6 }, blurb: "", cast: ["al", "ayoade", "celeste", "emma", "george", "larry"], hosts: ["jeff_goldblum"], music: [] }
+                { title: "1-800-555-BABY", scores: { F: null, O: 6 }, blurb: "", cast: ["al", "ayoade", "celeste", "emma", "george", "larry"], hosts: ["jeff_goldblum"], music: [] },
+                { title: "D'Artagnan Gumbert", scores: { F: null, O: 8 }, blurb: "", cast: ["al", "annabel", "celeste", "freddie_meredith", "hammed", "jack"], hosts: ["jeff_goldblum"], music: [] }
               ]
             }
           ]
