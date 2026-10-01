@@ -528,8 +528,9 @@ window.SNL_DATA = {
           photo: "george.jpg",
           photobig: ["george.jpg", "george_kier.jpg", "george_intro.jpg"],
           status: "current",
-          seasons: [1],
-          bio: "(Kier Starmar, 45 seconds with Fouracres)<br>LEFT: Fouracres during a '45 seconds with Fouracres' segment. CENTER: Fouracres as Kier Starmer during a Cold Open. RIGHT: Fouracres during the SNL UK intro."
+          seasons: [1, 2],
+          bio: "(Kier Starmar, 45 seconds with Fouracres)<br>LEFT: Fouracres during a '45 seconds with Fouracres' segment. CENTER: Fouracres as Kier Starmer during a Cold Open. RIGHT: Fouracres during the SNL UK intro.",
+          role: ""
         },
         al: { name: "Al Nash", status: "current", seasons: [1, 2], bio: "", role: "" },
         paddy: {
