@@ -284,7 +284,8 @@ window.SNL_DATA = {
                 { title: "Tucker Carlson on Weekend Update (Summer Box Office)", scores: { F: null, O: 8 }, blurb: "", cast: ["colin", "jeremy"], hosts: [], music: [] },
                 { title: "Adults of the Household", scores: { F: null, O: 5 }, blurb: "", cast: ["andrew", "ashley", "ben", "jaj", "kenan"], hosts: ["jalen_brunson"], music: [] },
                 { title: "Hootie Frootie", scores: { F: null, O: 6 }, blurb: "Slop", cast: [], hosts: [], music: ["katseye"] },
-                { title: "Respectacles", scores: { F: null, O: 1 }, blurb: "i feel like this is borderline offensive", cast: ["ben", "jaj", "jeremy", "sarah", "veronika"], hosts: ["jalen_brunson"], music: [] }
+                { title: "Respectacles", scores: { F: null, O: 1 }, blurb: "i feel like this is borderline offensive", cast: ["ben", "jaj", "jeremy", "sarah", "veronika"], hosts: ["jalen_brunson"], music: [] },
+                { title: "Coach Dennis", scores: { F: null, O: 3 }, blurb: "", cast: ["grace_reiter", "jaj", "kam", "kenan"], hosts: ["jalen_brunson"], music: [] }
               ]
             }
           ]
