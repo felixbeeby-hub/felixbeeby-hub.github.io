@@ -161,7 +161,7 @@ window.SNL_DATA = {
           photobig: ["sherman.jpg", "shermanraccoon.jpg", "sherman_squirrel.jpg", "sherman_intro.jpeg"],
           status: "current",
           role: "Repertory",
-          seasons: [47, 48, 49, 50, 51],
+          seasons: [47, 48, 49, 50, 51, 52],
           bio: "She has a chaotic energy that (although similar) she brings to many of her characters that makes them funny: both through physical comedy and her dialouge  + vocals. Becoming one of my favourites, she also does a suprisingly good job acting as small mammals!<br>LEFT: Sherman during Weekend Update. CENTER LEFT: Sherman as a drunk raccoon during Weekend Update. CENTER RIGHT: Sherman as a Squirrel during Weekend Update. RIGHT: Sherman during the SNL intro."
         },
         mikey: {
