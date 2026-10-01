@@ -39,4 +39,5 @@
 
   /* Hero copy changes between US / UK editions. */
   document.addEventListener('snl:modechange', renderHero);
+  document.addEventListener('snl:datachange', renderHero);
 })();

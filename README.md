@@ -57,18 +57,36 @@ The id is the join key: the cast / hosts / music pages cross-reference
 every sketch to derive each person's per-rater average and appearance
 count. Host photos live in `assets/images/hosts/`.
 
-## How to add things
+## How to add things — from the website
 
-**Add an episode / sketch / season / cast member:** edit
-`data/snl-data.js` only. Pages update automatically.
+Click **✎ Edit** (top-right of the header). The first time, it asks for a
+GitHub token (instructions + link are in the popup; it's stored in that
+browser only). In edit mode:
 
-- Each sketch has **two scores**, one per rater listed in
-  `SNL_DATA.raters` (currently `F` and `O`):
-  `scores: { F: 8, O: 7 }`. Use `null` for a rating not given yet
-  (shows `—`). Episode and cast averages are computed per rater.
-- Tag a sketch's cast with member ids, e.g. `cast: ["c1", "c3"]`.
-- New cast member: add an entry to `cast` with a fresh id and a
-  `status`. It appears on the matching cast page automatically.
+- **Seasons page** — `+ Season`, `✎` next to the season pills to renumber /
+  delete, `+ Add episode` at the bottom, `✎` on each episode, `+ Add sketch`
+  inside each episode, `✎` / `↑` / `↓` on each sketch.
+- **Sketch form** — title, F/O scores, notes, and tap-to-tag chips for cast,
+  host and musical guest. **Save & add another** keeps the form open so you
+  can log a whole episode in one go.
+- **Episode form** — host / musical guest are type-ahead; a name that
+  doesn't exist yet is created automatically.
+- **Cast / Hosts / Musical Guests pages** — `+ Add …` and `✎` on each card
+  (name, status, role, seasons like `47-51`, bio, photos). Picking a photo
+  file uploads it to `assets/images/cast/` or `assets/images/hosts/`.
+
+Every save is one commit to `data/snl-data.js` (the editor fetches the
+latest file first, so two people editing at once don't clobber each other).
+GitHub Pages takes ~1 minute to redeploy; your own browser shows the change
+immediately. Click **✓ Done** to leave edit mode. Code: `assets/js/editor.js`.
+
+### Editing data.js by hand (still works)
+
+The editor rewrites `data/snl-data.js` in a fixed format on every save, so
+hand-written comments there won't survive — everything else is fine.
+
+- Scores: `scores: { F: 8, O: 7 }`, `null` = not rated yet.
+- Sketch people by id: `cast: ["kenan"], hosts: ["dua_lipa"], music: []`.
 
 **Build a new page** (e.g. `hosts.html`):
 

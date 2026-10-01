@@ -16,6 +16,20 @@
 (function () {
   'use strict';
 
+  /* ---- Fresh-edit override ----
+     GitHub Pages takes ~1 min to redeploy after the editor saves.
+     editor.js stashes the just-saved data here so a refresh in that
+     window still shows your change instead of the old file. */
+  var PENDING_KEY = 'snl-data-pending';
+  try {
+    var pending = JSON.parse(localStorage.getItem(PENDING_KEY) || 'null');
+    if (pending && pending.data && Date.now() - pending.savedAt < 10 * 60 * 1000) {
+      window.SNL_DATA = pending.data;
+    } else if (pending) {
+      localStorage.removeItem(PENDING_KEY);
+    }
+  } catch (e) { /* ignore */ }
+
   /* ---- Navigation config (structural data, edit here) ----
      Each top-level item may have:
        href      - its own page (optional)
@@ -246,6 +260,12 @@
           '<span class="toggle-label ' + (m === 'uk' ? 'active' : '') + '">UK</span>' +
         '</div>' +
         '<nav><ul>' + NAV.map(navItemHtml).join('') + '</ul></nav>' +
+        /* edit-mode switch; behaviour lives in editor.js */
+        '<button class="edit-toggle" id="editToggle" type="button" ' +
+                'title="Add / edit seasons, episodes, sketches and people">' +
+          '<span class="edit-off">\u270E Edit</span>' +
+          '<span class="edit-on">\u2713 Done</span>' +
+        '</button>' +
       '</div>';
 
     document.getElementById('modeToggle')
@@ -314,6 +334,12 @@
     if (!e.target.closest('.nav-item')) closeDropdowns();
   });
 
+  /* editor.js swapped in new data: rebuild nav (season list) + footer */
+  document.addEventListener('snl:datachange', function () {
+    buildHeader();
+    buildFooter();
+  });
+
   /* ---- Public API for page scripts ---- */
   window.SNL = {
     mode: mode,
@@ -338,6 +364,7 @@
 
     /* Scoring helpers (shared by every page). */
     raters: raters,
+    escapeHtml: escapeHtml,
     averages: averages,
     scorePairHtml: scorePairHtml,
 
@@ -351,5 +378,5 @@
   /* ---- Init (deferred script => DOM + data are ready) ---- */
   buildHeader();
   buildFooter();
-   updateFavicon(mode());
+  updateFavicon(mode());
 })();

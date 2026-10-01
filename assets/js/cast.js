@@ -169,6 +169,12 @@
 
   /* ---- main render ---- */
   function render() {
+    renderPage();
+    /* lets editor.js add its edit buttons to the fresh DOM */
+    document.dispatchEvent(new CustomEvent('snl:rendered'));
+  }
+
+  function renderPage() {
     var region = window.SNL.region();
     if (!region) return;
 
@@ -220,12 +226,14 @@
   }
 
   document.addEventListener('click', function (e) {
+    if (e.target.closest('.ed-only')) return;     /* editor buttons */
     var head = e.target.closest('.cast-head');
     if (head) toggle(head);
   });
 
   document.addEventListener('keydown', function (e) {
     if (e.key !== 'Enter' && e.key !== ' ') return;
+    if (e.target.closest('.ed-only')) return;
     var head = e.target.closest('.cast-head');
     if (head) {
       e.preventDefault();
@@ -235,6 +243,7 @@
 
   /* re-render when the US / UK toggle is flipped */
   document.addEventListener('snl:modechange', render);
+  document.addEventListener('snl:datachange', render);
 
   buildSortBar();
   render();

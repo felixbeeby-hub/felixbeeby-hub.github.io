@@ -943,3 +943,216 @@ a.music-chip:hover {
   color: var(--nav-fg);
   border-color: var(--accent);
 }
+
+/* ─── In-site editor (editor.js) ─────────────────────────── */
+.edit-toggle {
+  flex-shrink: 0;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.4rem 0.85rem;
+  border-radius: 999px;
+  border: 1.5px solid rgba(255,255,255,0.55);
+  background: transparent;
+  color: var(--nav-fg);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.edit-toggle:hover { background: rgba(255,255,255,0.15); }
+.edit-toggle .edit-on { display: none; }
+body.snl-editing .edit-toggle { background: var(--nav-fg); color: var(--nav-bg); border-color: var(--nav-fg); }
+body.snl-editing .edit-toggle .edit-on { display: inline; }
+body.snl-editing .edit-toggle .edit-off { display: none; }
+
+.ed-only { display: none !important; }
+body.snl-editing .ed-only { display: inline-flex !important; }
+body.snl-editing .ed-bar.ed-only { display: flex !important; }
+
+.ed-icon {
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1.5px dashed var(--accent);
+  background: var(--bg);
+  color: var(--accent);
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.ed-icon:hover { background: var(--accent); color: var(--nav-fg); border-style: solid; }
+.ed-move { width: 26px; height: 26px; font-size: 0.8rem; opacity: 0.7; }
+
+.ed-add {
+  align-items: center;
+  gap: 0.3rem;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  border: 1.5px dashed var(--accent);
+  background: transparent;
+  color: var(--accent);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.ed-add:hover { background: var(--accent); color: var(--nav-fg); border-style: solid; }
+.ed-add-sketch { margin: -0.4rem 0 1.2rem 1.4rem; }
+.ed-add-wide { justify-content: center; padding: 1rem; border-radius: 12px; font-size: 0.9rem; }
+.ed-pill.ed-icon { width: auto; height: auto; padding: 0.55rem 0.9rem; border-radius: 999px; }
+.ed-bar { margin-bottom: 1.2rem; }
+
+/* banner */
+#snl-ed-banner {
+  display: none;
+  position: fixed;
+  left: 50%;
+  bottom: 14px;
+  transform: translateX(-50%);
+  z-index: 200;
+  max-width: calc(100% - 32px);
+  padding: 0.55rem 1rem;
+  border-radius: 999px;
+  background: #111;
+  color: #fff;
+  font-size: 0.78rem;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+  text-align: center;
+}
+body.snl-editing #snl-ed-banner { display: block; }
+body.snl-editing footer { padding-bottom: 4.5rem; }
+#snl-ed-banner .ed-link { color: #fff; }
+
+/* toast */
+#snl-ed-toast {
+  position: fixed;
+  right: 16px;
+  top: 84px;
+  z-index: 300;
+  max-width: min(360px, calc(100% - 32px));
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  background: #111;
+  color: #fff;
+  font-size: 0.85rem;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+  opacity: 0;
+  transform: translateY(-8px);
+  pointer-events: none;
+  transition: opacity 0.2s, transform 0.2s;
+}
+#snl-ed-toast.show { opacity: 1; transform: none; }
+#snl-ed-toast.ok  { background: #1f7a4d; }
+#snl-ed-toast.err { background: #b00020; }
+
+/* modal */
+#snl-ed-dialog {
+  width: min(560px, calc(100% - 32px));
+  max-height: calc(100vh - 48px);
+  margin: auto;
+  padding: 0;
+  border: none;
+  border-radius: 16px;
+  background: #fff;
+  color: #111;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+}
+#snl-ed-dialog::backdrop { background: rgba(0,0,0,0.45); }
+#snl-ed-dialog.busy { cursor: progress; }
+#snl-ed-dialog.busy .ed-form { opacity: 0.7; }
+
+.ed-form { padding: 1.5rem; display: flex; flex-direction: column; gap: 1rem; }
+.ed-title {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  letter-spacing: 0.02em;
+  color: var(--accent);
+}
+.ed-fields { display: flex; flex-direction: column; gap: 0.9rem; }
+.ed-row { display: flex; gap: 0.8rem; flex-wrap: wrap; }
+.ed-row > .ed-field { flex: 1 1 140px; }
+.ed-field { display: flex; flex-direction: column; gap: 0.3rem; min-width: 0; }
+.ed-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #555;
+}
+.ed-hint, .ed-note { font-size: 0.78rem; color: #666; }
+.ed-note code, .ed-hint code { font-size: 0.75rem; background: #f3f3f3; padding: 0 0.25rem; border-radius: 4px; }
+.ed-steps { font-size: 0.85rem; padding-left: 1.2rem; display: flex; flex-direction: column; gap: 0.3rem; }
+.ed-steps a { color: var(--accent); }
+
+.ed-form input:not([type=file]),
+.ed-form select,
+.ed-form textarea {
+  font: inherit;
+  font-size: 0.95rem;
+  width: 100%;
+  padding: 0.55rem 0.7rem;
+  border: 1.5px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+  color: #111;
+}
+.ed-form input[type=file] { font-size: 0.75rem; }
+.ed-form textarea { resize: vertical; }
+.ed-form input:focus, .ed-form select:focus, .ed-form textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.ed-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center; }
+.ed-alumni { display: contents; }
+.ed-alumni[hidden] { display: none; }
+.ed-chip {
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.32rem 0.75rem;
+  border-radius: 999px;
+  border: 1.5px solid var(--border);
+  background: var(--card-bg);
+  color: var(--accent);
+  cursor: pointer;
+}
+.ed-chip.alum { border-style: dashed; }
+.ed-chip.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+.ed-chip.host.on { background: #b8860b; border-color: #b8860b; }
+.ed-chip.music.on { background: #2a9d63; border-color: #2a9d63; }
+.ed-chip-more { background: transparent; border-style: dashed; opacity: 0.8; }
+.ed-form .ed-chip-input { width: 140px !important; padding: 0.3rem 0.7rem !important; border-radius: 999px !important; font-size: 0.8rem !important; }
+
+.ed-error { color: #b00020; font-size: 0.85rem; font-weight: 500; }
+.ed-actions { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; }
+.ed-spacer { flex: 1; }
+.ed-actions button {
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.55rem 1.1rem;
+  border-radius: 999px;
+  cursor: pointer;
+  border: 1.5px solid transparent;
+}
+.ed-btn-primary { background: var(--accent); color: #fff; }
+.ed-btn-ghost { background: transparent; border-color: #ddd !important; color: #333; }
+.ed-btn-danger { background: transparent; color: #b00020; border-color: #f0c0c8 !important; }
+.ed-btn-danger.confirm { background: #b00020; color: #fff; }
+.ed-actions button:disabled { opacity: 0.5; cursor: progress; }
+.ed-link { font: inherit; background: none; border: none; color: var(--accent); text-decoration: underline; cursor: pointer; padding: 0; }
+
+@media (max-width: 760px) {
+  .edit-toggle { margin-left: auto; }
+  #snl-ed-banner { border-radius: 12px; }
+}
+@media (max-width: 760px) {
+  nav { order: 3; }
+}

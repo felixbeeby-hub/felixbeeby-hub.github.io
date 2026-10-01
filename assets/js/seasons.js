@@ -58,7 +58,7 @@
            encodeURIComponent(id) + '">' + esc(name) + '</a>';
   }
 
-  function sketchHtml(sk) {
+  function sketchHtml(sk, i) {
     var castReg  = window.SNL.cast()  || {};
     var hostReg  = window.SNL.hosts() || {};
     var musicReg = window.SNL.music() || {};
@@ -82,7 +82,7 @@
     var allChips = castChips + hostChips + musicChips;
 
     return '' +
-      '<li class="sketch">' +
+      '<li class="sketch" data-sk="' + i + '">' +
         '<div class="sketch-head" role="button" tabindex="0" aria-expanded="false">' +
           '<span class="sketch-title">' + esc(sk.title) + '</span>' +
           window.SNL.scorePairHtml(sk.scores) +
@@ -95,7 +95,7 @@
       '</li>';
   }
 
-  function episodeHtml(ep) {
+  function episodeHtml(ep, i) {
     var avg = episodeAvg(ep.sketches || []);
     var sketches = (ep.sketches || []).map(sketchHtml).join('');
 
@@ -105,7 +105,7 @@
     var musicName = (musicReg[ep.musicalGuest] || {}).name || ep.musicalGuest || 'TBD';
 
     return '' +
-      '<article class="episode">' +
+      '<article class="episode" data-ep="' + i + '">' +
         '<div class="episode-head" role="button" tabindex="0" aria-expanded="false">' +
           '<span class="episode-num">EP ' + pad2(ep.number) + '</span>' +
           '<div class="episode-info">' +
@@ -127,10 +127,24 @@
 
   /* ---- main render ---- */
   function render() {
+    renderPage();
+    /* lets editor.js add its edit buttons to the fresh DOM */
+    document.dispatchEvent(new CustomEvent('snl:rendered'));
+  }
+
+  function renderPage() {
     var region = window.SNL.region();
     if (!region) return;
 
     var season = pickSeason(region);
+    if (!season) {
+      document.getElementById('season-title').textContent = region.seasonWord + 's';
+      document.getElementById('season-subtitle').textContent = '';
+      document.getElementById('season-pills').innerHTML = '';
+      document.getElementById('episode-list').innerHTML =
+        '<p class="empty">No ' + region.seasonWord.toLowerCase() + 's recorded yet.</p>';
+      return;
+    }
 
     /* keep the URL in sync so the page is shareable / refreshable */
     var url = new URL(location.href);
@@ -170,6 +184,7 @@
 
   /* delegated clicks: pills + accordion headers */
   document.addEventListener('click', function (e) {
+    if (e.target.closest('.ed-only')) return;     /* editor buttons */
     var pill = e.target.closest('.season-pill');
     if (pill) {
       var url = new URL(location.href);
@@ -185,6 +200,7 @@
   /* keyboard support for the accordion headers */
   document.addEventListener('keydown', function (e) {
     if (e.key !== 'Enter' && e.key !== ' ') return;
+    if (e.target.closest('.ed-only')) return;
     var head = e.target.closest('.episode-head, .sketch-head');
     if (head) {
       e.preventDefault();
@@ -201,6 +217,9 @@
     history.replaceState(null, '', url);
     render();
   });
+
+  /* editor.js saved a change */
+  document.addEventListener('snl:datachange', render);
 
   render();
 })();
