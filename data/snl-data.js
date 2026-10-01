@@ -567,7 +567,7 @@ window.SNL_DATA = {
           bio: "BIO<br>LEFT: Shep at the BAFTAs. CENTER: Shep as Princess Diana during a sketch. RIGHT: Shep during the SNL UK intro.",
           role: ""
         },
-        emma: { name: "Emma Sidi", status: "current", seasons: [1], bio: "" }
+        emma: { name: "Emma Sidi", status: "current", seasons: [1, 2], bio: "", role: "" }
       },
       seasons: [
         {
