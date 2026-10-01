@@ -595,7 +595,8 @@ window.SNL_DATA = {
                 { title: "Stay For Something", scores: { F: null, O: 6 }, blurb: "I like all the styling and her energy, but this song itself is a little repetitive, and it's hard to find anything to cling onto. The build in energy is convincing though.", cast: [], hosts: [], music: ["cmat"] },
                 { title: "Weekend Update", scores: { F: null, O: 6 }, blurb: "Why are we struggling so much to read the lines?", cast: ["ania", "paddy"], hosts: [], music: [] },
                 { title: "A Cleaner on Weekend Update", scores: { F: null, O: 7 }, blurb: "", cast: ["annabel", "paddy"], hosts: [], music: [] },
-                { title: "King Kong", scores: { F: null, O: 7 }, blurb: "", cast: ["al", "annabel", "george", "jack", "larry"], hosts: ["jeff_goldblum"], music: [] }
+                { title: "King Kong", scores: { F: null, O: 7 }, blurb: "", cast: ["al", "annabel", "george", "jack", "larry"], hosts: ["jeff_goldblum"], music: [] },
+                { title: "EURO-COUNTRY", scores: { F: null, O: 7 }, blurb: "CMAT expresses the poignancy of everyday life for those struggling beautifully, in the way only country music can.", cast: [], hosts: [], music: ["cmat"] }
               ]
             }
           ]
