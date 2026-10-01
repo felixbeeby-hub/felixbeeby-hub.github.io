@@ -275,7 +275,8 @@ window.SNL_DATA = {
                 { title: "Opening Monologue (Jalen Brunson)", scores: { F: null, O: 2 }, blurb: "slightly inaccessible subject matter for me, but im sure this is great for all the fans!", cast: ["kenan"], hosts: ["jalen_brunson"], music: [] },
                 { title: "Last Shot of the Game", scores: { F: null, O: 5 }, blurb: "", cast: ["ben", "jaj", "mikey", "sarah"], hosts: ["jalen_brunson"], music: [] },
                 { title: "Dream Academy Season 2", scores: { F: null, O: 4 }, blurb: "", cast: ["ashley", "grace_reiter", "jane", "saidah_belo_osagie", "sarah", "veronika"], hosts: ["jalen_brunson"], music: ["katseye"] },
-                { title: "Usher Concert Support Group", scores: { F: null, O: 5 }, blurb: "it's a fun concept, but it couldve been a tweet. plus no more platforming cb please", cast: ["ben", "kam", "kenan", "marcello", "mikey"], hosts: ["jalen_brunson"], music: [] }
+                { title: "Usher Concert Support Group", scores: { F: null, O: 5 }, blurb: "it's a fun concept, but it couldve been a tweet. plus no more platforming cb please", cast: ["ben", "kam", "kenan", "marcello", "mikey"], hosts: ["jalen_brunson"], music: [] },
+                { title: "New High School Musical", scores: { F: null, O: 6 }, blurb: "", cast: ["ben", "jeremy", "kam", "tommy", "veronika"], hosts: ["jalen_brunson"], music: [] }
               ]
             }
           ]
