@@ -256,6 +256,7 @@ window.SNL_DATA = {
         }
       },
       seasons: [
+        { id: 52, episodes: [] },
         {
           id: 51,
           episodes: [
