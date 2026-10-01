@@ -223,8 +223,8 @@ window.SNL_DATA = {
           photo: "padilla.jpg",
           photobig: ["padilla.jpg", "padilla_sketcheg.jpg", "padilla_intro.jpeg"],
           status: "current",
-          role: "Featured",
-          seasons: [50, 51],
+          role: "Repertory",
+          seasons: [50, 51, 52],
           bio: "Despite being a Featured Player, Padilla is one of the funniest (and a favourite) cast members and surely deserves the promotion to Repertory Cast. Her memorable mannerisms and vocals alongside how she sits on the verge of breaking add to her success during sketches.<br>LEFT: Padilla as Kristi Noem (repeated role). CENTER: Padilla (and Marshall) in the sketch 'My Ex.' RIGHT: Padilla during the SNL into."
         },
         jeremy: {
