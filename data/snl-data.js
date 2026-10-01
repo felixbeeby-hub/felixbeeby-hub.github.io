@@ -554,7 +554,7 @@ window.SNL_DATA = {
           seasons: [1],
           bio: "BIO<br>LEFT: Animashaun during and interview. RIGHT: Animashaun during the SNL UK intro."
         },
-        ayoade: { name: "Ayoade Bamgboye", status: "current", seasons: [1], bio: "" },
+        ayoade: { name: "Ayoade Bamgboye", status: "current", seasons: [1, 2], bio: "", role: "" },
         larry: { name: "Larry Dean", status: "current", seasons: [1], bio: "" },
         celeste: { name: "Celeste Dring", status: "current", seasons: [1, 2], bio: "", role: "" },
         annabel: { name: "Annabel Marlow", status: "current", seasons: [1, 2], bio: "", role: "" },
