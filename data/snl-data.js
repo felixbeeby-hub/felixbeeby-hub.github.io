@@ -135,7 +135,7 @@ window.SNL_DATA = {
           photobig: ["veronika.jpg", "veronika_intro.jpeg"],
           status: "current",
           role: "Featured",
-          seasons: [51],
+          seasons: [51, 52],
           bio: "A Canadian! A distinctive voice but unfortunately does not appear in many sketches and is not too memorable.<br>LEFT: Slowikowska during Weekend Update. RIGHT: Slowikowska during the SNL intro."
         },
         chloe: {
