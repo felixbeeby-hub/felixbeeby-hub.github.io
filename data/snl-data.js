@@ -206,7 +206,7 @@ window.SNL_DATA = {
           photobig: ["dismukes.jpg", "dismukes_intro.jpg"],
           status: "current",
           role: "Repertory",
-          seasons: [46, 47, 48, 49, 50, 51],
+          seasons: [46, 47, 48, 49, 50, 51, 52],
           bio: "Seems to be in a lot of sketches but is never really too memorable.<br>LEFT: Dismukes during a sketch. RIGHT: Dismukes during the SNL intro."
         },
         ben: {
