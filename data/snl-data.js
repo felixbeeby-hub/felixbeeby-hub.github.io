@@ -83,7 +83,7 @@ window.SNL_DATA = {
           photobig: ["colin_jost.jpg", "colin_intro.jpg"],
           status: "current",
           role: "Weekend Update Anchor",
-          seasons: [39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51],
+          seasons: [39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52],
           bio: "An anchor of 'Weekend Update' who commonly portrays Pete Hegseth in the cold opens. <br>LEFT: Jost during Weekend Update. RIGHT: Jost during the SNL intro."
         },
         jaj: {
