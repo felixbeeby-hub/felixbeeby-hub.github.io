@@ -590,7 +590,8 @@ window.SNL_DATA = {
                 { title: "1-800-555-BABY", scores: { F: null, O: 6 }, blurb: "", cast: ["al", "ayoade", "celeste", "emma", "george", "larry"], hosts: ["jeff_goldblum"], music: [] },
                 { title: "D'Artagnan Gumbert", scores: { F: null, O: 8 }, blurb: "", cast: ["al", "annabel", "celeste", "freddie_meredith", "hammed", "jack"], hosts: ["jeff_goldblum"], music: [] },
                 { title: "Dating Advice", scores: { F: null, O: 8 }, blurb: "Kind of a played out trope, but it kind of works", cast: ["annabel", "freddie_meredith", "jack"], hosts: ["jeff_goldblum"], music: [] },
-                { title: "The Piano", scores: { F: null, O: 8 }, blurb: "", cast: ["annabel", "ayoade", "celeste", "emma", "freddie_meredith", "george", "jack", "larry"], hosts: ["jeff_goldblum"], music: [] }
+                { title: "The Piano", scores: { F: null, O: 8 }, blurb: "", cast: ["annabel", "ayoade", "celeste", "emma", "freddie_meredith", "george", "jack", "larry"], hosts: ["jeff_goldblum"], music: [] },
+                { title: "Movement Class", scores: { F: null, O: 6 }, blurb: "", cast: ["annabel", "celeste", "freddie_meredith", "jack"], hosts: ["jeff_goldblum"], music: [] }
               ]
             }
           ]
