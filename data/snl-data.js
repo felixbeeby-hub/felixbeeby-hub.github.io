@@ -641,7 +641,7 @@ window.SNL_DATA = {
                 { title: "Maximus on Love Is Blind UK", scores: { F: null, O: 5 }, blurb: "", cast: ["al", "freddie_meredith"], hosts: ["amelia_dimoldenberg"], music: [] },
                 { title: "The One Thing", scores: { F: null, O: 8 }, blurb: "Jack Shep's performance is pretty good here", cast: ["al", "annabel", "george", "jack", "larry"], hosts: ["amelia_dimoldenberg"], music: [] },
                 { title: "One song away from crying", scores: { F: null, O: 7 }, blurb: "I think this song is a little difficult to execute live - but she really gives it a good short", cast: [], hosts: [], music: ["rachel_chinouriri"] },
-                { title: "Weekend Update", scores: { F: null, O: null }, blurb: "Good Jokes:\n- today the keech was in hoc \n- Danny Tommo video re-enactment", cast: ["ania", "paddy"], hosts: [], music: [] },
+                { title: "Weekend Update", scores: { F: null, O: null }, blurb: "Good Jokes:\n- today the keech was in hoc \n- Danny Tommo video re-enactment\n- Ed Davey\n- Labour party conference", cast: ["ania", "paddy"], hosts: [], music: [] },
                 { title: "Two East London Mosquitoes on Weekend Update", scores: { F: null, O: 7 }, blurb: "Quite brief. Al Nash has been very prominent this week!", cast: ["al", "freddie_meredith"], hosts: [], music: [] }
               ]
             }
