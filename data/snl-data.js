@@ -632,7 +632,9 @@ window.SNL_DATA = {
               host: "amelia_dimoldenberg",
               musicalGuest: "rachel_chinouriri",
               airDate: "26 September 2026",
-              sketches: []
+              sketches: [
+                { title: "Cold Open (No 10 North)", scores: { F: null, O: 6 }, blurb: "The contrived premise has sort of taken the front seat here over the actual jokes, but it just about works in the end", cast: ["celeste", "freddie_meredith", "george", "jack"], hosts: [], music: [] }
+              ]
             }
           ]
         },
