@@ -644,7 +644,8 @@ window.SNL_DATA = {
                 { title: "Weekend Update", scores: { F: null, O: 7 }, blurb: "Good Jokes:\n- today the keech was in hoc \n- Danny Tommo video re-enactment\n- Ed Davey\n- Labour party conference\n- Tree frog", cast: ["ania", "paddy"], hosts: [], music: [] },
                 { title: "Two East London Mosquitoes on Weekend Update", scores: { F: null, O: 7 }, blurb: "Quite brief. Al Nash has been very prominent this week!", cast: ["al", "ania", "freddie_meredith"], hosts: [], music: [] },
                 { title: "The One Show: Worming for Wide Feet", scores: { F: null, O: 7 }, blurb: "Freddie Meredith is kind of the funniest person ever wow", cast: ["ayoade", "freddie_meredith", "george"], hosts: ["amelia_dimoldenberg"], music: [] },
-                { title: "Never Need Me", scores: { F: null, O: 9 }, blurb: "She's still struggling a bit vocally, but this song is euphoric and soaring, especially with the live instrumentation. A good choice!", cast: [], hosts: [], music: ["rachel_chinouriri"] }
+                { title: "Never Need Me", scores: { F: null, O: 9 }, blurb: "She's still struggling a bit vocally, but this song is euphoric and soaring, especially with the live instrumentation. A good choice!", cast: [], hosts: [], music: ["rachel_chinouriri"] },
+                { title: "How to How", scores: { F: null, O: 8 }, blurb: "love", cast: ["celeste"], hosts: ["amelia_dimoldenberg"], music: [] }
               ]
             }
           ]
