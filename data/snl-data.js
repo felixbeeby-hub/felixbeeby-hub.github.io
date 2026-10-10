@@ -635,7 +635,8 @@ window.SNL_DATA = {
               sketches: [
                 { title: "Cold Open (No 10 North)", scores: { F: null, O: 6 }, blurb: "The contrived premise has sort of taken the front seat here over the actual jokes, but it just about works in the end", cast: ["celeste", "freddie_meredith", "george", "jack"], hosts: [], music: [] },
                 { title: "Opening Monologue (Amelia Dimoldenberg)", scores: { F: null, O: 5 }, blurb: "She seems to be kind of struggling. Maybe she's not a monologue type of comedian", cast: [], hosts: ["amelia_dimoldenberg"], music: [] },
-                { title: "Harry Kane's Babybel", scores: { F: null, O: 3 }, blurb: "??", cast: ["al", "emma", "freddie_meredith", "george", "larry", "paddy"], hosts: ["amelia_dimoldenberg"], music: [] }
+                { title: "Harry Kane's Babybel", scores: { F: null, O: 3 }, blurb: "??", cast: ["al", "emma", "freddie_meredith", "george", "larry", "paddy"], hosts: ["amelia_dimoldenberg"], music: [] },
+                { title: "Madame Tussauds Night Shift", scores: { F: null, O: 6 }, blurb: "I can't help but feel that the impressions were not as funny as they couldve been for this (good) concept", cast: ["al", "celeste", "emma", "freddie_meredith", "george", "jack", "larry", "paddy"], hosts: ["amelia_dimoldenberg"], music: [] }
               ]
             }
           ]
