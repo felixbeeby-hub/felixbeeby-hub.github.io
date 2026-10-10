@@ -516,7 +516,8 @@ window.SNL_DATA = {
         riz_ahmed: { name: "Riz Ahmed", bio: "" },
         jack_whitehall: { name: "Jack Whitehall", bio: "" },
         jeff_goldblum: { name: "Jeff Goldblum", bio: "" },
-        jamie_demetriou: { name: "Jamie Demetriou", bio: "" }
+        jamie_demetriou: { name: "Jamie Demetriou", bio: "" },
+        amelia_dimoldenberg: { name: "Amelia Dimoldenberg", bio: "" }
       },
       music: {
         wet_leg: { name: "Wet Leg", bio: "" },
@@ -524,7 +525,8 @@ window.SNL_DATA = {
         kasabian: { name: "Kasabian", bio: "" },
         jorja_smith: { name: "Jorja Smith", bio: "" },
         cmat: { name: "CMAT", bio: "" },
-        royal_blood: { name: "Royal Blood", bio: "" }
+        royal_blood: { name: "Royal Blood", bio: "" },
+        rachel_chinouriri: { name: "Rachel Chinouriri", bio: "" }
       },
       cast: {
         george: {
@@ -623,6 +625,14 @@ window.SNL_DATA = {
                 { title: "Figure It Out", scores: { F: null, O: 4 }, blurb: "", cast: [], hosts: [], music: ["royal_blood"] },
                 { title: "The X Factor", scores: { F: null, O: 7 }, blurb: "", cast: ["al", "ania", "annabel", "ayoade", "celeste", "emma", "freddie_meredith", "george", "hammed", "jack", "larry", "paddy"], hosts: ["jamie_demetriou"], music: [] }
               ]
+            },
+            {
+              number: 3,
+              title: "Episode 3",
+              host: "amelia_dimoldenberg",
+              musicalGuest: "rachel_chinouriri",
+              airDate: "26 September 2026",
+              sketches: []
             }
           ]
         },
