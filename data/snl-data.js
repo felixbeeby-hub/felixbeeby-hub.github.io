@@ -297,7 +297,8 @@ window.SNL_DATA = {
               musicalGuest: "turnstile",
               airDate: "3 October 2026",
               sketches: [
-                { title: "Cold Open: Mid-term Ad Spots", scores: { F: null, O: 5 }, blurb: "We're sort of beating a dead horse here.", cast: ["andrew", "ashley", "colin", "jaj", "jeremy", "marcello", "mikey"], hosts: [], music: [] }
+                { title: "Cold Open: Mid-term Ad Spots", scores: { F: null, O: 5 }, blurb: "We're sort of beating a dead horse here.", cast: ["andrew", "ashley", "colin", "jaj", "jeremy", "marcello", "mikey"], hosts: [], music: [] },
+                { title: "Opening Monologue (Dakota Johnson)", scores: { F: null, O: 3 }, blurb: "getting outshone by taylor swift is crazy", cast: [], hosts: ["dakota_johnson"], music: [] }
               ]
             }
           ]
