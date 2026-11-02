@@ -296,7 +296,9 @@ window.SNL_DATA = {
               host: "dakota_johnson",
               musicalGuest: "turnstile",
               airDate: "3 October 2026",
-              sketches: []
+              sketches: [
+                { title: "Cold Open: Mid-term Ad Spots", scores: { F: null, O: 5 }, blurb: "We're sort of beating a dead horse here.", cast: ["andrew", "ashley", "colin", "jaj", "jeremy", "marcello", "mikey"], hosts: [], music: [] }
+              ]
             }
           ]
         },
