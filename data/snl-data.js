@@ -303,7 +303,8 @@ window.SNL_DATA = {
                 { title: "Mean Scary Girlfriend", scores: { F: null, O: 7 }, blurb: "", cast: ["ben", "grace_reiter", "jane", "marcello", "saidah_belo_osagie", "tommy", "veronika"], hosts: ["dakota_johnson"], music: [] },
                 { title: "Hospital Gossip", scores: { F: null, O: 6 }, blurb: "", cast: ["ashley", "jeremy", "kenan", "sarah"], hosts: ["dakota_johnson"], music: [] },
                 { title: "Guns for Women", scores: { F: null, O: 5 }, blurb: "who is writing this stuff... feels borderline misogynstic", cast: ["ashley", "sarah", "veronika"], hosts: ["dakota_johnson"], music: [] },
-                { title: "Throne of the Dragonborn", scores: { F: null, O: 6 }, blurb: "", cast: ["andrew", "ben", "kenan"], hosts: ["dakota_johnson"], music: [] }
+                { title: "Throne of the Dragonborn", scores: { F: null, O: 6 }, blurb: "", cast: ["andrew", "ben", "kenan"], hosts: ["dakota_johnson"], music: [] },
+                { title: "Birds", scores: { F: null, O: 7 }, blurb: "Slayyyter version outsold. this probably isn't the best format for this band -- but it works pretty well", cast: [], hosts: [], music: ["turnstile"] }
               ]
             }
           ]
