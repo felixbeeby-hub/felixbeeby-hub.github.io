@@ -307,7 +307,8 @@ window.SNL_DATA = {
                 { title: "Birds", scores: { F: null, O: 7 }, blurb: "Slayyyter version outsold. this probably isn't the best format for this band -- but it works pretty well", cast: [], hosts: [], music: ["turnstile"] },
                 { title: "Weekend Update (03/10/2026)", scores: { F: null, O: 4 }, blurb: "", cast: ["colin", "michael"], hosts: [], music: [] },
                 { title: "Weekend Update: Link & Jason", scores: { F: null, O: 7 }, blurb: "", cast: ["colin", "marcello", "michael", "mikey"], hosts: [], music: [] },
-                { title: "Weekend Update: Kam Patterson on Gleeboot", scores: { F: null, O: 5 }, blurb: "feels almost racist", cast: ["kam", "michael"], hosts: [], music: [] }
+                { title: "Weekend Update: Kam Patterson on Gleeboot", scores: { F: null, O: 5 }, blurb: "feels almost racist", cast: ["kam", "michael"], hosts: [], music: [] },
+                { title: "Weekend Update: Debbie Mush", scores: { F: null, O: 9 }, blurb: "", cast: ["michael", "sarah"], hosts: [], music: [] }
               ]
             }
           ]
