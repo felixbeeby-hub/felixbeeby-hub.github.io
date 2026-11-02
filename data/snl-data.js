@@ -302,7 +302,8 @@ window.SNL_DATA = {
                 { title: "Press Your Luck", scores: { F: null, O: 5 }, blurb: "im getting tired of sketches where ashley padilla just plays some crazy woman", cast: ["ashley", "kenan", "marcello"], hosts: ["dakota_johnson"], music: [] },
                 { title: "Mean Scary Girlfriend", scores: { F: null, O: 7 }, blurb: "", cast: ["ben", "grace_reiter", "jane", "marcello", "saidah_belo_osagie", "tommy", "veronika"], hosts: ["dakota_johnson"], music: [] },
                 { title: "Hospital Gossip", scores: { F: null, O: 6 }, blurb: "", cast: ["ashley", "jeremy", "kenan", "sarah"], hosts: ["dakota_johnson"], music: [] },
-                { title: "Guns for Women", scores: { F: null, O: 5 }, blurb: "who is writing this stuff... feels borderline misogynstic", cast: ["ashley", "sarah", "veronika"], hosts: ["dakota_johnson"], music: [] }
+                { title: "Guns for Women", scores: { F: null, O: 5 }, blurb: "who is writing this stuff... feels borderline misogynstic", cast: ["ashley", "sarah", "veronika"], hosts: ["dakota_johnson"], music: [] },
+                { title: "Throne of the Dragonborn", scores: { F: null, O: 6 }, blurb: "", cast: ["andrew", "ben", "kenan"], hosts: ["dakota_johnson"], music: [] }
               ]
             }
           ]
