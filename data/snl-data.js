@@ -61,7 +61,8 @@ window.SNL_DATA = {
         },
         josh_oconnor: { name: "Josh O'Connor", bio: "" },
         ariana_grande: { name: "Ariana Grande", bio: "" },
-        jalen_brunson: { name: "Jalen Brunson", bio: "" }
+        jalen_brunson: { name: "Jalen Brunson", bio: "" },
+        dakota_johnson: { name: "Dakota Johnson", bio: "" }
       },
       music: {
         doja_cat: { name: "Doja Cat", bio: "" },
@@ -76,7 +77,8 @@ window.SNL_DATA = {
         dijon: { name: "Dijon", bio: "" },
         lily_allen: { name: "Lily Allen", bio: "" },
         cher: { name: "Cher", bio: "" },
-        katseye: { name: "Katseye", bio: "" }
+        katseye: { name: "Katseye", bio: "" },
+        turnstile: { name: "Turnstile", bio: "" }
       },
       cast: {
         colin: {
@@ -287,6 +289,14 @@ window.SNL_DATA = {
                 { title: "Respectacles", scores: { F: null, O: 1 }, blurb: "i feel like this is borderline offensive", cast: ["ben", "jaj", "jeremy", "sarah", "veronika"], hosts: ["jalen_brunson"], music: [] },
                 { title: "Coach Dennis", scores: { F: null, O: 3 }, blurb: "", cast: ["grace_reiter", "jaj", "kam", "kenan"], hosts: ["jalen_brunson"], music: [] }
               ]
+            },
+            {
+              number: 2,
+              title: "Episode 2",
+              host: "dakota_johnson",
+              musicalGuest: "turnstile",
+              airDate: "3 October 2026",
+              sketches: []
             }
           ]
         },
