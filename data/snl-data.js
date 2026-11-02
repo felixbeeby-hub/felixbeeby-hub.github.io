@@ -308,7 +308,8 @@ window.SNL_DATA = {
                 { title: "Weekend Update (03/10/2026)", scores: { F: null, O: 4 }, blurb: "", cast: ["colin", "michael"], hosts: [], music: [] },
                 { title: "Weekend Update: Link & Jason", scores: { F: null, O: 7 }, blurb: "", cast: ["colin", "marcello", "michael", "mikey"], hosts: [], music: [] },
                 { title: "Weekend Update: Kam Patterson on Gleeboot", scores: { F: null, O: 5 }, blurb: "feels almost racist", cast: ["kam", "michael"], hosts: [], music: [] },
-                { title: "Weekend Update: Debbie Mush", scores: { F: null, O: 9 }, blurb: "", cast: ["michael", "sarah"], hosts: [], music: [] }
+                { title: "Weekend Update: Debbie Mush", scores: { F: null, O: 9 }, blurb: "", cast: ["michael", "sarah"], hosts: [], music: [] },
+                { title: "GRWM", scores: { F: null, O: 7 }, blurb: "", cast: ["grace_reiter", "jaj", "jane", "saidah_belo_osagie", "sarah", "veronika"], hosts: ["dakota_johnson"], music: [] }
               ]
             }
           ]
