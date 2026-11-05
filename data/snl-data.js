@@ -333,7 +333,8 @@ window.SNL_DATA = {
                 { title: "Reliqua", scores: { F: null, O: 10 }, blurb: "such an odd host/musician pairing this week", cast: [], hosts: [], music: ["rosalia"] },
                 { title: "Weekend Update (10/10/2026)", scores: { F: null, O: 7 }, blurb: "they kinda tore today", cast: ["colin", "michael"], hosts: [], music: [] },
                 { title: "Weekend Update: Mr Wonderful", scores: { F: null, O: 7 }, blurb: "", cast: ["colin", "jaj"], hosts: [], music: [] },
-                { title: "Weekend Update: Mother Whose Babysitter Cancelled", scores: { F: null, O: 7 }, blurb: "grace's facial expressions carried this", cast: ["ashley", "colin", "grace_reiter"], hosts: [], music: [] }
+                { title: "Weekend Update: Mother Whose Babysitter Cancelled", scores: { F: null, O: 7 }, blurb: "grace's facial expressions carried this", cast: ["ashley", "colin", "grace_reiter"], hosts: [], music: [] },
+                { title: "Hospice", scores: { F: null, O: 7 }, blurb: "", cast: ["ben", "grace_reiter", "marcello", "sarah"], hosts: ["shane_gillis"], music: ["rosalia"] }
               ]
             }
           ]
