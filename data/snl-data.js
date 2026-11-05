@@ -62,7 +62,8 @@ window.SNL_DATA = {
         josh_oconnor: { name: "Josh O'Connor", bio: "" },
         ariana_grande: { name: "Ariana Grande", bio: "" },
         jalen_brunson: { name: "Jalen Brunson", bio: "" },
-        dakota_johnson: { name: "Dakota Johnson", bio: "" }
+        dakota_johnson: { name: "Dakota Johnson", bio: "" },
+        shane_gillis: { name: "Shane Gillis", bio: "" }
       },
       music: {
         doja_cat: { name: "Doja Cat", bio: "" },
@@ -78,7 +79,8 @@ window.SNL_DATA = {
         lily_allen: { name: "Lily Allen", bio: "" },
         cher: { name: "Cher", bio: "" },
         katseye: { name: "Katseye", bio: "" },
-        turnstile: { name: "Turnstile", bio: "" }
+        turnstile: { name: "Turnstile", bio: "" },
+        rosalia: { name: "Rosalía", bio: "" }
       },
       cast: {
         colin: {
@@ -313,6 +315,14 @@ window.SNL_DATA = {
                 { title: "I Care / Dull", scores: { F: null, O: 7 }, blurb: "Should i be getting into this band? i liked it!", cast: [], hosts: [], music: ["turnstile"] },
                 { title: "Amazing Tales of Truth", scores: { F: null, O: 7 }, blurb: "", cast: ["andrew", "jaj", "veronika"], hosts: ["dakota_johnson"], music: [] }
               ]
+            },
+            {
+              number: 3,
+              title: "Episode 3",
+              host: "shane_gillis",
+              musicalGuest: "rosalia",
+              airDate: "10 October 2026",
+              sketches: []
             }
           ]
         },
