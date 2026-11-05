@@ -323,7 +323,8 @@ window.SNL_DATA = {
               musicalGuest: "rosalia",
               airDate: "10 October 2026",
               sketches: [
-                { title: "Cold Open: Return of USS Lincoln", scores: { F: null, O: 6 }, blurb: "A new character (for me at least) from JAJ at least.", cast: ["andrew", "colin", "jaj", "jeremy", "kam", "mikey", "tommy"], hosts: [], music: [] }
+                { title: "Cold Open: Return of USS Lincoln", scores: { F: null, O: 6 }, blurb: "A new character (for me at least) from JAJ at least.", cast: ["andrew", "colin", "jaj", "jeremy", "kam", "mikey", "tommy"], hosts: [], music: [] },
+                { title: "Opening Monologue (Shane Gillis)", scores: { F: null, O: 6 }, blurb: "this is quite difficult. his comment about women is clearly bad but a lot of this is kind of funny?", cast: [], hosts: ["shane_gillis"], music: [] }
               ]
             }
           ]
