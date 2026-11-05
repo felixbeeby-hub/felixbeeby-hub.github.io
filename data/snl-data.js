@@ -310,7 +310,8 @@ window.SNL_DATA = {
                 { title: "Weekend Update: Kam Patterson on Gleeboot", scores: { F: null, O: 5 }, blurb: "feels almost racist", cast: ["kam", "michael"], hosts: [], music: [] },
                 { title: "Weekend Update: Debbie Mush", scores: { F: null, O: 9 }, blurb: "", cast: ["michael", "sarah"], hosts: [], music: [] },
                 { title: "GRWM", scores: { F: null, O: 7 }, blurb: "", cast: ["grace_reiter", "jaj", "jane", "saidah_belo_osagie", "sarah", "veronika"], hosts: ["dakota_johnson"], music: [] },
-                { title: "I Care / Dull", scores: { F: null, O: 7 }, blurb: "Should i be getting into this band? i liked it!", cast: [], hosts: [], music: ["turnstile"] }
+                { title: "I Care / Dull", scores: { F: null, O: 7 }, blurb: "Should i be getting into this band? i liked it!", cast: [], hosts: [], music: ["turnstile"] },
+                { title: "Amazing Tales of Truth", scores: { F: null, O: 7 }, blurb: "", cast: ["andrew", "jaj", "veronika"], hosts: ["dakota_johnson"], music: [] }
               ]
             }
           ]
