@@ -322,7 +322,9 @@ window.SNL_DATA = {
               host: "shane_gillis",
               musicalGuest: "rosalia",
               airDate: "10 October 2026",
-              sketches: []
+              sketches: [
+                { title: "Cold Open: Return of USS Lincoln", scores: { F: null, O: 6 }, blurb: "A new character (for me at least) from JAJ at least.", cast: ["andrew", "colin", "jaj", "jeremy", "kam", "mikey", "tommy"], hosts: [], music: [] }
+              ]
             }
           ]
         },
