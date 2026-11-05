@@ -327,7 +327,8 @@ window.SNL_DATA = {
                 { title: "Opening Monologue (Shane Gillis)", scores: { F: null, O: 6 }, blurb: "this is quite difficult. his comment about women is clearly bad but a lot of this is kind of funny?", cast: [], hosts: ["shane_gillis"], music: [] },
                 { title: "Cop Talk", scores: { F: null, O: 8 }, blurb: "smart, snappy, although maybe not the most groundbreaking commentary. why does mikey day look so hot here?", cast: ["ben", "grace_reiter", "jeremy", "kam", "kenan", "mikey", "veronika"], hosts: ["shane_gillis"], music: [] },
                 { title: "It's My Room Now", scores: { F: null, O: 7 }, blurb: "", cast: ["andrew", "ashley", "ben", "jaj", "marcello", "saidah_belo_osagie", "sarah", "tommy"], hosts: ["shane_gillis"], music: [] },
-                { title: "Green Eggs and Ham", scores: { F: null, O: 8 }, blurb: "", cast: ["andrew", "marcello", "mikey", "sarah"], hosts: ["shane_gillis"], music: [] }
+                { title: "Green Eggs and Ham", scores: { F: null, O: 8 }, blurb: "", cast: ["andrew", "marcello", "mikey", "sarah"], hosts: ["shane_gillis"], music: [] },
+                { title: "The Products That Shaped America: Sneakers", scores: { F: null, O: 1 }, blurb: "weird, especially given the monologue", cast: ["ben", "jaj", "kenan", "mikey", "tommy"], hosts: ["shane_gillis"], music: [] }
               ]
             }
           ]
