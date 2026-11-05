@@ -330,7 +330,8 @@ window.SNL_DATA = {
                 { title: "Green Eggs and Ham", scores: { F: null, O: 8 }, blurb: "", cast: ["andrew", "marcello", "mikey", "sarah"], hosts: ["shane_gillis"], music: [] },
                 { title: "The Products That Shaped America: Sneakers", scores: { F: null, O: 1 }, blurb: "weird, especially given the monologue", cast: ["ben", "jaj", "kenan", "mikey", "tommy"], hosts: ["shane_gillis"], music: [] },
                 { title: "Upfront Heating & Air Conditioning", scores: { F: null, O: 3 }, blurb: "This sorta feels like punching down a little bit", cast: ["ben", "kam", "kenan", "marcello", "mikey", "saidah_belo_osagie", "sarah", "veronika"], hosts: ["shane_gillis"], music: [] },
-                { title: "Reliqua", scores: { F: null, O: 10 }, blurb: "such an odd host/musician pairing this week", cast: [], hosts: [], music: ["rosalia"] }
+                { title: "Reliqua", scores: { F: null, O: 10 }, blurb: "such an odd host/musician pairing this week", cast: [], hosts: [], music: ["rosalia"] },
+                { title: "Weekend Update (10/10/2026)", scores: { F: null, O: null }, blurb: "", cast: [], hosts: [], music: [] }
               ]
             }
           ]
