@@ -332,7 +332,8 @@ window.SNL_DATA = {
                 { title: "Upfront Heating & Air Conditioning", scores: { F: null, O: 3 }, blurb: "This sorta feels like punching down a little bit", cast: ["ben", "kam", "kenan", "marcello", "mikey", "saidah_belo_osagie", "sarah", "veronika"], hosts: ["shane_gillis"], music: [] },
                 { title: "Reliqua", scores: { F: null, O: 10 }, blurb: "such an odd host/musician pairing this week", cast: [], hosts: [], music: ["rosalia"] },
                 { title: "Weekend Update (10/10/2026)", scores: { F: null, O: null }, blurb: "", cast: ["colin", "michael"], hosts: [], music: [] },
-                { title: "Weekend Update: Mr Wonderful", scores: { F: null, O: 7 }, blurb: "", cast: ["colin", "jaj"], hosts: [], music: [] }
+                { title: "Weekend Update: Mr Wonderful", scores: { F: null, O: 7 }, blurb: "", cast: ["colin", "jaj"], hosts: [], music: [] },
+                { title: "Weekend Update: Mother Whose Babysitter Cancelled", scores: { F: null, O: 7 }, blurb: "grace's facial expressions carried this", cast: ["ashley", "colin", "grace_reiter"], hosts: [], music: [] }
               ]
             }
           ]
