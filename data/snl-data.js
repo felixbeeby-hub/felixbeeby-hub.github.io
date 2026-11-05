@@ -335,7 +335,8 @@ window.SNL_DATA = {
                 { title: "Weekend Update: Mr Wonderful", scores: { F: null, O: 7 }, blurb: "", cast: ["colin", "jaj"], hosts: [], music: [] },
                 { title: "Weekend Update: Mother Whose Babysitter Cancelled", scores: { F: null, O: 7 }, blurb: "grace's facial expressions carried this", cast: ["ashley", "colin", "grace_reiter"], hosts: [], music: [] },
                 { title: "Hospice", scores: { F: null, O: 7 }, blurb: "", cast: ["ben", "grace_reiter", "marcello", "sarah"], hosts: ["shane_gillis"], music: ["rosalia"] },
-                { title: "Magnolias", scores: { F: null, O: 8 }, blurb: "an interesting choice", cast: [], hosts: [], music: ["rosalia"] }
+                { title: "Magnolias", scores: { F: null, O: 8 }, blurb: "an interesting choice", cast: [], hosts: [], music: ["rosalia"] },
+                { title: "Middle School Chess Semi-Final", scores: { F: null, O: 9 }, blurb: "grace reiter's first moment in the spotlight i think", cast: ["grace_reiter", "jane", "jeremy", "mikey", "tommy"], hosts: ["shane_gillis"], music: [] }
               ]
             }
           ]
