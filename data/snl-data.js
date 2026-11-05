@@ -328,7 +328,8 @@ window.SNL_DATA = {
                 { title: "Cop Talk", scores: { F: null, O: 8 }, blurb: "smart, snappy, although maybe not the most groundbreaking commentary. why does mikey day look so hot here?", cast: ["ben", "grace_reiter", "jeremy", "kam", "kenan", "mikey", "veronika"], hosts: ["shane_gillis"], music: [] },
                 { title: "It's My Room Now", scores: { F: null, O: 7 }, blurb: "", cast: ["andrew", "ashley", "ben", "jaj", "marcello", "saidah_belo_osagie", "sarah", "tommy"], hosts: ["shane_gillis"], music: [] },
                 { title: "Green Eggs and Ham", scores: { F: null, O: 8 }, blurb: "", cast: ["andrew", "marcello", "mikey", "sarah"], hosts: ["shane_gillis"], music: [] },
-                { title: "The Products That Shaped America: Sneakers", scores: { F: null, O: 1 }, blurb: "weird, especially given the monologue", cast: ["ben", "jaj", "kenan", "mikey", "tommy"], hosts: ["shane_gillis"], music: [] }
+                { title: "The Products That Shaped America: Sneakers", scores: { F: null, O: 1 }, blurb: "weird, especially given the monologue", cast: ["ben", "jaj", "kenan", "mikey", "tommy"], hosts: ["shane_gillis"], music: [] },
+                { title: "Upfront Heating & Air Conditioning", scores: { F: null, O: 3 }, blurb: "This sorta feels like punching down a little bit", cast: ["ben", "kam", "kenan", "marcello", "mikey", "saidah_belo_osagie", "sarah", "veronika"], hosts: ["shane_gillis"], music: [] }
               ]
             }
           ]
