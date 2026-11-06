@@ -720,7 +720,8 @@ window.SNL_DATA = {
                 { title: "Weekend Update: Delivery Robot", scores: { F: null, O: 6 }, blurb: "", cast: ["emma"], hosts: [], music: [] },
                 { title: "Weekend Update: A Concerned Cartographer", scores: { F: null, O: 8 }, blurb: "approaching too meta", cast: ["george", "paddy"], hosts: [], music: [] },
                 { title: "NASA UK", scores: { F: null, O: 4 }, blurb: "", cast: ["al", "ayoade", "emma", "hammed", "larry"], hosts: ["danny_dyer"], music: [] },
-                { title: "Why", scores: { F: null, O: 5 }, blurb: "", cast: [], hosts: [], music: ["sasha_keable"] }
+                { title: "Why", scores: { F: null, O: 5 }, blurb: "", cast: [], hosts: [], music: ["sasha_keable"] },
+                { title: "2000s Boy Band", scores: { F: null, O: 8 }, blurb: "", cast: ["al", "celeste", "hammed"], hosts: ["danny_dyer"], music: [] }
               ]
             }
           ]
