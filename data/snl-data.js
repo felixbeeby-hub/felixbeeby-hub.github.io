@@ -568,7 +568,8 @@ window.SNL_DATA = {
         jack_whitehall: { name: "Jack Whitehall", bio: "" },
         jeff_goldblum: { name: "Jeff Goldblum", bio: "" },
         jamie_demetriou: { name: "Jamie Demetriou", bio: "" },
-        amelia_dimoldenberg: { name: "Amelia Dimoldenberg", bio: "" }
+        amelia_dimoldenberg: { name: "Amelia Dimoldenberg", bio: "" },
+        danny_dyer: { name: "Danny Dyer", bio: "" }
       },
       music: {
         wet_leg: { name: "Wet Leg", bio: "" },
@@ -577,7 +578,8 @@ window.SNL_DATA = {
         jorja_smith: { name: "Jorja Smith", bio: "" },
         cmat: { name: "CMAT", bio: "" },
         royal_blood: { name: "Royal Blood", bio: "" },
-        rachel_chinouriri: { name: "Rachel Chinouriri", bio: "" }
+        rachel_chinouriri: { name: "Rachel Chinouriri", bio: "" },
+        sasha_keable: { name: "Sasha Keable", bio: "" }
       },
       cast: {
         george: {
@@ -698,6 +700,14 @@ window.SNL_DATA = {
                 { title: "Never Need Me", scores: { F: null, O: 9 }, blurb: "She's still struggling a bit vocally, but this song is euphoric and soaring, especially with the live instrumentation. A good choice!", cast: [], hosts: [], music: ["rachel_chinouriri"] },
                 { title: "How to How", scores: { F: null, O: 8 }, blurb: "love", cast: ["celeste"], hosts: ["amelia_dimoldenberg"], music: [] }
               ]
+            },
+            {
+              number: 4,
+              title: "Episode 4",
+              host: "danny_dyer",
+              musicalGuest: "sasha_keable",
+              airDate: "3 October 2026",
+              sketches: []
             }
           ]
         },
