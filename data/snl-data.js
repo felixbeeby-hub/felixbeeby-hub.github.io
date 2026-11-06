@@ -707,7 +707,9 @@ window.SNL_DATA = {
               host: "danny_dyer",
               musicalGuest: "sasha_keable",
               airDate: "3 October 2026",
-              sketches: []
+              sketches: [
+                { title: "Cold Open:", scores: { F: null, O: null }, blurb: "", cast: ["ayoade", "jack"], hosts: [], music: [] }
+              ]
             }
           ]
         },
