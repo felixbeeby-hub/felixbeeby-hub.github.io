@@ -716,7 +716,7 @@ window.SNL_DATA = {
                 { title: "Chill As Hell Gay Guy In His Twenties", scores: { F: null, O: 8 }, blurb: "", cast: ["annabel", "ayoade", "celeste", "freddie_meredith", "hammed", "jack", "larry"], hosts: ["danny_dyer"], music: [] },
                 { title: "Naming Paints", scores: { F: null, O: 5 }, blurb: "", cast: ["ayoade", "celeste", "freddie_meredith", "hammed"], hosts: ["danny_dyer"], music: [] },
                 { title: "Options", scores: { F: null, O: 4 }, blurb: "The 'i got options' thing feels a bit trite. not sure she carried this fully", cast: [], hosts: [], music: ["sasha_keable"] },
-                { title: "Weekend Update (03/10/2026)", scores: { F: null, O: 7 }, blurb: "a surprisingly creative one this week", cast: ["ania", "paddy"], hosts: [], music: [] },
+                { title: "Weekend Update (10/10/2026)", scores: { F: null, O: 7 }, blurb: "a surprisingly creative one this week", cast: ["ania", "paddy"], hosts: [], music: [] },
                 { title: "Weekend Update: Delivery Robot", scores: { F: null, O: 6 }, blurb: "", cast: ["emma"], hosts: [], music: [] },
                 { title: "Weekend Update: A Concerned Cartographer", scores: { F: null, O: 8 }, blurb: "approaching too meta", cast: ["george", "paddy"], hosts: [], music: [] }
               ]
