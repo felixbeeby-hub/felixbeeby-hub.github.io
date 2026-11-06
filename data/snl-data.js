@@ -713,7 +713,8 @@ window.SNL_DATA = {
                 { title: "Un-Startable", scores: { F: null, O: 7 }, blurb: "", cast: ["annabel", "emma", "freddie_meredith", "hammed", "jack"], hosts: ["danny_dyer"], music: [] },
                 { title: "CPS Calls on Fagin", scores: { F: null, O: 6 }, blurb: "they could've pushed this further with the CPS lady being even more modern woke fish out of water", cast: ["al", "annabel", "celeste", "emma", "jack", "larry"], hosts: ["danny_dyer"], music: [] },
                 { title: "The Proposal", scores: { F: null, O: 7 }, blurb: "", cast: ["celeste", "emma", "freddie_meredith"], hosts: ["danny_dyer"], music: [] },
-                { title: "Chill As Hell Gay Guy In His Twenties", scores: { F: null, O: 8 }, blurb: "", cast: ["annabel", "ayoade", "celeste", "freddie_meredith", "hammed", "jack", "larry"], hosts: ["danny_dyer"], music: [] }
+                { title: "Chill As Hell Gay Guy In His Twenties", scores: { F: null, O: 8 }, blurb: "", cast: ["annabel", "ayoade", "celeste", "freddie_meredith", "hammed", "jack", "larry"], hosts: ["danny_dyer"], music: [] },
+                { title: "Naming Paints", scores: { F: null, O: 5 }, blurb: "", cast: ["ayoade", "celeste", "freddie_meredith", "hammed"], hosts: ["danny_dyer"], music: [] }
               ]
             }
           ]
