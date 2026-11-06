@@ -710,7 +710,8 @@ window.SNL_DATA = {
               sketches: [
                 { title: "Cold Open: Family Reunion", scores: { F: null, O: 2 }, blurb: "boooo come up with something new, please", cast: ["annabel", "ayoade", "emma", "freddie_meredith", "george", "jack", "larry"], hosts: [], music: [] },
                 { title: "Opening Monologue (Danny Dyer)", scores: { F: null, O: 5 }, blurb: "", cast: [], hosts: ["danny_dyer"], music: [] },
-                { title: "Un-Startable", scores: { F: null, O: 7 }, blurb: "", cast: ["annabel", "emma", "freddie_meredith", "hammed", "jack"], hosts: ["danny_dyer"], music: [] }
+                { title: "Un-Startable", scores: { F: null, O: 7 }, blurb: "", cast: ["annabel", "emma", "freddie_meredith", "hammed", "jack"], hosts: ["danny_dyer"], music: [] },
+                { title: "CPS Calls on Fagin", scores: { F: null, O: 6 }, blurb: "they could've pushed this further with the CPS lady being even more modern woke fish out of water", cast: ["al", "annabel", "celeste", "emma", "jack", "larry"], hosts: ["danny_dyer"], music: [] }
               ]
             }
           ]
