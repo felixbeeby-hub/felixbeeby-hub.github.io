@@ -706,7 +706,7 @@ window.SNL_DATA = {
               title: "Episode 4",
               host: "danny_dyer",
               musicalGuest: "sasha_keable",
-              airDate: "3 October 2026",
+              airDate: "10 October 2026",
               sketches: [
                 { title: "Cold Open: Family Reunion", scores: { F: null, O: 2 }, blurb: "boooo come up with something new, please", cast: ["annabel", "ayoade", "emma", "freddie_meredith", "george", "jack", "larry"], hosts: [], music: [] },
                 { title: "Opening Monologue (Danny Dyer)", scores: { F: null, O: 5 }, blurb: "", cast: [], hosts: ["danny_dyer"], music: [] },
