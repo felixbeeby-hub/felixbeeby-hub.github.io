@@ -735,7 +735,7 @@ window.SNL_DATA = {
               sketches: [
                 { title: "Cold Open: A Special Guest", scores: { F: null, O: 9 }, blurb: "top 10 anime crossovers! even though im sick of this trump... it felt pretty special here. shout out especially to the percy pig rant -- felt so authentically trumpian", cast: ["freddie_meredith", "george"], hosts: [], music: [] },
                 { title: "Opening Monologue (James Norton)", scores: { F: null, O: 2 }, blurb: "not very funny. and he was lowkey struggling with the delivery too. and one of the mums at the end was highkey groping him", cast: [], hosts: ["james_norton"], music: [] },
-                { title: "Cervical Screening PSA", scores: { F: null, O: 3 }, blurb: "is the whole episode going to be about how (supposedly) hot james norton is? feels reductive. for james norton and for women.", cast: ["ania", "annabel", "ayoade", "celeste", "emma"], hosts: [], music: [] }
+                { title: "Cervical Screening PSA", scores: { F: null, O: 3 }, blurb: "is the whole episode going to be about how (supposedly) hot james norton is? feels reductive. for james norton and for women.", cast: ["ania", "annabel", "ayoade", "celeste", "emma"], hosts: ["james_norton"], music: [] }
               ]
             }
           ]
