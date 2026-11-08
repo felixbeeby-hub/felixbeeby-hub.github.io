@@ -569,7 +569,8 @@ window.SNL_DATA = {
         jeff_goldblum: { name: "Jeff Goldblum", bio: "" },
         jamie_demetriou: { name: "Jamie Demetriou", bio: "" },
         amelia_dimoldenberg: { name: "Amelia Dimoldenberg", bio: "" },
-        danny_dyer: { name: "Danny Dyer", bio: "" }
+        danny_dyer: { name: "Danny Dyer", bio: "" },
+        james_norton: { name: "James Norton", bio: "" }
       },
       music: {
         wet_leg: { name: "Wet Leg", bio: "" },
@@ -579,7 +580,8 @@ window.SNL_DATA = {
         cmat: { name: "CMAT", bio: "" },
         royal_blood: { name: "Royal Blood", bio: "" },
         rachel_chinouriri: { name: "Rachel Chinouriri", bio: "" },
-        sasha_keable: { name: "Sasha Keable", bio: "" }
+        sasha_keable: { name: "Sasha Keable", bio: "" },
+        the_streets: { name: "The Streets", bio: "" }
       },
       cast: {
         george: {
@@ -723,6 +725,14 @@ window.SNL_DATA = {
                 { title: "Why", scores: { F: null, O: 5 }, blurb: "", cast: [], hosts: [], music: ["sasha_keable"] },
                 { title: "2000s Boy Band", scores: { F: null, O: 8 }, blurb: "", cast: ["al", "celeste", "hammed"], hosts: ["danny_dyer"], music: [] }
               ]
+            },
+            {
+              number: 5,
+              title: "Episode 5",
+              host: "james_norton",
+              musicalGuest: "the_streets",
+              airDate: "17 October 2026",
+              sketches: []
             }
           ]
         },
