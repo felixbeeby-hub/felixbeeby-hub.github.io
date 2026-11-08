@@ -732,7 +732,9 @@ window.SNL_DATA = {
               host: "james_norton",
               musicalGuest: "the_streets",
               airDate: "17 October 2026",
-              sketches: []
+              sketches: [
+                { title: "Cold Open: A Special Guest", scores: { F: null, O: 9 }, blurb: "top 10 anime crossovers! even though im sick of this trump... it felt pretty special here. shout out especially to the percy pig rant -- felt so authentically trumpian", cast: ["freddie_meredith", "george"], hosts: [], music: [] }
+              ]
             }
           ]
         },
