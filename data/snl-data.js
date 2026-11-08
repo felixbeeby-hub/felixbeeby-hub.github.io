@@ -739,7 +739,8 @@ window.SNL_DATA = {
                 { title: "Black History Month", scores: { F: null, O: 6 }, blurb: "", cast: ["al", "ayoade", "emma", "freddie_meredith", "hammed", "larry"], hosts: ["james_norton"], music: [] },
                 { title: "Berghaim 1840", scores: { F: null, O: 9 }, blurb: "", cast: ["annabel", "celeste", "emma", "jack"], hosts: ["james_norton"], music: [] },
                 { title: "He Read The Book", scores: { F: null, O: 7 }, blurb: "", cast: ["al", "annabel", "ayoade", "celeste", "emma", "hammed", "jack"], hosts: ["james_norton"], music: [] },
-                { title: "Fit But You Know It", scores: { F: null, O: 8 }, blurb: "i dont like the song necessarily, but probably one of the better performances this stage has seen", cast: [], hosts: [], music: ["the_streets"] }
+                { title: "Fit But You Know It", scores: { F: null, O: 8 }, blurb: "i dont like the song necessarily, but probably one of the better performances this stage has seen", cast: [], hosts: [], music: ["the_streets"] },
+                { title: "Weekend Update (17/10/2026)", scores: { F: null, O: null }, blurb: "", cast: ["ania", "paddy"], hosts: [], music: [] }
               ]
             }
           ]
