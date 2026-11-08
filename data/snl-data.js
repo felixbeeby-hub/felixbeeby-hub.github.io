@@ -743,7 +743,8 @@ window.SNL_DATA = {
                 { title: "Weekend Update (17/10/2026)", scores: { F: null, O: 8 }, blurb: "some really good ones in here unfortunately. i especially loved \"which is roman for 5000\"", cast: ["ania", "paddy"], hosts: [], music: [] },
                 { title: "Weekend Update: A Referee", scores: { F: null, O: 7 }, blurb: "", cast: ["ania", "freddie_meredith"], hosts: [], music: [] },
                 { title: "Pug Date", scores: { F: null, O: 6 }, blurb: "", cast: ["annabel", "ayoade", "george", "larry"], hosts: ["james_norton"], music: [] },
-                { title: "Utopia", scores: { F: null, O: 4 }, blurb: "", cast: [], hosts: [], music: ["the_streets"] }
+                { title: "Utopia", scores: { F: null, O: 4 }, blurb: "", cast: [], hosts: [], music: ["the_streets"] },
+                { title: "Flavio's Collection", scores: { F: null, O: 7 }, blurb: "James norton really grew on me tbh. these silly camp european characters are pretty funny", cast: ["al", "celeste", "emma"], hosts: ["james_norton"], music: [] }
               ]
             }
           ]
