@@ -741,7 +741,8 @@ window.SNL_DATA = {
                 { title: "He Read The Book", scores: { F: null, O: 7 }, blurb: "", cast: ["al", "annabel", "ayoade", "celeste", "emma", "hammed", "jack"], hosts: ["james_norton"], music: [] },
                 { title: "Fit But You Know It", scores: { F: null, O: 8 }, blurb: "i dont like the song necessarily, but probably one of the better performances this stage has seen", cast: [], hosts: [], music: ["the_streets"] },
                 { title: "Weekend Update (17/10/2026)", scores: { F: null, O: 8 }, blurb: "some really good ones in here unfortunately. i especially loved \"which is roman for 5000\"", cast: ["ania", "paddy"], hosts: [], music: [] },
-                { title: "Weekend Update: A Referee", scores: { F: null, O: 7 }, blurb: "", cast: ["ania", "freddie_meredith"], hosts: [], music: [] }
+                { title: "Weekend Update: A Referee", scores: { F: null, O: 7 }, blurb: "", cast: ["ania", "freddie_meredith"], hosts: [], music: [] },
+                { title: "Pug Date", scores: { F: null, O: 6 }, blurb: "", cast: ["annabel", "ayoade", "george", "larry"], hosts: ["james_norton"], music: [] }
               ]
             }
           ]
