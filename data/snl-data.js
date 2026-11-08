@@ -738,7 +738,8 @@ window.SNL_DATA = {
                 { title: "Cervical Screening PSA", scores: { F: null, O: 3 }, blurb: "is the whole episode going to be about how (supposedly) hot james norton is? feels reductive. for james norton and for women.", cast: ["ania", "annabel", "ayoade", "celeste", "emma"], hosts: ["james_norton"], music: [] },
                 { title: "Black History Month", scores: { F: null, O: 6 }, blurb: "", cast: ["al", "ayoade", "emma", "freddie_meredith", "hammed", "larry"], hosts: ["james_norton"], music: [] },
                 { title: "Berghaim 1840", scores: { F: null, O: 9 }, blurb: "", cast: ["annabel", "celeste", "emma", "jack"], hosts: ["james_norton"], music: [] },
-                { title: "He Read The Book", scores: { F: null, O: 7 }, blurb: "", cast: ["al", "annabel", "ayoade", "celeste", "emma", "hammed", "jack"], hosts: ["james_norton"], music: [] }
+                { title: "He Read The Book", scores: { F: null, O: 7 }, blurb: "", cast: ["al", "annabel", "ayoade", "celeste", "emma", "hammed", "jack"], hosts: ["james_norton"], music: [] },
+                { title: "Fit But You Know It", scores: { F: null, O: 8 }, blurb: "i dont like the song necessarily, but probably one of the better performances this stage has seen", cast: [], hosts: [], music: ["the_streets"] }
               ]
             }
           ]
