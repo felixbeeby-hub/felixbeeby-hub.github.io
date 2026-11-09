@@ -763,7 +763,7 @@ window.SNL_DATA = {
                 { title: "Nigerian Wicked", scores: { F: null, O: 9 }, blurb: "", cast: ["ayoade", "hammed"], hosts: ["cynthia_erivo"], music: [] },
                 { title: "B&B", scores: { F: null, O: 6 }, blurb: "", cast: ["al", "annabel", "emma", "freddie_meredith"], hosts: ["cynthia_erivo"], music: [] },
                 { title: "Charlemagne", scores: { F: null, O: 3 }, blurb: "mid asf", cast: [], hosts: [], music: ["blossoms"] },
-                { title: "Weekend Update (24/10/2026)", scores: { F: null, O: null }, blurb: "", cast: ["ania", "paddy"], hosts: [], music: [] },
+                { title: "Weekend Update (24/10/2026)", scores: { F: null, O: 5 }, blurb: "A return to (poor) form", cast: ["ania", "paddy"], hosts: [], music: [] },
                 { title: "Weekend Update: Lego & Boiled Egg", scores: { F: null, O: 5 }, blurb: "", cast: ["ania", "annabel", "freddie_meredith"], hosts: [], music: [] },
                 { title: "Weekend Update: Scrimpch!", scores: { F: null, O: 3 }, blurb: "", cast: ["ania", "jack"], hosts: [], music: [] }
               ]
