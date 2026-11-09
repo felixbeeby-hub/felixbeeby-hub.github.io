@@ -756,7 +756,8 @@ window.SNL_DATA = {
               musicalGuest: "blossoms",
               airDate: "24 October 2026",
               sketches: [
-                { title: "Cold Open: Steve Rotheram", scores: { F: null, O: 7 }, blurb: "some fun (and new?) impressions in here somewhere", cast: ["ania", "ayoade", "celeste", "emma", "freddie_meredith", "george", "jack", "larry", "paddy"], hosts: [], music: [] }
+                { title: "Cold Open: Steve Rotheram", scores: { F: null, O: 7 }, blurb: "some fun (and new?) impressions in here somewhere", cast: ["ania", "ayoade", "celeste", "emma", "freddie_meredith", "george", "jack", "larry", "paddy"], hosts: [], music: [] },
+                { title: "Opening Monologue (Cynthia Erivo)", scores: { F: null, O: 7 }, blurb: "maybe a testament to how good of a bit they chose but she does seem a little serious (and nervous?)", cast: ["larry"], hosts: ["cynthia_erivo"], music: [] }
               ]
             }
           ]
