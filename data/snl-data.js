@@ -760,7 +760,8 @@ window.SNL_DATA = {
                 { title: "Opening Monologue (Cynthia Erivo)", scores: { F: null, O: 7 }, blurb: "maybe a testament to how good of a bit they chose but she does seem a little serious (and nervous?)", cast: ["larry"], hosts: ["cynthia_erivo"], music: [] },
                 { title: "The Cher Witch Project", scores: { F: null, O: 7 }, blurb: "", cast: ["al", "annabel", "celeste", "freddie_meredith", "jack"], hosts: ["cynthia_erivo"], music: [] },
                 { title: "The Princess in the Tower", scores: { F: null, O: 8 }, blurb: "", cast: ["celeste", "hammed"], hosts: ["cynthia_erivo"], music: [] },
-                { title: "Nigerian Wicked", scores: { F: null, O: 9 }, blurb: "", cast: ["ayoade", "hammed"], hosts: ["cynthia_erivo"], music: [] }
+                { title: "Nigerian Wicked", scores: { F: null, O: 9 }, blurb: "", cast: ["ayoade", "hammed"], hosts: ["cynthia_erivo"], music: [] },
+                { title: "B&B", scores: { F: null, O: 6 }, blurb: "", cast: ["al", "annabel", "emma", "freddie_meredith"], hosts: ["cynthia_erivo"], music: [] }
               ]
             }
           ]
