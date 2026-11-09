@@ -570,7 +570,8 @@ window.SNL_DATA = {
         jamie_demetriou: { name: "Jamie Demetriou", bio: "" },
         amelia_dimoldenberg: { name: "Amelia Dimoldenberg", bio: "" },
         danny_dyer: { name: "Danny Dyer", bio: "" },
-        james_norton: { name: "James Norton", bio: "" }
+        james_norton: { name: "James Norton", bio: "" },
+        cynthia_erivo: { name: "Cynthia Erivo", bio: "" }
       },
       music: {
         wet_leg: { name: "Wet Leg", bio: "" },
@@ -581,7 +582,8 @@ window.SNL_DATA = {
         royal_blood: { name: "Royal Blood", bio: "" },
         rachel_chinouriri: { name: "Rachel Chinouriri", bio: "" },
         sasha_keable: { name: "Sasha Keable", bio: "" },
-        the_streets: { name: "The Streets", bio: "" }
+        the_streets: { name: "The Streets", bio: "" },
+        blossoms: { name: "Blossoms", bio: "" }
       },
       cast: {
         george: {
@@ -746,6 +748,14 @@ window.SNL_DATA = {
                 { title: "Utopia", scores: { F: null, O: 4 }, blurb: "", cast: [], hosts: [], music: ["the_streets"] },
                 { title: "Flavio's Collection", scores: { F: null, O: 7 }, blurb: "James norton really grew on me tbh. these silly camp european characters are pretty funny", cast: ["al", "celeste", "emma"], hosts: ["james_norton"], music: [] }
               ]
+            },
+            {
+              number: 6,
+              title: "Episode 6",
+              host: "cynthia_erivo",
+              musicalGuest: "blossoms",
+              airDate: "24 October 2026",
+              sketches: []
             }
           ]
         },
