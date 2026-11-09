@@ -765,7 +765,8 @@ window.SNL_DATA = {
                 { title: "Charlemagne", scores: { F: null, O: 3 }, blurb: "mid asf", cast: [], hosts: [], music: ["blossoms"] },
                 { title: "Weekend Update (24/10/2026)", scores: { F: null, O: 5 }, blurb: "A return to (poor) form", cast: ["ania", "paddy"], hosts: [], music: [] },
                 { title: "Weekend Update: Lego & Boiled Egg", scores: { F: null, O: 5 }, blurb: "", cast: ["ania", "annabel", "freddie_meredith"], hosts: [], music: [] },
-                { title: "Weekend Update: Scrimpch!", scores: { F: null, O: 3 }, blurb: "", cast: ["ania", "jack"], hosts: [], music: [] }
+                { title: "Weekend Update: Scrimpch!", scores: { F: null, O: 3 }, blurb: "", cast: ["ania", "jack"], hosts: [], music: [] },
+                { title: "First Dance", scores: { F: null, O: 6 }, blurb: "why did they not give cynthia a moment in this one?", cast: ["ayoade", "celeste", "hammed"], hosts: ["cynthia_erivo"], music: [] }
               ]
             }
           ]
