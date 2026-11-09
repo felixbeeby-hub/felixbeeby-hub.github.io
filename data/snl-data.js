@@ -755,7 +755,9 @@ window.SNL_DATA = {
               host: "cynthia_erivo",
               musicalGuest: "blossoms",
               airDate: "24 October 2026",
-              sketches: []
+              sketches: [
+                { title: "Cold Open: Steve Rotheram", scores: { F: null, O: 7 }, blurb: "some fun (and new?) impressions in here somewhere", cast: ["ania", "ayoade", "celeste", "emma", "freddie_meredith", "george", "jack", "larry", "paddy"], hosts: [], music: [] }
+              ]
             }
           ]
         },
