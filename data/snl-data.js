@@ -767,7 +767,8 @@ window.SNL_DATA = {
                 { title: "Weekend Update: Lego & Boiled Egg", scores: { F: null, O: 5 }, blurb: "", cast: ["ania", "annabel", "freddie_meredith"], hosts: [], music: [] },
                 { title: "Weekend Update: Scrimpch!", scores: { F: null, O: 3 }, blurb: "", cast: ["ania", "jack"], hosts: [], music: [] },
                 { title: "First Dance", scores: { F: null, O: 6 }, blurb: "why did they not give cynthia a moment in this one?", cast: ["ayoade", "celeste", "hammed"], hosts: ["cynthia_erivo"], music: [] },
-                { title: "Joke About Divorce", scores: { F: null, O: 2 }, blurb: "snoozefest", cast: [], hosts: [], music: ["blossoms"] }
+                { title: "Joke About Divorce", scores: { F: null, O: 2 }, blurb: "snoozefest", cast: [], hosts: [], music: ["blossoms"] },
+                { title: "Modern Music", scores: { F: null, O: 9 }, blurb: "", cast: ["annabel"], hosts: ["cynthia_erivo"], music: [] }
               ]
             }
           ]
