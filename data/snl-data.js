@@ -357,7 +357,8 @@ window.SNL_DATA = {
                 { title: "El Corazón Que No Siente", scores: { F: null, O: 7 }, blurb: "finally some jokes", cast: ["ashley", "kenan", "marcello", "mikey"], hosts: ["inde_navarette"], music: [] },
                 { title: "Hit The Wall", scores: { F: null, O: 4 }, blurb: "looks a mess, sounds a mess, zero stage presence. the song goes nowhere and has nothing to hold onto. bridge is extremely jarring", cast: [], hosts: [], music: ["gracie_abrams"] },
                 { title: "Weekend Update (31/10/2026)", scores: { F: null, O: null }, blurb: "so milquetoast that che looks physically uncomfortable when delivering the israel joke", cast: ["colin", "michael"], hosts: [], music: [] },
-                { title: "Weekend Update : Pennywise", scores: { F: null, O: 3 }, blurb: "Unfocused", cast: ["ben", "colin", "michael"], hosts: [], music: [] }
+                { title: "Weekend Update : Pennywise", scores: { F: null, O: 3 }, blurb: "Unfocused", cast: ["ben", "colin", "michael"], hosts: [], music: [] },
+                { title: "Weekend Update", scores: { F: null, O: 5 }, blurb: "i dont know who this is and i dont care", cast: ["colin"], hosts: [], music: [] }
               ]
             }
           ]
