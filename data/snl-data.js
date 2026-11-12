@@ -353,7 +353,8 @@ window.SNL_DATA = {
                 { title: "Ghosts of the Queen Mary", scores: { F: null, O: 2 }, blurb: "they seem to think that doing a stupid bad bit twice makes it funnier -- it doesn't. it's actually twice as painful", cast: ["ashley", "ben", "jaj", "kenan", "marcello", "mikey", "sarah"], hosts: ["inde_navarette"], music: [] },
                 { title: "Delta Disruptive", scores: { F: null, O: 5 }, blurb: "", cast: ["ashley", "kam", "kenan", "mikey", "saidah_belo_osagie", "sarah", "tommy"], hosts: ["inde_navarette"], music: [] },
                 { title: "The Uninterested Woman Game Show", scores: { F: null, O: 4 }, blurb: "repetitive, punching down, structureless...", cast: ["ashley", "jane", "saidah_belo_osagie", "sarah"], hosts: ["inde_navarette"], music: [] },
-                { title: "The Inventor's Wife", scores: { F: null, O: 4 }, blurb: "her acting is concerningly mid. this sketch is misogynistic i think. whatever", cast: ["ben"], hosts: ["inde_navarette"], music: [] }
+                { title: "The Inventor's Wife", scores: { F: null, O: 4 }, blurb: "her acting is concerningly mid. this sketch is misogynistic i think. whatever", cast: ["ben"], hosts: ["inde_navarette"], music: [] },
+                { title: "El Corazón Que No Siente", scores: { F: null, O: 7 }, blurb: "finally some jokes", cast: ["ashley", "kenan", "marcello", "mikey"], hosts: ["inde_navarette"], music: [] }
               ]
             }
           ]
