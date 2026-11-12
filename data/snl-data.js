@@ -351,7 +351,8 @@ window.SNL_DATA = {
                 { title: "Cold Open: Haunted House", scores: { F: null, O: 4 }, blurb: "what are we doing? really", cast: ["grace_reiter", "jaj", "jane", "jeremy", "kenan", "mikey", "saidah_belo_osagie", "sarah", "veronika"], hosts: [], music: [] },
                 { title: "Opening Monologue (Inde Navaratte)", scores: { F: null, O: 6 }, blurb: "im not sure she's fully able to command a monologue -- but the cast's costumes bit was serviceable", cast: ["grace_reiter", "jeremy", "kam", "marcello", "veronika"], hosts: ["inde_navarette"], music: [] },
                 { title: "Ghosts of the Queen Mary", scores: { F: null, O: 2 }, blurb: "they seem to think that doing a stupid bad bit twice makes it funnier -- it doesn't. it's actually twice as painful", cast: ["ashley", "ben", "jaj", "kenan", "marcello", "mikey", "sarah"], hosts: ["inde_navarette"], music: [] },
-                { title: "Delta Disruptive", scores: { F: null, O: 5 }, blurb: "", cast: ["ashley", "kam", "kenan", "mikey", "saidah_belo_osagie", "sarah", "tommy"], hosts: ["inde_navarette"], music: [] }
+                { title: "Delta Disruptive", scores: { F: null, O: 5 }, blurb: "", cast: ["ashley", "kam", "kenan", "mikey", "saidah_belo_osagie", "sarah", "tommy"], hosts: ["inde_navarette"], music: [] },
+                { title: "The Uninterested Woman Game Show", scores: { F: null, O: 4 }, blurb: "repetitive, punching down, structureless...", cast: ["ashley", "jane", "saidah_belo_osagie", "sarah"], hosts: ["inde_navarette"], music: [] }
               ]
             }
           ]
