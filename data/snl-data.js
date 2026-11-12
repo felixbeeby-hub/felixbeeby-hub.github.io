@@ -63,7 +63,8 @@ window.SNL_DATA = {
         ariana_grande: { name: "Ariana Grande", bio: "" },
         jalen_brunson: { name: "Jalen Brunson", bio: "" },
         dakota_johnson: { name: "Dakota Johnson", bio: "" },
-        shane_gillis: { name: "Shane Gillis", bio: "" }
+        shane_gillis: { name: "Shane Gillis", bio: "" },
+        inde_navarette: { name: "Inde Navarette", bio: "" }
       },
       music: {
         doja_cat: { name: "Doja Cat", bio: "" },
@@ -80,7 +81,8 @@ window.SNL_DATA = {
         cher: { name: "Cher", bio: "" },
         katseye: { name: "Katseye", bio: "" },
         turnstile: { name: "Turnstile", bio: "" },
-        rosalia: { name: "Rosalía", bio: "" }
+        rosalia: { name: "Rosalía", bio: "" },
+        gracie_abrams: { name: "Gracie Abrams", bio: "" }
       },
       cast: {
         colin: {
@@ -338,6 +340,14 @@ window.SNL_DATA = {
                 { title: "Magnolias", scores: { F: null, O: 8 }, blurb: "an interesting choice", cast: [], hosts: [], music: ["rosalia"] },
                 { title: "Middle School Chess Semi-Final", scores: { F: null, O: 9 }, blurb: "grace reiter's first moment in the spotlight i think", cast: ["grace_reiter", "jane", "jeremy", "mikey", "tommy"], hosts: ["shane_gillis"], music: [] }
               ]
+            },
+            {
+              number: 4,
+              title: "Episode 4",
+              host: "inde_navarette",
+              musicalGuest: "gracie_abrams",
+              airDate: "31 October 2026",
+              sketches: []
             }
           ]
         },
