@@ -347,7 +347,9 @@ window.SNL_DATA = {
               host: "inde_navarette",
               musicalGuest: "gracie_abrams",
               airDate: "31 October 2026",
-              sketches: []
+              sketches: [
+                { title: "Cold Open: Haunted House", scores: { F: null, O: 4 }, blurb: "what are we doing? really", cast: ["grace_reiter", "jaj", "jane", "jeremy", "kenan", "mikey", "saidah_belo_osagie", "sarah", "veronika"], hosts: [], music: [] }
+              ]
             }
           ]
         },
