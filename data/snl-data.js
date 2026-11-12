@@ -348,7 +348,8 @@ window.SNL_DATA = {
               musicalGuest: "gracie_abrams",
               airDate: "31 October 2026",
               sketches: [
-                { title: "Cold Open: Haunted House", scores: { F: null, O: 4 }, blurb: "what are we doing? really", cast: ["grace_reiter", "jaj", "jane", "jeremy", "kenan", "mikey", "saidah_belo_osagie", "sarah", "veronika"], hosts: [], music: [] }
+                { title: "Cold Open: Haunted House", scores: { F: null, O: 4 }, blurb: "what are we doing? really", cast: ["grace_reiter", "jaj", "jane", "jeremy", "kenan", "mikey", "saidah_belo_osagie", "sarah", "veronika"], hosts: [], music: [] },
+                { title: "Opening Monologue (Inde Navaratte)", scores: { F: null, O: 6 }, blurb: "im not sure she's fully able to command a monologue -- but the cast's costumes bit was serviceable", cast: ["grace_reiter", "jeremy", "kam", "marcello", "veronika"], hosts: ["inde_navarette"], music: [] }
               ]
             }
           ]
