@@ -359,7 +359,8 @@ window.SNL_DATA = {
                 { title: "Weekend Update (31/10/2026)", scores: { F: null, O: 4 }, blurb: "so milquetoast that che looks physically uncomfortable when delivering the israel joke", cast: ["colin", "michael"], hosts: [], music: [] },
                 { title: "Weekend Update : Pennywise", scores: { F: null, O: 3 }, blurb: "Unfocused", cast: ["ben", "colin", "michael"], hosts: [], music: [] },
                 { title: "Weekend Update: Drunk Uncle", scores: { F: null, O: 5 }, blurb: "i dont know who this is and i dont care", cast: ["colin"], hosts: [], music: [] },
-                { title: "Paw Patrol: Special Victims Unit", scores: { F: null, O: 4 }, blurb: "", cast: ["grace_reiter", "jaj", "jeremy", "kam", "kenan", "marcello", "veronika"], hosts: ["inde_navarette"], music: [] }
+                { title: "Paw Patrol: Special Victims Unit", scores: { F: null, O: 4 }, blurb: "", cast: ["grace_reiter", "jaj", "jeremy", "kam", "kenan", "marcello", "veronika"], hosts: ["inde_navarette"], music: [] },
+                { title: "The Cool One at the Table", scores: { F: null, O: 6 }, blurb: "I feel like ive seen several version of this sketch already. but you know what? it's still better than the slop this episode has served up so far", cast: ["andrew", "ashley", "ben", "mikey", "sarah"], hosts: ["inde_navarette"], music: [] }
               ]
             }
           ]
