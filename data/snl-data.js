@@ -381,7 +381,7 @@ window.SNL_DATA = {
                 { title: "Fajitas", scores: { F: null, O: 9 }, blurb: "", cast: ["andrew", "ashley", "jane", "saidah_belo_osagie", "sarah", "veronika"], hosts: ["druski"], music: [] },
                 { title: "mycornerguy", scores: { F: null, O: 6 }, blurb: "", cast: ["andrew", "ashley", "grace_reiter", "jeremy", "marcello", "tommy", "veronika"], hosts: ["druski"], music: [] },
                 { title: "Lonely in the Future", scores: { F: null, O: 4 }, blurb: "", cast: [], hosts: [], music: ["the_strokes"] },
-                { title: "Weekend Update (07/11/2026)", scores: { F: null, O: null }, blurb: "", cast: ["colin", "michael"], hosts: [], music: [] },
+                { title: "Weekend Update (07/11/2026)", scores: { F: null, O: 5 }, blurb: "", cast: ["colin", "michael"], hosts: [], music: [] },
                 { title: "Weekend Update: Elon Musk", scores: { F: null, O: 7 }, blurb: "", cast: ["colin", "jeremy"], hosts: [], music: [] },
                 { title: "Weekend Update: Two People Who Just Hooked Up (Mid-Terms)", scores: { F: null, O: 8 }, blurb: "", cast: ["andrew", "ashley", "colin"], hosts: [], music: [] }
               ]
