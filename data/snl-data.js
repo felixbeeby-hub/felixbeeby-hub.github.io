@@ -383,7 +383,8 @@ window.SNL_DATA = {
                 { title: "Lonely in the Future", scores: { F: null, O: 4 }, blurb: "", cast: [], hosts: [], music: ["the_strokes"] },
                 { title: "Weekend Update (07/11/2026)", scores: { F: null, O: 5 }, blurb: "", cast: ["colin", "michael"], hosts: [], music: [] },
                 { title: "Weekend Update: Elon Musk", scores: { F: null, O: 7 }, blurb: "", cast: ["colin", "jeremy"], hosts: [], music: [] },
-                { title: "Weekend Update: Two People Who Just Hooked Up (Mid-Terms)", scores: { F: null, O: 8 }, blurb: "", cast: ["andrew", "ashley", "colin"], hosts: [], music: [] }
+                { title: "Weekend Update: Two People Who Just Hooked Up (Mid-Terms)", scores: { F: null, O: 8 }, blurb: "", cast: ["andrew", "ashley", "colin"], hosts: [], music: [] },
+                { title: "She Said Yes!", scores: { F: null, O: 7 }, blurb: "", cast: ["andrew", "ben", "grace_reiter", "jaj", "jane", "jeremy", "kenan", "mikey", "sarah", "tommy", "veronika"], hosts: ["druski"], music: [] }
               ]
             }
           ]
