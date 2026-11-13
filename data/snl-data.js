@@ -377,7 +377,8 @@ window.SNL_DATA = {
                 { title: "Opening Monologue (Druski)", scores: { F: null, O: 5 }, blurb: "", cast: [], hosts: ["druski"], music: [] },
                 { title: "BET: Washington in Focus", scores: { F: null, O: 6 }, blurb: "", cast: ["andrew", "kenan", "saidah_belo_osagie"], hosts: ["druski"], music: [] },
                 { title: "Dru Can See Everything", scores: { F: null, O: 8 }, blurb: "", cast: ["ben", "jane"], hosts: ["druski"], music: [] },
-                { title: "Dominican Phone Store", scores: { F: null, O: 4 }, blurb: "", cast: ["jeremy", "marcello", "mikey"], hosts: ["druski"], music: [] }
+                { title: "Dominican Phone Store", scores: { F: null, O: 4 }, blurb: "", cast: ["jeremy", "marcello", "mikey"], hosts: ["druski"], music: [] },
+                { title: "Fajitas", scores: { F: null, O: 9 }, blurb: "", cast: ["andrew", "ashley", "jane", "saidah_belo_osagie", "sarah", "veronika"], hosts: ["druski"], music: [] }
               ]
             }
           ]
