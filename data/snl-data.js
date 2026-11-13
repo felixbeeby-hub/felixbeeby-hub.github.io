@@ -379,7 +379,8 @@ window.SNL_DATA = {
                 { title: "Dru Can See Everything", scores: { F: null, O: 8 }, blurb: "", cast: ["ben", "jane"], hosts: ["druski"], music: [] },
                 { title: "Dominican Phone Store", scores: { F: null, O: 4 }, blurb: "", cast: ["jeremy", "marcello", "mikey"], hosts: ["druski"], music: [] },
                 { title: "Fajitas", scores: { F: null, O: 9 }, blurb: "", cast: ["andrew", "ashley", "jane", "saidah_belo_osagie", "sarah", "veronika"], hosts: ["druski"], music: [] },
-                { title: "mycornerguy", scores: { F: null, O: 6 }, blurb: "", cast: ["andrew", "ashley", "grace_reiter", "jeremy", "marcello", "tommy", "veronika"], hosts: ["druski"], music: [] }
+                { title: "mycornerguy", scores: { F: null, O: 6 }, blurb: "", cast: ["andrew", "ashley", "grace_reiter", "jeremy", "marcello", "tommy", "veronika"], hosts: ["druski"], music: [] },
+                { title: "Lonely in the Future", scores: { F: null, O: 4 }, blurb: "", cast: [], hosts: [], music: ["the_strokes"] }
               ]
             }
           ]
