@@ -380,7 +380,8 @@ window.SNL_DATA = {
                 { title: "Dominican Phone Store", scores: { F: null, O: 4 }, blurb: "", cast: ["jeremy", "marcello", "mikey"], hosts: ["druski"], music: [] },
                 { title: "Fajitas", scores: { F: null, O: 9 }, blurb: "", cast: ["andrew", "ashley", "jane", "saidah_belo_osagie", "sarah", "veronika"], hosts: ["druski"], music: [] },
                 { title: "mycornerguy", scores: { F: null, O: 6 }, blurb: "", cast: ["andrew", "ashley", "grace_reiter", "jeremy", "marcello", "tommy", "veronika"], hosts: ["druski"], music: [] },
-                { title: "Lonely in the Future", scores: { F: null, O: 4 }, blurb: "", cast: [], hosts: [], music: ["the_strokes"] }
+                { title: "Lonely in the Future", scores: { F: null, O: 4 }, blurb: "", cast: [], hosts: [], music: ["the_strokes"] },
+                { title: "Weekend Update (07/11/2026)", scores: { F: null, O: null }, blurb: "", cast: ["colin", "michael"], hosts: [], music: [] }
               ]
             }
           ]
