@@ -372,7 +372,9 @@ window.SNL_DATA = {
               host: "druski",
               musicalGuest: "the_strokes",
               airDate: "7 November 2026",
-              sketches: []
+              sketches: [
+                { title: "Cold Open: Congress Democratic Leadership", scores: { F: null, O: 6 }, blurb: "", cast: ["colin", "jaj", "jeremy", "kenan", "sarah"], hosts: [], music: [] }
+              ]
             }
           ]
         },
