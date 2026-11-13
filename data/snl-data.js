@@ -386,7 +386,8 @@ window.SNL_DATA = {
                 { title: "Weekend Update: Two People Who Just Hooked Up (Mid-Terms)", scores: { F: null, O: 8 }, blurb: "", cast: ["andrew", "ashley", "colin"], hosts: [], music: [] },
                 { title: "She Said Yes!", scores: { F: null, O: 7 }, blurb: "", cast: ["andrew", "ben", "grace_reiter", "jaj", "jane", "jeremy", "kenan", "mikey", "sarah", "tommy", "veronika"], hosts: ["druski"], music: [] },
                 { title: "Wedding Photographers", scores: { F: null, O: 7 }, blurb: "", cast: ["ashley", "grace_reiter", "jaj", "jeremy", "marcello", "saidah_belo_osagie", "sarah"], hosts: ["druski"], music: [] },
-                { title: "Going Shopping", scores: { F: null, O: 5 }, blurb: "", cast: [], hosts: [], music: ["the_strokes"] }
+                { title: "Going Shopping", scores: { F: null, O: 5 }, blurb: "", cast: [], hosts: [], music: ["the_strokes"] },
+                { title: "Golden Age of Hip-Hop", scores: { F: null, O: 5 }, blurb: "", cast: ["andrew", "ben", "jaj", "kam", "tommy"], hosts: ["druski"], music: [] }
               ]
             }
           ]
