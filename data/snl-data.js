@@ -374,7 +374,8 @@ window.SNL_DATA = {
               airDate: "7 November 2026",
               sketches: [
                 { title: "Cold Open: Congress Democratic Leadership", scores: { F: null, O: 6 }, blurb: "", cast: ["colin", "jaj", "jeremy", "kenan", "sarah"], hosts: [], music: [] },
-                { title: "Opening Monologue (Druski)", scores: { F: null, O: 5 }, blurb: "", cast: [], hosts: ["druski"], music: [] }
+                { title: "Opening Monologue (Druski)", scores: { F: null, O: 5 }, blurb: "", cast: [], hosts: ["druski"], music: [] },
+                { title: "BET: Washington in Focus", scores: { F: null, O: 6 }, blurb: "", cast: ["andrew", "kenan", "saidah_belo_osagie"], hosts: ["druski"], music: [] }
               ]
             }
           ]
