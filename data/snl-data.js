@@ -64,7 +64,8 @@ window.SNL_DATA = {
         jalen_brunson: { name: "Jalen Brunson", bio: "" },
         dakota_johnson: { name: "Dakota Johnson", bio: "" },
         shane_gillis: { name: "Shane Gillis", bio: "" },
-        inde_navarette: { name: "Inde Navarette", bio: "" }
+        inde_navarette: { name: "Inde Navarette", bio: "" },
+        druski: { name: "Druski", bio: "" }
       },
       music: {
         doja_cat: { name: "Doja Cat", bio: "" },
@@ -82,7 +83,8 @@ window.SNL_DATA = {
         katseye: { name: "Katseye", bio: "" },
         turnstile: { name: "Turnstile", bio: "" },
         rosalia: { name: "Rosalía", bio: "" },
-        gracie_abrams: { name: "Gracie Abrams", bio: "" }
+        gracie_abrams: { name: "Gracie Abrams", bio: "" },
+        the_strokes: { name: "The Strokes", bio: "" }
       },
       cast: {
         colin: {
@@ -363,6 +365,14 @@ window.SNL_DATA = {
                 { title: "The Cool One at the Table", scores: { F: null, O: 6 }, blurb: "I feel like ive seen several version of this sketch already. but you know what? it's still better than the slop this episode has served up so far", cast: ["andrew", "ashley", "ben", "mikey", "sarah"], hosts: ["inde_navarette"], music: [] },
                 { title: "Here You Come, There You Go", scores: { F: null, O: 3 }, blurb: "", cast: [], hosts: [], music: ["gracie_abrams"] }
               ]
+            },
+            {
+              number: 5,
+              title: "Episode 5",
+              host: "druski",
+              musicalGuest: "the_strokes",
+              airDate: "7 November 2026",
+              sketches: []
             }
           ]
         },
