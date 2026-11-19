@@ -409,7 +409,8 @@ window.SNL_DATA = {
                 { title: "Weekend Update (14/11/2026)", scores: { F: null, O: 5 }, blurb: "", cast: ["colin", "michael"], hosts: [], music: [] },
                 { title: "Weekend Update: Tommy Brennan on Thanksgiving", scores: { F: null, O: 6 }, blurb: "sure, whatever", cast: ["colin", "michael", "tommy"], hosts: [], music: [] },
                 { title: "Central Park", scores: { F: null, O: 10 }, blurb: "wow, so THIS is what they're capable of!", cast: ["ashley", "ben", "grace_reiter", "jaj", "jeremy", "kam", "kenan", "marcello", "mikey", "saidah_belo_osagie", "sarah", "tommy", "veronika", "bowen"], hosts: ["john_mulaney"], music: [] },
-                { title: "Woodstock 1969", scores: { F: null, O: 6 }, blurb: "there is a joke somewhere in here, i don't know that this is the best presentation of it though", cast: ["andrew", "grace_reiter", "kenan", "mikey", "sarah"], hosts: ["john_mulaney"], music: [] }
+                { title: "Woodstock 1969", scores: { F: null, O: 6 }, blurb: "there is a joke somewhere in here, i don't know that this is the best presentation of it though", cast: ["andrew", "grace_reiter", "kenan", "mikey", "sarah"], hosts: ["john_mulaney"], music: [] },
+                { title: "Still Standing", scores: { F: null, O: 7 }, blurb: "she remembered how to sing over the course of the show?", cast: [], hosts: [], music: ["phoebe_bridgers"] }
               ]
             }
           ]
