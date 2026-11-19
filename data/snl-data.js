@@ -400,7 +400,8 @@ window.SNL_DATA = {
               airDate: "4 November 2026",
               sketches: [
                 { title: "Cold Open: Tech Leaders", scores: { F: null, O: 6 }, blurb: "I kind of appreciate that they're doing something a bit different -- but i think they should be a little more scathing towards these CEOs. they aren't just nerds or whatever... they are genuinely scarily powerful and maybe a bit evil", cast: ["andrew", "ben", "jaj", "jane", "jeremy", "bowen"], hosts: ["john_mulaney"], music: [] },
-                { title: "Opening Monologue (John Mulaney)", scores: { F: null, O: 6 }, blurb: "he's confident and competent, but most of this material falls slightly flat for me", cast: [], hosts: ["john_mulaney"], music: [] }
+                { title: "Opening Monologue (John Mulaney)", scores: { F: null, O: 6 }, blurb: "he's confident and competent, but most of this material falls slightly flat for me", cast: [], hosts: ["john_mulaney"], music: [] },
+                { title: "Air Turkey Mishap", scores: { F: null, O: 6 }, blurb: "so, we're kind of just repeating the punchline 6 times. let's not do that in the future", cast: ["ashley", "ben", "jaj", "jane", "kam", "marcello", "mikey", "sarah"], hosts: ["john_mulaney"], music: [] }
               ]
             }
           ]
