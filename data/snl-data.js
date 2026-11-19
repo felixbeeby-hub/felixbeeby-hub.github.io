@@ -407,7 +407,8 @@ window.SNL_DATA = {
                 { title: "Stonethrow Brewery", scores: { F: null, O: 8 }, blurb: "pretty good. i think the joke goes beyond just oooh gay", cast: ["jane", "jeremy"], hosts: ["john_mulaney"], music: [] },
                 { title: "Bobby", scores: { F: null, O: 4 }, blurb: "she sounds kind of terrible, no?", cast: [], hosts: [], music: ["phoebe_bridgers"] },
                 { title: "Weekend Update (14/11/2026)", scores: { F: null, O: 5 }, blurb: "", cast: ["colin", "michael"], hosts: [], music: [] },
-                { title: "Weekend Update: Tommy Brennan on Thanksgiving", scores: { F: null, O: 6 }, blurb: "sure, whatever", cast: ["colin", "michael", "tommy"], hosts: [], music: [] }
+                { title: "Weekend Update: Tommy Brennan on Thanksgiving", scores: { F: null, O: 6 }, blurb: "sure, whatever", cast: ["colin", "michael", "tommy"], hosts: [], music: [] },
+                { title: "Central Park", scores: { F: null, O: 10 }, blurb: "wow, so THIS is what they're capable of!", cast: ["ashley", "ben", "grace_reiter", "jaj", "jeremy", "kam", "kenan", "marcello", "mikey", "saidah_belo_osagie", "sarah", "tommy", "veronika", "bowen"], hosts: ["john_mulaney"], music: [] }
               ]
             }
           ]
