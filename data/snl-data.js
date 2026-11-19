@@ -403,7 +403,8 @@ window.SNL_DATA = {
                 { title: "Opening Monologue (John Mulaney)", scores: { F: null, O: 6 }, blurb: "he's confident and competent, but most of this material falls slightly flat for me", cast: [], hosts: ["john_mulaney"], music: [] },
                 { title: "Air Turkey Mishap", scores: { F: null, O: 6 }, blurb: "so, we're kind of just repeating the punchline 6 times. let's not do that in the future", cast: ["ashley", "ben", "jaj", "jane", "kam", "marcello", "mikey", "sarah"], hosts: ["john_mulaney"], music: [] },
                 { title: "Sister", scores: { F: null, O: 6 }, blurb: "a pithy critique, and there are a couple of jokes even", cast: ["andrew", "ben", "jane", "kenan", "mikey", "tommy"], hosts: ["john_mulaney"], music: [] },
-                { title: "Work Drinks", scores: { F: null, O: 6 }, blurb: "im kind of sick of this bit. some good blocking here though", cast: ["ashley", "kenan", "mikey", "sarah"], hosts: ["john_mulaney"], music: [] }
+                { title: "Work Drinks", scores: { F: null, O: 6 }, blurb: "im kind of sick of this bit. some good blocking here though", cast: ["ashley", "kenan", "mikey", "sarah"], hosts: ["john_mulaney"], music: [] },
+                { title: "Stonethrow Brewery", scores: { F: null, O: 8 }, blurb: "pretty good. i think the joke goes beyond just oooh gay", cast: ["jane", "jeremy"], hosts: ["john_mulaney"], music: [] }
               ]
             }
           ]
