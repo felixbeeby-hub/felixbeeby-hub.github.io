@@ -65,7 +65,8 @@ window.SNL_DATA = {
         dakota_johnson: { name: "Dakota Johnson", bio: "" },
         shane_gillis: { name: "Shane Gillis", bio: "" },
         inde_navarette: { name: "Inde Navarette", bio: "" },
-        druski: { name: "Druski", bio: "" }
+        druski: { name: "Druski", bio: "" },
+        john_mulaney: { name: "John Mulaney", bio: "" }
       },
       music: {
         doja_cat: { name: "Doja Cat", bio: "" },
@@ -84,7 +85,8 @@ window.SNL_DATA = {
         turnstile: { name: "Turnstile", bio: "" },
         rosalia: { name: "Rosalía", bio: "" },
         gracie_abrams: { name: "Gracie Abrams", bio: "" },
-        the_strokes: { name: "The Strokes", bio: "" }
+        the_strokes: { name: "The Strokes", bio: "" },
+        phoebe_bridgers: { name: "Phoebe Bridgers", bio: "" }
       },
       cast: {
         colin: {
@@ -389,6 +391,14 @@ window.SNL_DATA = {
                 { title: "Going Shopping", scores: { F: null, O: 5 }, blurb: "", cast: [], hosts: [], music: ["the_strokes"] },
                 { title: "Golden Age of Hip-Hop", scores: { F: null, O: 5 }, blurb: "", cast: ["andrew", "ben", "jaj", "kam", "tommy"], hosts: ["druski"], music: [] }
               ]
+            },
+            {
+              number: 6,
+              title: "Episode 6",
+              host: "john_mulaney",
+              musicalGuest: "phoebe_bridgers",
+              airDate: "4 November 2026",
+              sketches: []
             }
           ]
         },
