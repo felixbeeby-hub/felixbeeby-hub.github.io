@@ -398,7 +398,9 @@ window.SNL_DATA = {
               host: "john_mulaney",
               musicalGuest: "phoebe_bridgers",
               airDate: "4 November 2026",
-              sketches: []
+              sketches: [
+                { title: "Cold Open: Tech Leaders", scores: { F: null, O: 6 }, blurb: "I kind of appreciate that they're doing something a bit different -- but i think they should be a little more scathing towards these CEOs. they aren't just nerds or whatever... they are genuinely scarily powerful and maybe a bit evil", cast: ["andrew", "ben", "jaj", "jane", "jeremy", "bowen"], hosts: ["john_mulaney"], music: [] }
+              ]
             }
           ]
         },
